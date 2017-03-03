@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_c14865b97bbc43151f13e8fd277d1d372d851352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_9726f9a028bca65cf7942663c2aab9625f4dbb73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_b6d8d3fd97d7d1d6bed2aedf9568b37bf5da18f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_8e4f75eac7f329f7f0e55c6e91838b53aec38647.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-10.0.1_2d7cf5c2319122a109f118faa0bec40e0796d079.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_5d12cc04e746da9651e1b7a934138a429231c68c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-10.0.1_9251b5d31b07df93737e00d1ede57ee5353f50c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_6ecaef26dd687ce3bead8278ae26868b6dc414e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_f673ea6a6625c747b016cda6506bfcc645c449e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_af38e5644d860de1ab3c595f6867e943aee7f04b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_e328e0fb47db286c3331614b1cff21aa8e710e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-10.0.1_7e7e479877c4fa90d79069c985ec29c499116455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.intuit.sdp\sdp-android\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.intuit.sdp-sdp-android-1.0.4_91c0828f27e1f2696022fcd19bd03db095e868ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_0e0d954be62b8353a15675a242803470ef9cbb83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_c0e758419923fc827aa4ecb9bf78359fd6b112a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_67a8149bb0db80f1e47e46314ee4431416728a7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="012aa2b35dfb5bbda7bc0f586a84efc103e2c7d5">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_4c124401e8a526241619d8d4286e0f2598e22b50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_03f0f31329ce7681639c09d42139a296c1a952b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_6ed7e4206cb427123597c0523bcd77adfef1e923.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.github.Yalantis\GuillotineMenu-Android\1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="a1e3403c2cf477dc1b99ca5f85ca1f92655ecba7">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.github.Yalantis-GuillotineMenu-Android-1.2_df3fd51de4010274bfda728c7cfdb928bf636aaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="21b3d9258eed2a066794292f96c7655a5d78bb4e">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\instant-run_1bddc7835f9379a33e46e7812e7ea2b07ab43e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_f33fedb42e028c0621c2ca6c42f6ac05afe6723d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-10.0.1_2a67cc76bb427f350b334369c607f0b0d05a5f72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Mehrnaz\Downloads\got2-master\got2-master\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-10.0.1_8eff82fda14d17188e9a5fb30a400606fcd621ef.jar" />
+    </item>
+
+</items>
