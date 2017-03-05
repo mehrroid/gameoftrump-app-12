@@ -9,7 +9,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,6 +43,9 @@ public class Lev extends Activity {
         sp = new SharedPre(getApplicationContext());
 
         try {
+            //remove below line ht700 for lunch
+            sp.Set("stars",Integer.toString(1000));
+            //end remove
             starsin=Integer.parseInt(sp.Get("stars").toString());
             Log.e("sp.Get(stars)", starsin+"");
         } catch(NumberFormatException nfe) {
@@ -60,7 +62,7 @@ public class Lev extends Activity {
         TextView txtsq1= (TextView) findViewById(R.id.sqbg);
         TextView txtstar= (TextView) findViewById(R.id.star);
         txtstar.setTypeface(font2);
-       TextView plus = (TextView) findViewById(R.id.pl);
+        TextView plus = (TextView) findViewById(R.id.pl);
         plus.setTypeface(font2);
 //        txtIconStar = (TextView) findViewById(R.id.txtstar);
 //        txtIconStar.setTypeface(font2);
@@ -71,7 +73,7 @@ public class Lev extends Activity {
         AdRequest adRequest = new AdRequest.Builder().build();
 
         mAdView.loadAd(adRequest);
-        draw(getResources().getStringArray(R.array.type), 6);
+        draw(getResources().getStringArray(R.array.type), 5);
 
         //HT 748
         int winStars= getIntent().getIntExtra("Stars", 0);
@@ -114,12 +116,7 @@ public class Lev extends Activity {
 
             ll.setOrientation(LinearLayout.HORIZONTAL);
             ll.setLayoutParams(llParams);
-
-
-
             container.addView(ll);
-
-
             for (int j = 0; j < column; j++) {
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT);
                 params.setMargins(5, 5, 5, 5);
@@ -163,67 +160,123 @@ public class Lev extends Activity {
         mlt.VibrationStart(1,getApplicationContext(),true);
         int levelselect=0;
 
-        if (mInterstitialAd.isLoaded()) {
-            mInterstitialAd.show();
-        } else {
-        switch (in) {
-            case "00":
-                Log.i("goneToGame()", "case 00");
-                levelselect=1;
-                icon=R.string.icon_plus;
+        //  if (mInterstitialAd.isLoaded()) {
+        //ht789  show ads
+        //    mInterstitialAd.show();
+        //  } else {
+        if(true){
+            switch (in) {
+                case "00":
+                    Log.i("goneToGame()", "case 00");
+                    levelselect=1;
+                    icon=R.string.icon_plus;
 
-                break;
-            case "01":
-                Log.i("goneToGame()", "case 01");
-                levelselect=2;
-                icon=R.string.icon_plus;
-                break;
-            case "02":
-                Log.i("goneToGame()", "case 02");
-                levelselect=3;
-                icon=R.string.icon_plus;
-                break;
+                    break;
+                case "01":
+                    Log.i("goneToGame()", "case 01");
+                    levelselect=2;
+                    icon=R.string.icon_plus;
+                    break;
+                case "02":
+                    Log.i("goneToGame()", "case 02");
+                    levelselect=3;
+                    icon=R.string.icon_plus;
+                    break;
 
-            case "10":
-                Log.i("goneToGame()", "case 03");
-                levelselect=4;
-                icon=R.string.icon_plus;
-                break;
-            case "11":
-                Log.i("goneToGame()", "case 04");
-                levelselect=5;
-                icon=R.string.icon_plus;
-                break;
-            case "12":
-                Log.i("goneToGame()", "case 05");
-                levelselect=6;
-                icon=R.string.icon_plus;
-                break;
-            case "20":
-                Log.i("goneToGame()", "case 06");
-                levelselect=7;
-                icon=R.string.icon_plus;
-            case "21":
-                levelselect=8;
-                icon=R.string.icon_plus;
-                break;
-            case "22":
-                levelselect=9;
-                icon=R.string.icon_plus;
-                break;
+                case "03":
+                    Log.i("goneToGame()", "case 03");
+                    levelselect=4;
+                    icon=R.string.icon_plus;
+                    break;
+                case "04":
+                    Log.i("goneToGame()", "case 04");
+                    levelselect=5;
+                    icon=R.string.icon_plus;
+                    break;
+                case "10":
+                    Log.i("goneToGame()", "case 05");
+                    levelselect=6;
+                    icon=R.string.icon_plus;
+                    break;
+                case "11":
 
-            case "31":
-                levelselect=10;
-                icon=R.string.icon_plus;
-                break;
-            case "32":
-                levelselect=11;
-                icon=R.string.icon_plus;
-                break;
+                    levelselect=7;
+                    icon=R.string.icon_plus;
+                case "12":
+                    levelselect=8;
+                    icon=R.string.icon_plus;
+                    break;
+                case "13":
+                    levelselect=9;
+                    icon=R.string.icon_plus;
+                    break;
+                case "14":
+                    levelselect=10;
+                    icon=R.string.icon_plus;
+                    break;
+                case "20":
+                    levelselect=11;
+                    icon=R.string.icon_plus;
+                    break;
+                case "21":
+                    levelselect=12;
+                    icon=R.string.icon_plus;
+                    break;
+                case "22":
+                    levelselect=12;
+                    icon=R.string.icon_plus;
+                    break;
+                case "23":
+                    levelselect=14;
+                    icon=R.string.icon_plus;
+                    break;
+                case "24":
+                    levelselect=15;
+                    icon=R.string.icon_plus;
+                    break;
+                case "30":
+                    levelselect=16;
+                    icon=R.string.icon_plus;
+                    break;
+                case "31":
+                    levelselect=17;
+                    icon=R.string.icon_plus;
+                    break;
+                case "32":
+                    levelselect=18;
+                    icon=R.string.icon_plus;
+                    break;
+                case "33":
+                    levelselect=19;
+                    icon=R.string.icon_plus;
+                    break;
+                case "34":
+                    levelselect=20;
+                    icon=R.string.icon_plus;
+                    break;
+                case "40":
+                    levelselect=21;
+                    icon=R.string.icon_plus;
+                    break;
+                case "41":
+                    levelselect=22;
+                    icon=R.string.icon_plus;
+                    break;
+                case "42":
+                    levelselect=23;
+                    icon=R.string.icon_plus;
+                    break;
+                case "43":
+                    levelselect=24;
+                    icon=R.string.icon_plus;
+                    break;
+                case "45":
+                    levelselect=25;
+                    icon=R.string.icon_plus;
+                    break;
 
+            }
 
-        }
-            
             if (starsin>2 || levelselect==1 )
             {
                 if (levelselect!=1)
