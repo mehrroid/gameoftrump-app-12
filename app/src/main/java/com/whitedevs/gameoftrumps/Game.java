@@ -65,8 +65,8 @@ public class Game extends Activity {
 	int sizeIcon;
 	private int starsin;
 	//H>T added End
-	
-    protected void onCreate(Bundle savedInstanceState) {
+
+	protected void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.game_layout);
@@ -87,12 +87,12 @@ public class Game extends Activity {
 		//HT added
 		handler = new UpdateCardsHandler();
 		buttonListener = new ButtonListener();
-        font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
-        levelNo = getIntent().getIntExtra("levelNo", 0);
+		font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+		levelNo = getIntent().getIntExtra("levelNo", 0);
 		Log.i("loadCards()","levelNo=" + levelNo);
 
-        mainTable = (TableLayout)findViewById(R.id.TableLayout03);
-        context  = mainTable.getContext();
+		mainTable = (TableLayout)findViewById(R.id.TableLayout03);
+		context  = mainTable.getContext();
 		sp = new SharedPre(getApplicationContext());
 		try {
 			starsin=Integer.parseInt(sp.Get("stars").toString());
@@ -103,7 +103,7 @@ public class Game extends Activity {
 		}
 		TextView tv1 = (TextView)findViewById(R.id.starsNo);
 		tv1.setText(Integer.toString(starsin));
-        newGame(levelNo);
+		newGame(levelNo);
 
 
 
@@ -116,8 +116,9 @@ public class Game extends Activity {
 
 
 //		String icons ;
-		COL_COUNT =  getRowAndCol(levelNo);
-		ROW_COUNT =  levelNo/COL_COUNT ;
+		int r[]=getRowAndCol(levelNo);
+		COL_COUNT = r[1] ;
+		ROW_COUNT =  r[0] ;
 
 		int CCount = (ROW_COUNT*COL_COUNT) ;
 		final int[] checkPaper = new int[CCount];
@@ -236,26 +237,28 @@ public class Game extends Activity {
 
 
 	}
-	private int getRowAndCol(int i)
+	private int[] getRowAndCol(int i)
 	{
-		int a=0;
-		int b =0;
+		int row=0;
+		int col =0;
+		int endRow=0;
 		for (int x =2 ; x<8 ; x++)
 		{
 			if (i>14 && x==2){x=x+1;}
 			if (i%x==0)
 			{
 
-				a=i/x;
-				b=x;
+				row=i/x;
+				col=x;
 				break;
 			}
 		}
-		Log.i("getRowAndCol()","A=" + a);
-		Log.i("getRowAndCol()","B=" + b);
-        return b;
-    }
-    
+		Log.i("getRowAndCol()","A=" + row);
+		Log.i("getRowAndCol()","B=" + col);
+		int[] r={row,col,endRow};
+		return r;
+	}
+
 	private void loadCards(){
 		try{
 			winCard=0;
@@ -281,10 +284,10 @@ public class Game extends Activity {
 
 				t=list.remove(t).intValue();
 
-	    		cards[rtrn[i][0]%COL_COUNT][rtrn[i][0]/COL_COUNT]=rtrn[t][1];
+				cards[rtrn[i][0]%COL_COUNT][rtrn[i][0]/COL_COUNT]=rtrn[t][1];
 
-	    		Log.i("loadCards()", "card["+(i%COL_COUNT)+
-	    				"]["+(i/COL_COUNT)+"]=" + cards[i%COL_COUNT][i/COL_COUNT]);
+				Log.i("loadCards()", "card["+(i%COL_COUNT)+
+						"]["+(i/COL_COUNT)+"]=" + cards[i%COL_COUNT][i/COL_COUNT]);
 			}
 /*
 			for (int i=0; i<ROW_COUNT ; i++)
@@ -406,7 +409,7 @@ public class Game extends Activity {
 					public void run() {
 						try{
 							synchronized (lock) {
-							  handler.sendEmptyMessage(0);
+								handler.sendEmptyMessage(0);
 							}
 						}
 						catch (Exception e) {
@@ -414,69 +417,69 @@ public class Game extends Activity {
 						}
 					}
 				};
-				
-				  Timer t = new Timer(false);
-			        t.schedule(tt, 1300);
+
+				Timer t = new Timer(false);
+				t.schedule(tt, 1300);
 			}
-		   }
-			
 		}
-    
-    class UpdateCardsHandler extends Handler{
-    	
-    	@Override
-    	public void handleMessage(Message msg) {
-    		synchronized (lock) {
-    			checkCards();
-    		}
-    	}
-    	 public void checkCards(){
-    	    	if(cards[seconedCard.x][seconedCard.y] == cards[firstCard.x][firstCard.y]){
-    				firstCard.button.setVisibility(View.INVISIBLE);
-    				seconedCard.button.setVisibility(View.INVISIBLE);
-					winCard +=1;
-					Log.e("checkCards()", winCard+"");
-					int starsin;
-					if (winCard==size/2)
-					{
 
-						try {
-							starsin=Integer.parseInt(sp.Get("stars").toString());
-							Log.e("sp.Get(stars)", starsin+"");
-							starsin=starsin+getStar();
-						} catch(NumberFormatException nfe) {
+	}
+
+	class UpdateCardsHandler extends Handler{
+
+		@Override
+		public void handleMessage(Message msg) {
+			synchronized (lock) {
+				checkCards();
+			}
+		}
+		public void checkCards(){
+			if(cards[seconedCard.x][seconedCard.y] == cards[firstCard.x][firstCard.y]){
+				firstCard.button.setVisibility(View.INVISIBLE);
+				seconedCard.button.setVisibility(View.INVISIBLE);
+				winCard +=1;
+				Log.e("checkCards()", winCard+"");
+				int starsin;
+				if (winCard==size/2)
+				{
+
+					try {
+						starsin=Integer.parseInt(sp.Get("stars").toString());
+						Log.e("sp.Get(stars)", starsin+"");
+						starsin=starsin+getStar();
+					} catch(NumberFormatException nfe) {
 						//	System.out.println("Could not parse " + nfe);
-							starsin=getStar();
-						}
-						TextView tv1 = (TextView)findViewById(R.id.starsNo);
-						tv1.setText(Integer.toString(starsin));
-						sp.Set("stars",Integer.toString(starsin));
-
-						Intent intent = new Intent(Game.this, Lev.class);
-						intent.putExtra("stars", (Integer)getStar());
-						startActivity(intent);
-
-
+						starsin=getStar();
 					}
+					TextView tv1 = (TextView)findViewById(R.id.starsNo);
+					tv1.setText(Integer.toString(starsin));
+					sp.Set("stars",Integer.toString(starsin));
 
-    			}
-    			else {
-    				//seconedCard.button.setBackgroundDrawable(null);
-    				//firstCard.button.setBackgroundDrawable(null);
-
-					seconedCard.button.setTextColor(Color.WHITE);
-					seconedCard.button.setText(icon);
-					seconedCard.button.setTextSize(TypedValue.COMPLEX_UNIT_PX, sizeIcon);
+					Intent intent = new Intent(Game.this, Lev.class);
+					intent.putExtra("stars", (Integer)getStar());
+					startActivity(intent);
 
 
-					firstCard.button.setTextColor(Color.WHITE);
-					firstCard.button.setText(icon);
-					firstCard.button.setTextSize(TypedValue.COMPLEX_UNIT_PX, sizeIcon);
-    			}
-    	    	
-    	    	firstCard=null;
-    			seconedCard=null;
-    	    }
+				}
+
+			}
+			else {
+				//seconedCard.button.setBackgroundDrawable(null);
+				//firstCard.button.setBackgroundDrawable(null);
+
+				seconedCard.button.setTextColor(Color.WHITE);
+				seconedCard.button.setText(icon);
+				seconedCard.button.setTextSize(TypedValue.COMPLEX_UNIT_PX, sizeIcon);
+
+
+				firstCard.button.setTextColor(Color.WHITE);
+				firstCard.button.setText(icon);
+				firstCard.button.setTextSize(TypedValue.COMPLEX_UNIT_PX, sizeIcon);
+			}
+
+			firstCard=null;
+			seconedCard=null;
+		}
 
 		public int getStar ()
 		{
@@ -489,9 +492,9 @@ public class Game extends Activity {
 			if (turns>= (size*(sizeDiv2)) &&turns<= (size*((sizeDiv2)-sizeDiv2-3) ))
 			{return 1;}
 			else
-			return 0;
+				return 0;
 		}
-    }
+	}
 
 
 	@Override
@@ -529,6 +532,6 @@ public class Game extends Activity {
 		final AlertDialog alert = dialog.create();
 		alert.show();
 	}
-   
-    //*/
+
+	//*/
 }
