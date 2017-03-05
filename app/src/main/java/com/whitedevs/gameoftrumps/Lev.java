@@ -30,7 +30,6 @@ public class Lev extends Activity {
     private SharedPre sp;;
 
     //az icon play baraye mosalasha estfade shode
-
     //items of header
     TextView txtStarBg;
     TextView txtIconStar;

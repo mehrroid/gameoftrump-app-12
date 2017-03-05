@@ -465,7 +465,6 @@ public class Game extends Activity {
 				int starsin;
 				if (winCard==size/2)
 				{
-
 					try {
 						starsin=Integer.parseInt(sp.Get("stars").toString());
 						Log.e("sp.Get(stars)", starsin+"");

@@ -221,7 +221,6 @@ public class NavigationDrawer extends AppCompatActivity
                 startActivity(intent);
             }
         });
-
 //Rotate texviedw iconplay
         RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.rotateanimation);
 //        txtIconPlay1.setAnimation(rotate);
