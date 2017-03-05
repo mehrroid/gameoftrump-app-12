@@ -64,6 +64,7 @@ public class Game extends Activity {
 	int icon;
 	int sizeIcon;
 	private int starsin;
+	private int endRow;
 	//H>T added End
 
 	protected void onCreate(Bundle savedInstanceState) {
@@ -117,8 +118,8 @@ public class Game extends Activity {
 
 //		String icons ;
 		int r[]=getRowAndCol(levelNo);
-		COL_COUNT = r[1] ;
-		ROW_COUNT =  r[0] ;
+		COL_COUNT = r[0] ;
+		ROW_COUNT =  r[1] ;
 
 		int CCount = (ROW_COUNT*COL_COUNT) ;
 		final int[] checkPaper = new int[CCount];
@@ -241,68 +242,82 @@ public class Game extends Activity {
 	{
 		int row=0;
 		int col =0;
-		int endRow=0;
-		for (int x =2 ; x<8 ; x++)
-		{
-			if (i>14 && x==2){x=x+1;}
-			if (i%x==0)
-			{
+		if (i<13) {
+			for (int x = 2; x < 8; x++) {
+				if (i % x == 0) {
 
-				row=i/x;
-				col=x;
-				break;
+					row = i / x;
+					col = x;
+					break;
+				}
+
 			}
+		}else
+			switch (i) {
+				case 13:
+				case 14:
+				case 15:
+					col=5;
+					row=6;
+					endRow=col-((row*col)-(i*2));
+					break;
+				case 16:
+				case 17:
+					col=5;
+					row=7;
+					endRow=col-((row*col)-(i*2));
+					break;
+				case 18:
+				case 19:
+				case 20:
+					col=5;
+					row=8;
+					endRow=col-((row*col)-(i*2));
+					break;
+				case 21:
+				case 22:
+					col=5;
+					row=9;
+					endRow=col-((row*col)-(i*2));
+					break;
+				case 23:
+				case 24:
+				case 25:
+					col=5;
+					row=9;
+					endRow=col-((row*col)-(i*2));
+					break;
+			}
+
+		{
+
 		}
 		Log.i("getRowAndCol()","A=" + row);
 		Log.i("getRowAndCol()","B=" + col);
-		int[] r={row,col,endRow};
+		int[] r={col,row,endRow};
 		return r;
 	}
 
 	private void loadCards(){
 		try{
 			winCard=0;
-			size = ROW_COUNT*COL_COUNT;
-
+			size = levelNo*2;
 			Log.i("loadCards()","size=" + size);
-
 			ArrayList<Integer> list = new ArrayList<Integer>();
-
 			for(int i=0;i<size;i++){
 				list.add(new Integer(i));
 			}
-
-
 			Random r = new Random();
-
 			for(int i=size-1;i>=0;i--){
 				int t=0;
-
 				if(i>0){
 					t = r.nextInt(i);
 				}
-
 				t=list.remove(t).intValue();
-
 				cards[rtrn[i][0]%COL_COUNT][rtrn[i][0]/COL_COUNT]=rtrn[t][1];
-
 				Log.i("loadCards()", "card["+(i%COL_COUNT)+
 						"]["+(i/COL_COUNT)+"]=" + cards[i%COL_COUNT][i/COL_COUNT]);
 			}
-/*
-			for (int i=0; i<ROW_COUNT ; i++)
-			{
-				for (int z=0  ; z<COL_COUNT ; z++)
-				{
-					size=size-1;
-					cards[z][i]=rtrn[size][1];
-					Log.i("loadCards()", "card["+(z)+
-							"]["+(i)+"]=" + cards[z][i]);
-
-				}
-			}
-			*/
-
 		}
 		catch (Exception e) {
 			Log.e("loadCards()", e+"");
@@ -313,9 +328,17 @@ public class Game extends Activity {
 	private TableRow createRow(int y){
 		TableRow row = new TableRow(context);
 		row.setHorizontalGravity(Gravity.CENTER);
+		if(y<ROW_COUNT) {
+			for (int x = 0; x < COL_COUNT; x++) {
 
-		for (int x = 0; x < COL_COUNT; x++) {
-			row.addView(createButton(x,y));
+				row.addView(createButton(x, y));
+			}
+		}else{
+			for (int x = 0; x < endRow; x++) {
+
+				row.addView(createButton(x, y));
+			}
+
 		}
 		return row;
 	}
