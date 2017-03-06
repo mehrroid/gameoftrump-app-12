@@ -124,7 +124,7 @@ public class Lev extends Activity {
                 Typeface font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
                 card.setText(strs[index]);
                 card.setTypeface(font);
-                card.setTextSize(30);
+                card.setTextSize(25);
                 card.setPadding(5, 5, 5, 5);
                 card.setGravity(Gravity.CENTER);
                 card.setLayoutParams(params);

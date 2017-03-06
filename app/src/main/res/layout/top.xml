@@ -2,7 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="@dimen/_43sdp"
-    android:background="@color/blueBg">
+    android:background="@color/blueBg"
+    >
   <TextView
       android:layout_width="@dimen/_100sdp"
       android:layout_height="@dimen/_33sdp"
@@ -68,7 +69,7 @@ android:layout_gravity="left"
       android:textSize="@dimen/_16sdp"
       android:layout_gravity="right"
       android:gravity="right"
-      android:layout_marginRight="@dimen/_80sdp"
+      android:layout_marginRight="@dimen/_60sdp"
       android:textColor="@color/colorStars"
       android:layout_marginTop="@dimen/_15sdp"
       android:layout_marginBottom="@dimen/_5sdp"/>

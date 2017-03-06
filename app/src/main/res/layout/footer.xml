@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="fill_parent"
-    android:layout_height="@dimen/_43sdp"
+    android:layout_height="@dimen/_30sdp"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:background="#000000"
     android:layout_gravity="bottom"

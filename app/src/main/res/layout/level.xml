@@ -15,7 +15,8 @@ android:paddingLeft="@dimen/_5sdp"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_75sdp"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:orientation="vertical"
 
 
