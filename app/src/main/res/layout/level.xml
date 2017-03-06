@@ -16,10 +16,7 @@ android:paddingLeft="@dimen/_5sdp"
         android:layout_marginTop="@dimen/_42sdp"
         android:layout_marginBottom="@dimen/_10sdp"
         android:orientation="vertical"
-
-
         tools:context="com.myapp.mehrnaz.appapp.Lev">
-
         <!--<Button-->
             <!--android:id="@+id/cardicon"-->
             <!--android:layout_width="wrap_content"-->

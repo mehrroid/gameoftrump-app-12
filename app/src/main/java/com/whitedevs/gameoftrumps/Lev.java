@@ -130,12 +130,10 @@ public class Lev extends Activity {
                 card.setLayoutParams(params);
                 card.setTag(i +""+ j);
                 card.setBackgroundResource(R.drawable.circle2);
-
                 ll.addView(card);
                 card.setTextColor(R.color.gray);
                 card.setOnClickListener(clickListener);
                 index++;
-
 
 
             }
