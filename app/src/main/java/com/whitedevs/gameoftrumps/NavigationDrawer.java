@@ -1,8 +1,12 @@
 package com.whitedevs.gameoftrumps;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Looper;
+import android.os.SystemClock;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -54,18 +58,21 @@ public class NavigationDrawer extends AppCompatActivity
     private AdView mAdView;
     private static final int REQUEST_INVITE = 0;
     private static final long RIPPLE_DURATION = 250;
+    private Context context;
+    private View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
+        view=
 //Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
 //        View contentHamburger=findViewById(R.id.content_hamburger);
         //HT adsMob(banner) section start
         mAdView = (AdView) findViewById(R.id.adView);
 
         AdRequest adRequest = new AdRequest.Builder().build();
-
+        context=getApplicationContext();
         mAdView.loadAd(adRequest);
         TextView txtg= (TextView) findViewById(R.id.game);
         SharedPre sp = new SharedPre(getApplicationContext());
@@ -221,42 +228,17 @@ public class NavigationDrawer extends AppCompatActivity
                 startActivity(intent);
             }
         });
-//Rotate texviedw iconplay
-        RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.rotateanimation);
-//        txtIconPlay1.setAnimation(rotate);
-        RotateAnimation rotate2 = (RotateAnimation) AnimationUtils.loadAnimation(this, R.anim.animate2);
-        Animation scale= AnimationUtils.loadAnimation(this, R.anim.scale);
-        scale.setRepeatCount(Animation.INFINITE);
-        txtIconPlay.startAnimation(scale);
 
-        final Animation move = new TranslateAnimation(
-                TranslateAnimation.RELATIVE_TO_PARENT, 0f,
-                TranslateAnimation.RELATIVE_TO_PARENT, 0.7f,
-                TranslateAnimation.ABSOLUTE, 0f,
-                TranslateAnimation.ABSOLUTE, 0f);
-        move.setDuration(15000);
-        move.setRepeatCount(-1);
-        //move.setRepeatMode(Animation.REVERSE);
-        move.setInterpolator(new LinearInterpolator());
-        TextView txt1= (TextView) findViewById(R.id.txtgame);
-        txt1.setTypeface(font);
-        txt1.setAnimation(move);
-        txtcloud2.setTypeface(font);
-        txtcloud2.setAnimation(move);
-        txtcloud3.setAnimation(move);
-        txtcloud4.setAnimation(move);
-        txtcloud5.setAnimation(move);
-        txtcloud6.setAnimation(move);
-        txtcloud7.setAnimation(move);
 
-//        txtcloud7.setAnimation(move);
-        txtcloud8.setAnimation(move);
-        txtcloud9.setAnimation(move);
-        txtcloud10.setAnimation(move);
+        new Thread( new Runnable(){
+            @Override
+            public void run(){
+                Looper.prepare();
 
-        Animation scaleDown = new ScaleAnimation(2, 1, 2, 1, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-        scaleDown.setDuration(2000);
-        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                //loadBackground();
+            }
+        }).start();
+
         //icon menu felan hazf
 //        txtIconMenu.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -272,6 +254,48 @@ public class NavigationDrawer extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
+    }
+
+    private void loadBackground()
+    {
+        Log.e("test", "in loadbakground");
+        //Rotate texviedw iconplay
+        RotateAnimation rotate = (RotateAnimation) AnimationUtils.loadAnimation(context, R.anim.rotateanimation);
+//        txtIconPlay1.setAnimation(rotate);
+        RotateAnimation rotate2 = (RotateAnimation) AnimationUtils.loadAnimation(context, R.anim.animate2);
+        Animation scale= AnimationUtils.loadAnimation(context, R.anim.scale);
+       // scale.setRepeatCount(Animation.ZORDER_NORMAL);
+        txtIconPlay.startAnimation(scale);
+
+        final Animation move = new TranslateAnimation(
+                TranslateAnimation.RELATIVE_TO_PARENT, 0f,
+                TranslateAnimation.RELATIVE_TO_PARENT, 0.7f,
+                TranslateAnimation.ABSOLUTE, 0f,
+                TranslateAnimation.ABSOLUTE, 0f);
+        move.setDuration(8000);
+        move.setRepeatCount(0);
+        //move.setRepeatMode(Animation.REVERSE);
+        move.setInterpolator(new LinearInterpolator());
+        TextView txt1= (TextView) findViewById(R.id.txtgame);
+        txt1.setTypeface(font);
+        txt1.setAnimation(move);
+        txtcloud2.setTypeface(font);
+        txtcloud2.setAnimation(move);
+        txtcloud3.setAnimation(move);
+        txtcloud4.setAnimation(move);
+        txtcloud7.setAnimation(move);
+
+
+
+        Animation scaleDown = new ScaleAnimation(2, 1, 2, 1, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        scaleDown.setDuration(1000);
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+  /*
+        txtcloud2.setVisibility(View.GONE);
+        txtcloud3.setVisibility(View.GONE);
+        txtcloud4.setVisibility(View.GONE);
+        txtcloud7.setVisibility(View.GONE); */
     }
 
     @Override
@@ -347,4 +371,6 @@ public class NavigationDrawer extends AppCompatActivity
         android.os.Process.killProcess(android.os.Process.myPid());
         super.onDestroy();
     }
+
+
 }
