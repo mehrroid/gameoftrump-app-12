@@ -180,8 +180,6 @@ public class NavigationDrawer extends AppCompatActivity
 //        txtSq3Bg = (TextView) findViewById(R.id.txtsquare3bg);
 //        txtSq3Bg.setTypeface(font);
         //Go to Level Activity
-
-
 //
 //        txtIconStar.setOnClickListener(new View.OnClickListener() {
 //            @Override
