@@ -9,8 +9,8 @@
         android:width="0dp"
 
         android:color="@color/blueBg"/>
-    <corners android:radius="@dimen/_2sdp"/>
+    <corners android:radius="@dimen/_10sdp"/>
     <size
-        android:width="@dimen/_5sdp"
-        android:height="@dimen/_5sdp"/>
+        android:width="@dimen/_30sdp"
+        android:height="@dimen/_30sdp"/>
 </shape>
