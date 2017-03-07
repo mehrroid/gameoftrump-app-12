@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_centerInParent="true"
     android:layout_gravity="center"
-android:paddingLeft="@dimen/_5sdp"
+    android:paddingLeft="@dimen/_5sdp"
     android:paddingRight="@dimen/_5sdp"
     android:background="@color/blueBg">
     <include layout="@layout/top"/>
@@ -18,12 +18,12 @@ android:paddingLeft="@dimen/_5sdp"
         android:orientation="vertical"
         tools:context="com.myapp.mehrnaz.appapp.Lev">
         <!--<Button-->
-            <!--android:id="@+id/cardicon"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="center"-->
-            <!--android:gravity="center"-->
-            <!--android:textSize="@dimen/_45sdp" />-->
+        <!--android:id="@+id/cardicon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/_45sdp" />-->
 
     </LinearLayout>
 
