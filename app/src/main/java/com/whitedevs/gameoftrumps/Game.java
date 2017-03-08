@@ -36,7 +36,6 @@ import java.util.TimerTask;
 
 import static com.whitedevs.gameoftrumps.R.id.adView;
 
-
 public class Game extends Activity {
 
 	Typeface font;
@@ -117,101 +116,103 @@ public class Game extends Activity {
 
 
 //		String icons ;
+		Log.i("cards_leveNo", levelNo+"");
 		int r[]=getRowAndCol(levelNo);
 		COL_COUNT = r[0] ;
 		ROW_COUNT =  r[1] ;
 
 		int CCount = (ROW_COUNT*COL_COUNT) ;
-		final int[] checkPaper = new int[CCount];
+		Log.i("cards_CCount", CCount+"");
+	//	final int[] checkPaper = new int[CCount];
 		ClassRandom rndm = new ClassRandom();
 
 		switch (levelNo) {
-			case 1:
-				Log.i("goneToGame()", "case 00");
-				icon=R.string.icon_glass;
-
-				break;
 			case 2:
 				Log.i("goneToGame()", "case 01");
-				icon=R.string.icon_globe;
-				break;
-			case 3:
-				Log.i("goneToGame()", "case 02");
 				icon=R.string.icon_glass;
 				break;
 			case 4:
-				Log.i("goneToGame()", "case 03");
-				icon=R.string.icon_gratipay;
-				break;
-			case 5:
-				Log.i("goneToGame()", "case 04");
+				Log.i("goneToGame()", "case 02");
 				icon=R.string.icon_glass;
 				break;
 			case 6:
+				Log.i("goneToGame()", "case 03");
+				icon=R.string.icon_gratipay;
+				break;
+			case 8:
+				Log.i("goneToGame()", "case 04");
+				icon=R.string.icon_glass;
+				break;
+			case 10:
 				Log.i("goneToGame()", "case 05");
 				icon=R.string.icon_globe;
 				break;
-			case 7:
+			case 12:
 				Log.i("goneToGame()", "case 06");
 				icon=R.string.icon_gratipay;
-			case 8:
-				icon=R.string.icon_plus;
-				break;
-			case 9:
-				icon=R.string.icon_plus;
-				break;
-			case 10:
-				icon=R.string.icon_plus;
-				break;
-			case 11:
-				icon=R.string.icon_plus;
-				break;
-			case 12:
-				icon=R.string.icon_plus;
-				break;
-			case 13:
-				icon=R.string.icon_plus;
-				break;
 			case 14:
-				icon=R.string.icon_plus;
-				break;
-			case 15:
 				icon=R.string.icon_plus;
 				break;
 			case 16:
 				icon=R.string.icon_plus;
 				break;
-			case 17:
-				icon=R.string.icon_plus;
-				break;
 			case 18:
-				icon=R.string.icon_plus;
-				break;
-			case 19:
 				icon=R.string.icon_plus;
 				break;
 			case 20:
 				icon=R.string.icon_plus;
 				break;
-			case 21:
-				icon=R.string.icon_plus;
-				break;
 			case 22:
-				icon=R.string.icon_plus;
-				break;
-			case 23:
 				icon=R.string.icon_plus;
 				break;
 			case 24:
 				icon=R.string.icon_plus;
 				break;
-			case 25:
+			case 26:
 				icon=R.string.icon_plus;
+				break;
+			case 28:
+				icon=R.string.icon_plus;
+				break;
+			case 30:
+				icon=R.string.icon_plus;
+				break;
+			case 32:
+				icon=R.string.icon_plus;
+				break;
+			case 34:
+				icon=R.string.icon_plus;
+				break;
+			case 36:
+				icon=R.string.icon_plus;
+				break;
+			case 38:
+				icon=R.string.icon_plus;
+				break;
+			case 40:
+				icon=R.string.icon_plus;
+				break;
+			case 42:
+				icon=R.string.icon_plus;
+				break;
+			case 44:
+				icon=R.string.icon_plus;
+				break;
+			case 46:
+				icon=R.string.icon_plus;
+				break;
+			case 48:
+				icon=R.string.icon_plus;
+				break;
+			case 50:
+				Log.i("goneToGame()", "case 00");
+				icon=R.string.icon_glass;
+
 				break;
 
 		}
-		rtrn = rndm.Fisher3(CCount);
-		Log.i("newGame()","COL_COUNT=" +rtrn);
+		Log.i("cards_fisher","levelNo: " +levelNo);
+		rtrn = rndm.Fisher3(levelNo);
 		cards = new int [COL_COUNT] [ROW_COUNT];
 		mAdView = (AdView) findViewById(adView);
 
@@ -242,58 +243,131 @@ public class Game extends Activity {
 	{
 		int row=0;
 		int col =0;
-		if (i<13) {
-			for (int x = 2; x < 8; x++) {
-				if (i % x == 0) {
-
-					row = i / x;
-					col = x;
-					break;
-				}
-
-			}
-		}else
-			switch (i) {
-				case 13:
-				case 14:
-				case 15:
-					col=5;
-					row=6;
-					endRow=col-((row*col)-(i*2));
-					break;
-				case 16:
-				case 17:
-					col=5;
-					row=7;
-					endRow=col-((row*col)-(i*2));
-					break;
-				case 18:
-				case 19:
-				case 20:
-					col=5;
-					row=8;
-					endRow=col-((row*col)-(i*2));
-					break;
-				case 21:
-				case 22:
-					col=5;
-					row=9;
-					endRow=col-((row*col)-(i*2));
-					break;
-				case 23:
-				case 24:
-				case 25:
-					col=5;
-					row=9;
-					endRow=col-((row*col)-(i*2));
-					break;
-			}
-
-		{
-
+		switch (i) {
+			case 2:
+				col=2;
+				row=1;
+				endRow=0;
+				break;
+			case 4:
+				col=2;
+				row=2;
+				endRow=0;
+				break;
+			case 6:
+				col=3;
+				row=2;
+				endRow=0;
+			case 8:
+				col=4;
+				row=2;
+				endRow=0;
+			case 10:
+				col=2;
+				row=5;
+				endRow=0;
+				break;
+			case 12:
+				col=3;
+				row=4;
+				endRow=0;
+				break;
+			case 14:
+				col=2;
+				row=7;
+				endRow=0;
+				break;
+			case 16:
+				col=2;
+				row=8;
+				endRow=0;
+				break;
+			case 18:
+				col=3;
+				row=6;
+				endRow=0;
+				break;
+			case 20:
+				col=4;
+				row=5;
+				endRow=0;
+				break;
+			case 22:
+				col=5;
+				row=5;
+				endRow=2;
+				break;
+			case 24:
+				col=5;
+				row=5;
+				endRow=4;
+				break;
+			case 26:
+				col=5;
+				row=6;
+				endRow=2;
+				break;
+			case 28:
+				col=5;
+				row=6;
+				endRow=4;
+				break;
+			case 30:
+				col=5;
+				row=6;
+				endRow=0;
+				break;
+			case 32:
+				col=4;
+				row=8;
+				endRow=0;
+			case 34:
+				col=5;
+				row=7;
+				endRow=4;
+				break;
+			case 36:
+				col=5;
+				row=8;
+				endRow=1;
+			case 38:
+				col=5;
+				row=8;
+				endRow=3;
+			case 40:
+				col=5;
+				row=8;
+				endRow=0;
+				break;
+			case 42:
+				col=5;
+				row=9;
+				endRow=2;
+				break;
+			case 44:
+				col=5;
+				row=9;
+				endRow=4;
+				break;
+			case 46:
+				col=5;
+				row=10;
+				endRow=1;
+				break;
+			case 48:
+				col=5;
+				row=9;
+				endRow=3;
+				break;
+			case 50:
+				col=5;
+				row=10;
+				endRow=0;
+				break;
 		}
-		Log.i("getRowAndCol()","A=" + row);
-		Log.i("getRowAndCol()","B=" + col);
+		Log.i("cards_calulate","A(row)=" + row);
+		Log.i("cards_calulate","B(Col)=" + col);
+		Log.i("cards_calulate","endrow=" + endRow);
 		int[] r={col,row,endRow};
 		return r;
 	}
@@ -301,7 +375,7 @@ public class Game extends Activity {
 	private void loadCards(){
 		try{
 			winCard=0;
-			size = levelNo*2;
+			size = levelNo;
 			Log.i("loadCards()","size=" + size);
 			ArrayList<Integer> list = new ArrayList<Integer>();
 			for(int i=0;i<size;i++){
@@ -314,7 +388,7 @@ public class Game extends Activity {
 					t = r.nextInt(i);
 				}
 				t=list.remove(t).intValue();
-				cards[rtrn[i][0]%COL_COUNT][rtrn[i][0]/COL_COUNT]=rtrn[t][1];
+				cards[i%COL_COUNT][i/COL_COUNT]=rtrn[t][1];
 				Log.i("loadCards()", "card["+(i%COL_COUNT)+
 						"]["+(i/COL_COUNT)+"]=" + cards[i%COL_COUNT][i/COL_COUNT]);
 			}
@@ -326,19 +400,22 @@ public class Game extends Activity {
 	}
 
 	private TableRow createRow(int y){
+		//cards_calulate
+		Log.e("cards_createRow","row: "+y);
 		TableRow row = new TableRow(context);
 		row.setHorizontalGravity(Gravity.CENTER);
 		if(y<ROW_COUNT) {
-			for (int x = 0; x < COL_COUNT; x++) {
-
-				row.addView(createButton(x, y));
+			if (endRow!=0 && y+1==ROW_COUNT) {
+				for (int x = 0; x < endRow; x++) {
+					Log.e("cards_createRow", "endrow col:" + x);
+					row.addView(createButton(x, y));
+				}
+			}else {
+				for (int x = 0; x < COL_COUNT; x++) {
+					Log.e("cards_createRow", "row col" + x);
+					row.addView(createButton(x, y));
+				}
 			}
-		}else{
-			for (int x = 0; x < endRow; x++) {
-
-				row.addView(createButton(x, y));
-			}
-
 		}
 		return row;
 	}
@@ -355,7 +432,7 @@ public class Game extends Activity {
 
 
 		//button.setText("\uf04d");
-
+		Log.i("cards-icon",""+icon);
 		button.setText(icon);
 		button.setBackgroundResource(R.drawable.square);
 
@@ -369,10 +446,8 @@ public class Game extends Activity {
 		button.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-
 				final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
 				button.startAnimation(myAnim);
-
 			}
 		});
 		*/
@@ -532,7 +607,11 @@ public class Game extends Activity {
 		TextView tv1 = (TextView)findViewById(R.id.starsNo);
 		tv1.setText(Integer.toString(starsin));
 
+		Intent intent = new Intent(Game.this, Lev.class);
+		startActivity(intent);
 
+
+		/*
 		AlertDialog.Builder dialog = new AlertDialog.Builder(Game.this);
 		dialog.setCancelable(false);
 		dialog.setTitle("Eixt Game");
@@ -552,7 +631,7 @@ public class Game extends Activity {
 				});
 
 		final AlertDialog alert = dialog.create();
-		alert.show();
+		alert.show(); */
 	}
 
 	//*/

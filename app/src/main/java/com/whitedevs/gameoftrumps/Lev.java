@@ -266,7 +266,7 @@ public class Lev extends Activity {
                     levelselect=24;
                     icon=R.string.icon_plus;
                     break;
-                case "45":
+                case "44":
                     levelselect=25;
                     icon=R.string.icon_plus;
                     break;
