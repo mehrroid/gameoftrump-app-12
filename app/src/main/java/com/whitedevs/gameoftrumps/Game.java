@@ -107,9 +107,6 @@ public class Game extends Activity {
 
 
 
-
-
-
 	}
 	// /*
 	private void newGame(int levelNo) {
