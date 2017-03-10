@@ -64,7 +64,9 @@ public class Game extends Activity {
 	int sizeIcon;
 	private int starsin;
 	private int endRow;
-	//H>T added End
+    private int uniqeIcon;
+
+    //H>T added End
 
 	protected void onCreate(Bundle savedInstanceState) {
 
@@ -105,8 +107,15 @@ public class Game extends Activity {
 		tv1.setText(Integer.toString(starsin));
 		newGame(levelNo);
 
+        /*
+        ///start 777
 
+        String s = Character.toString((char)uniqeIcon);
+        //نام  تکس ویو با تکس ویو مربوطه به نمایش شکل جایگزین شود .
+        textview=setText(s);
 
+        //end 777
+        */
 	}
 	// /*
 	private void newGame(int levelNo) {
@@ -210,6 +219,11 @@ public class Game extends Activity {
 		}
 		Log.i("cards_fisher","levelNo: " +levelNo);
 		rtrn = rndm.Fisher4(levelNo);
+        Random rand = new Random();
+        uniqeIcon=rand.nextInt((levelNo/2)+1) ;
+
+        uniqeIcon=rtrn[uniqeIcon][1];
+        Log.i("cards_fisher_uniqeIcon","uniqeIcon: " +uniqeIcon);
 		cards = new int [COL_COUNT] [ROW_COUNT];
 		mAdView = (AdView) findViewById(adView);
 
@@ -536,12 +550,19 @@ public class Game extends Activity {
 				seconedCard.button.setVisibility(View.INVISIBLE);
 				winCard +=1;
 				Log.e("checkCards()", winCard+"");
+				Log.e("checkCards_comper", cards[seconedCard.x][seconedCard.y] +"");
 				int starsin;
-				if (winCard==levelNo/2)
+				if (winCard==levelNo/2 ||  uniqeIcon==cards[seconedCard.x][seconedCard.y])
 				{
+
 					try {
 						starsin=Integer.parseInt(sp.Get("stars").toString());
 						Log.e("sp.Get(stars)", starsin+"");
+						if (uniqeIcon==cards[seconedCard.x][seconedCard.y])
+						{uniqeIcon=1;
+							Log.e("uniqeIcon", uniqeIcon+"");
+						}else {
+							uniqeIcon=0;}
 						starsin=starsin+getStar();
 					} catch(NumberFormatException nfe) {
 						//	System.out.println("Could not parse " + nfe);
@@ -580,16 +601,22 @@ public class Game extends Activity {
 		public int getStar ()
 		{
 			int sizeDiv2=size/2;
-
+			int r=0;
 			if (turns<size)
-			{return 3;}
+			{r= 3;}
 			if (turns>=size && turns< (size*((sizeDiv2)-(sizeDiv2-2))))
-			{return 2;}
+			{
+				if (uniqeIcon==1){
+					r=3;}else {r= 2;}
+
+			}
 			if (turns>= (size*(sizeDiv2)) &&turns<= (size*((sizeDiv2)-sizeDiv2-3) ))
-			{return 1;}
-			else
-				return 0;
+			{if (uniqeIcon==1){
+				r=2;}else {r= 1;}}
+
+			return r;
 		}
+
 	}
 
 
