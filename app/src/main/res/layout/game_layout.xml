@@ -17,6 +17,8 @@
         </TableLayout>
 
     </LinearLayout>
+    <include layout="@layout/popup2"/>
+
     <include layout="@layout/footer"/>
 
 </FrameLayout>

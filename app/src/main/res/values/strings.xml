@@ -55,7 +55,9 @@
     <string name="icon_plus">&#xf067;</string>
     <string name="icon_square">&#xf04d;</string>
     <string name="icon_cloud">&#xf0c2;</string>
-
+    <string name="icon_male">&#xf183;</string>
+    <string name="icon_car">&#xf1b9;</string>
+    <string name="icon_arrow">&#xf0a9;</string>
     <string name="icon_glass">&#xf000;</string>
     <string name="icon_globe">&#xf0ac;</string>
     <string name="icon_gratipay">&#xf184;</string>

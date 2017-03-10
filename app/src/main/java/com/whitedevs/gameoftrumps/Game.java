@@ -21,6 +21,7 @@ import android.view.View.OnClickListener;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -86,6 +87,14 @@ public class Game extends Activity {
 //		txtIconStar.setTypeface(font2);
 //		txtStarBg = (TextView) findViewById(R.id.txtstarbg);
 //		txtStarBg.setTypeface(font2);
+		//mehrnaz
+		final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
+		fl.setVisibility(View.GONE);
+		TextView txtcar= (TextView) findViewById(R.id.txtcar);
+		txtcar.setTypeface(font2);
+		TextView txtviewarrow= (TextView) findViewById(R.id.arrow);
+		txtviewarrow.setTypeface(font2);
+		//
 		//HT added
 		handler = new UpdateCardsHandler();
 		buttonListener = new ButtonListener();
@@ -116,6 +125,16 @@ public class Game extends Activity {
 
         //end 777
         */
+		//mehrnaz 777
+		String s = Character.toString((char)uniqeIcon);
+		txtcar.setText(s);
+		fl.setVisibility(View.VISIBLE);
+
+		final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
+		fl.startAnimation(myAnim);
+
+
+		//
 	}
 	// /*
 	private void newGame(int levelNo) {

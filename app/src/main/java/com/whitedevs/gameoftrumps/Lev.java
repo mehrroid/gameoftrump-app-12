@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -73,7 +76,15 @@ public class Lev extends Activity {
 
         mAdView.loadAd(adRequest);
         draw(getResources().getStringArray(R.array.type), 5);
+        //mehrnaz
+        TextView txt= (TextView) findViewById(R.id.male);
+        TextView txtstars= (TextView) findViewById(R.id.icon_star);
 
+        txt.setTypeface(font2);
+        txtstars.setTypeface(font2);
+        final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
+        fl.setVisibility(View.GONE);
+        //
         //HT 748
         int winStars= getIntent().getIntExtra("winstars", 0);
         if (winStars!=0)
@@ -85,7 +96,12 @@ public class Lev extends Activity {
             Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
             toast.show();
 
+            //mehrnaz
+            fl.setVisibility(View.VISIBLE);
 
+            final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
+            fl.startAnimation(myAnim);
+            //
         }
 
         //full screen adsMob start

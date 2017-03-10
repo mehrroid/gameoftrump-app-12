@@ -26,6 +26,8 @@
         <!--android:textSize="@dimen/_45sdp" />-->
 
     </LinearLayout>
+    <include layout="@layout/popup"/>
+
 
     <include layout="@layout/footer" />
 
