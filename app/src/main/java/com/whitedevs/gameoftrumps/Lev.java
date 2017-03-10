@@ -115,7 +115,6 @@ public class Lev extends Activity {
             fl.startAnimation(myAnim);
             //
 
-
             final FrameLayout fm2= (FrameLayout) findViewById(R.id.levelmain);
             fm2.setOnClickListener(new View.OnClickListener() {
     @Override

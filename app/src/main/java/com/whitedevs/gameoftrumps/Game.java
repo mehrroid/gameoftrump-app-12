@@ -473,7 +473,6 @@ public class Game extends Activity {
 		plus.setTypeface(fontawsome);
 		button.setTextColor(Color.WHITE);
 
-
 		//button.setText("\uf04d");
 		Log.i("cards-icon",""+icon);
 		button.setText(icon);
