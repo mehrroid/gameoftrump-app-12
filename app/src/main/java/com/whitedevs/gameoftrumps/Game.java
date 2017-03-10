@@ -212,7 +212,7 @@ public class Game extends Activity {
 				break;
 			case 50:
 				Log.i("goneToGame()", "case 00");
-				icon=R.string.icon_glass;
+				icon=R.string.icon_trophy;
 
 				break;
 
@@ -334,6 +334,7 @@ public class Game extends Activity {
 				col=4;
 				row=8;
 				endRow=0;
+				break;
 			case 34:
 				col=5;
 				row=7;
@@ -343,10 +344,12 @@ public class Game extends Activity {
 				col=5;
 				row=8;
 				endRow=1;
+				break;
 			case 38:
 				col=5;
 				row=8;
 				endRow=3;
+				break;
 			case 40:
 				col=5;
 				row=8;
