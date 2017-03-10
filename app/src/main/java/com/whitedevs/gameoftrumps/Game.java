@@ -251,15 +251,17 @@ public class Game extends Activity {
 				row=2;
 				endRow=0;
 				break;
-			case 6:
-				col=3;
-				row=2;
-				endRow=0;
-			case 8:
-				col=4;
-				row=2;
-				endRow=0;
-			case 10:
+            case 6:
+                col=3;
+                row=2;
+                endRow=0;
+                break;
+            case 8:
+                col=4;
+                row=2;
+                endRow=0;
+                break;
+            case 10:
 				col=2;
 				row=5;
 				endRow=0;
