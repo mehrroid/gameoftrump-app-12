@@ -80,7 +80,7 @@ public class Game extends Activity {
 		TextView txtsq1= (TextView) findViewById(R.id.sqbg);
 		TextView txtstar= (TextView) findViewById(R.id.star);
 		txtstar.setTypeface(font2);
-		sizeIcon=55;
+		sizeIcon=30;
 		TextView plus = (TextView) findViewById(R.id.pl);
 		plus.setTypeface(font);
 //		txtIconStar = (TextView) findViewById(R.id.txtstar);
@@ -88,7 +88,9 @@ public class Game extends Activity {
 //		txtStarBg = (TextView) findViewById(R.id.txtstarbg);
 //		txtStarBg.setTypeface(font2);
 		//mehrnaz
-		final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
+		final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout2);
+		final FrameLayout fm= (FrameLayout) findViewById(R.id.frameMain);
+
 		fl.setVisibility(View.GONE);
 		TextView txtcar= (TextView) findViewById(R.id.txtcar);
 		txtcar.setTypeface(font2);
@@ -132,7 +134,13 @@ public class Game extends Activity {
 
 		final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
 		fl.startAnimation(myAnim);
+		fm.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				fl.setVisibility(v.GONE);
 
+			}
+		});
 
 		//
 	}

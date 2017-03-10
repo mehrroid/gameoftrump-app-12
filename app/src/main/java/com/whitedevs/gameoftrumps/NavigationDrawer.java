@@ -138,6 +138,8 @@ public class NavigationDrawer extends AppCompatActivity
 //        txtIconMenu = (TextView) findViewById(R.id.txtIconMenu);
 //        txtIconMenu.setTypeface(font);
         txtcloud2= (TextView) findViewById(R.id.txtcloud2);
+        txtcloud2.setTypeface(font);
+
         txtcloud3= (TextView) findViewById(R.id.txtcloud3);
         txtcloud3.setTypeface(font);
         txtcloud4= (TextView) findViewById(R.id.txtcloud4);

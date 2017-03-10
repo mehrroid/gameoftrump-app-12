@@ -5,6 +5,7 @@
     android:layout_centerInParent="true"
     android:layout_gravity="center"
     android:paddingLeft="@dimen/_5sdp"
+    android:id="@+id/levelmain"
     android:paddingRight="@dimen/_5sdp"
     android:background="@color/blueBg">
     <include layout="@layout/top"/>

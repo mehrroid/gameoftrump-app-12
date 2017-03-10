@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -79,9 +80,20 @@ public class Lev extends Activity {
         //mehrnaz
         TextView txt= (TextView) findViewById(R.id.male);
         TextView txtstars= (TextView) findViewById(R.id.icon_star);
+        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
+
+        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
+        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
+        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
+        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
 
         txt.setTypeface(font2);
         txtstars.setTypeface(font2);
+        txtstars2.setTypeface(font2);
+        txtstars3.setTypeface(font2);
+        txtstars4.setTypeface(font2);
+        txtstars5.setTypeface(font2);
+        txtstars6.setTypeface(font2);
         final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
         fl.setVisibility(View.GONE);
         //
@@ -102,8 +114,17 @@ public class Lev extends Activity {
             final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
             fl.startAnimation(myAnim);
             //
-        }
 
+
+            final FrameLayout fm2= (FrameLayout) findViewById(R.id.levelmain);
+            fm2.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        fl.setVisibility(v.GONE);
+
+    }
+});
+        }
         //full screen adsMob start
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
@@ -119,6 +140,7 @@ public class Lev extends Activity {
         //full screen adsMob End
 
     }
+
 
     private void draw(String[] strs, int column) {
 
