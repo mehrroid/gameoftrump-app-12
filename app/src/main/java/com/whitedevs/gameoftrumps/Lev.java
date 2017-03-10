@@ -43,10 +43,10 @@ public class Lev extends Activity {
 
         try {
             //remove below line ht700 for lunch
-            sp.Set("stars",Integer.toString(1000));
+            sp.Set("winstars",Integer.toString(1000));
             //end remove
-            starsin=Integer.parseInt(sp.Get("stars").toString());
-            Log.e("sp.Get(stars)", starsin+"");
+            starsin=Integer.parseInt(sp.Get("winstars").toString());
+            Log.e("sp.Get(winstars)", starsin+"");
         } catch(NumberFormatException nfe) {
             //	System.out.println("Could not parse " + nfe);
             starsin=0;
@@ -75,10 +75,12 @@ public class Lev extends Activity {
         draw(getResources().getStringArray(R.array.type), 5);
 
         //HT 748
-        int winStars= getIntent().getIntExtra("Stars", 0);
+        int winStars= getIntent().getIntExtra("winstars", 0);
         if (winStars!=0)
         {
-
+            //777
+            sp.Set("stars",Integer.toString(0));
+            Log.e("winStars", winStars+"");
             CharSequence text = "You Win , " + winStars + " Stars";
             Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
             toast.show();

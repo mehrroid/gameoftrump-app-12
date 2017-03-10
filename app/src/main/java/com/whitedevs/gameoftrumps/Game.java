@@ -209,7 +209,7 @@ public class Game extends Activity {
 
 		}
 		Log.i("cards_fisher","levelNo: " +levelNo);
-		rtrn = rndm.Fisher3(levelNo);
+		rtrn = rndm.Fisher4(levelNo);
 		cards = new int [COL_COUNT] [ROW_COUNT];
 		mAdView = (AdView) findViewById(adView);
 
@@ -535,7 +535,7 @@ public class Game extends Activity {
 				winCard +=1;
 				Log.e("checkCards()", winCard+"");
 				int starsin;
-				if (winCard==size/2)
+				if (winCard==levelNo/2)
 				{
 					try {
 						starsin=Integer.parseInt(sp.Get("stars").toString());
@@ -550,7 +550,7 @@ public class Game extends Activity {
 					sp.Set("stars",Integer.toString(starsin));
 
 					Intent intent = new Intent(Game.this, Lev.class);
-					intent.putExtra("stars", (Integer)getStar());
+					intent.putExtra("winstars", (Integer)getStar());
 					startActivity(intent);
 
 

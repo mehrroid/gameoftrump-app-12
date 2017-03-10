@@ -246,4 +246,55 @@ public class ClassRandom {
         return result;
     }
 
+    public int[][] Fisher4(int n)
+    {
+        ArrayList<Integer> listSource = new ArrayList <Integer> ();
+
+        int[][] result = new int[n][2];
+        int max=33;
+        int[] icons ={61689,61757,61819,61817,62115,61545,61881,62030,61852,62157,61683,61949,61958
+                ,61925,62078,61922,61832,61601,61959,61571,61603,62056,61870,61684,61774,61685,61977
+                ,62082,62170,62105,61550,62014,61691,61826,61722,61827,61558,61444,61853,61612,61440
+                ,61715,61547,61667,61721,61923,62086,61671,61748,61549};
+
+
+        int[] fisher=Fisher(max);
+
+        for (int i=0 ; i<n ; i++){
+            listSource.add(i);
+            result[i][0]=i;
+        }
+   //    int in=icon;
+        int in=0;
+        int lastIn=0 ;
+        for (int i=0 ; i<n; i++){
+            result[i][0]=GetRandomInt(1,listSource.size());
+            if (result[i][0]==listSource.size())
+            {
+                result[i][0]=result[i][0]-1;
+            }
+            result[i][0]=listSource.get(result[i][0]);
+            listSource.remove(Integer.valueOf(result[i][0]));
+            Log.d("Fisher4", "i: " + i );
+            Log.d("Fisher4", "fisher[i]: " + fisher[i] );
+            Log.d("Fisher4", "icons[fisher[i]]: " + icons[fisher[i]] );
+            in=icons[fisher[i]];
+            if (i%2==0 || i==0)
+            {result[i][1]=in;}
+            else
+            {result[i][1]=lastIn;}
+            lastIn=in;
+            //   Log.d("resul","result: "+result[i][1] + "i:" + i);
+            // i=i+1;
+            //  result[i][1]=in;
+            // Log.d("resul", "result: " + result[i][1] + "i:" + i);
+
+            //new end */
+        }
+        for (int i=0 ; i<n ;i++)
+        {
+            Log.d("Fisher4", "i: " + i + " result[i][0]: " + result[i][0] +" result[i][1]: "  + result[i][1]);
+        }
+        return result;
+    }
 }
