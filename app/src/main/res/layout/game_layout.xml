@@ -2,6 +2,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blueBg"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp"
     android:id="@+id/frameMain">
     <include layout="@layout/top"/>
 

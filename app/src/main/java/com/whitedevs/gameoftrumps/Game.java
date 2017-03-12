@@ -80,7 +80,7 @@ public class Game extends Activity {
 		TextView txtsq1= (TextView) findViewById(R.id.sqbg);
 		TextView txtstar= (TextView) findViewById(R.id.star);
 		txtstar.setTypeface(font2);
-		sizeIcon=30;
+		sizeIcon=40;
 		TextView plus = (TextView) findViewById(R.id.pl);
 		plus.setTypeface(font);
 //		txtIconStar = (TextView) findViewById(R.id.txtstar);
@@ -90,6 +90,7 @@ public class Game extends Activity {
 		//mehrnaz
 		final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout2);
 		final FrameLayout fm= (FrameLayout) findViewById(R.id.frameMain);
+		//fm.setPadding(20,20,20,20);
 
 		fl.setVisibility(View.GONE);
 		TextView txtcar= (TextView) findViewById(R.id.txtcar);
@@ -135,6 +136,13 @@ public class Game extends Activity {
 		final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
 		fl.startAnimation(myAnim);
 		fm.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				fl.setVisibility(v.GONE);
+
+			}
+		});
+		fl.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				fl.setVisibility(v.GONE);
@@ -466,7 +474,7 @@ public class Game extends Activity {
 	private View createButton(int x, int y){
 		final Button button = new Button(context);
 		TextView textView=new TextView(context);
-		button.setBackgroundDrawable(null);
+		//button.setBackgroundDrawable(null);
 		Typeface fontawsome = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
 		button.setTypeface(fontawsome);
 		TextView plus = (TextView) findViewById(R.id.pl);
@@ -477,6 +485,7 @@ public class Game extends Activity {
 		Log.i("cards-icon",""+icon);
 		button.setText(icon);
 		button.setBackgroundResource(R.drawable.square);
+
 
 		//textView.setText("Hi");
 		//textView.setTextColor(Color.RED);
