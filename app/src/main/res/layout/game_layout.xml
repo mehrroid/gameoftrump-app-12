@@ -2,18 +2,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/blueBg"
-    android:paddingLeft="@dimen/_20sdp"
-    android:paddingRight="@dimen/_20sdp"
-    android:paddingBottom="@dimen/_20sdp"
+
     android:id="@+id/frameMain">
     <include layout="@layout/top"/>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginRight="@dimen/_1sdp"
-        android:layout_marginLeft="@dimen/_1sdp"
-        android:layout_marginBottom="@dimen/_1sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_50sdp"
         >
         <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/TableLayout03" >
@@ -25,6 +23,10 @@
     </LinearLayout>
     <include layout="@layout/popup2"/>
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" />
     <include layout="@layout/footer"/>
-
 </FrameLayout>
