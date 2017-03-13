@@ -130,6 +130,15 @@ public class NavigationDrawer extends AppCompatActivity
         });
         txtIconUser = (TextView) findViewById(R.id.txtIconUser);
         txtIconUser.setTypeface(font);
+        //user profile
+        txtIconUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(NavigationDrawer.this,userProfile.class);
+                startActivity(intent);
+            }
+        });
+        //
         txtIconPlay = (TextView) findViewById(R.id.txtIconPlay);
         txtIconPlay.setTypeface(font);
 
