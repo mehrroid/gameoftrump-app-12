@@ -286,14 +286,10 @@ public class Game extends Activity {
 		for (int y = 0; y < ROW_COUNT; y++) {
 			mainTable.addView(createRow(y));
 		}
-
 		firstCard=null;
 		loadCards();
 		//tedad bar sai : turns
 		turns=0;
-
-
-
 	}
 	private int[] getRowAndCol(int i)
 	{

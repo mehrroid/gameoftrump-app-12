@@ -374,7 +374,6 @@ public class Lev extends Activity {
                 {
                     starsin=starsin-2;
                     sp.Set("winstars",Integer.toString(starsin));
-
                 }
                 Intent intent = new Intent(Lev.this, Game.class);
                 levelselect=levelselect*2;
@@ -387,7 +386,6 @@ public class Lev extends Activity {
                 Intent intent = new Intent(Lev.this, Game.class);
                 levelselect=levelselect*2;
                 intent.putExtra("levelNo", (Integer)levelselect);
-
                 startActivity(intent);
             }
  */

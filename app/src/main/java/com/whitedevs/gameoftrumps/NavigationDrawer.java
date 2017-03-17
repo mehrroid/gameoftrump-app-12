@@ -329,7 +329,6 @@ public class NavigationDrawer extends AppCompatActivity
             closed();
         }
         */
-
         closed();
     }
 

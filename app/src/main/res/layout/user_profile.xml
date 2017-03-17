@@ -48,7 +48,6 @@ android:layout_height="match_parent" >
 <LinearLayout android:id="@+id/screen_wait" style="@style/LLScreen">
     <TextView style="@style/Blurb" android:text="@string/please_wait" />
 </LinearLayout>
-
 <!-- GAMEPLAY SCREEN -->
 <LinearLayout android:id="@+id/screen_game" style="@style/LLScreen">
     <TextView android:id="@+id/instructions"
@@ -59,7 +58,6 @@ android:layout_height="match_parent" >
         android:text="@string/click_me"
         android:layout_marginBottom="20dp" />
     <TextView android:id="@+id/countdown" style="@style/FigureLabel" />
-
     <LinearLayout style="@style/ScoresBox">
         <TextView android:id="@+id/score0" style="@style/ScoreText" />
         <TextView android:id="@+id/score1" style="@style/ScoreText" />

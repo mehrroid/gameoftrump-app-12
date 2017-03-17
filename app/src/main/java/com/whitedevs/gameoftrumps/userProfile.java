@@ -840,7 +840,6 @@ public class userProfile extends Activity
                 R.id.score1, R.id.score2, R.id.score3
         };
         int i = 0;
-
         if (mRoomId != null) {
             for (Participant p : mParticipants) {
                 String pid = p.getParticipantId();
