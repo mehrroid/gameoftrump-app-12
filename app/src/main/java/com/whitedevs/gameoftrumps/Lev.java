@@ -55,8 +55,19 @@ public class Lev extends Activity {
             //	System.out.println("Could not parse " + nfe);
             starsin=0;
         }
+        String userName="Name";
+        try {
+            userName=(sp.Get("username"));
+            if (userName=="400400400400"){userName="Name!";}
+            Log.e("userName", userName+"");
+        } catch(NumberFormatException nfe) {
+            //	System.out.println("Could not parse " + nfe);
+            userName="Name";
+        }
         TextView tv1 = (TextView)findViewById(R.id.starsNo);
         tv1.setText(Integer.toString(starsin));
+        tv1 = (TextView)findViewById(R.id.tvUserName);
+        tv1.setText(userName);
 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
 //items of header
@@ -393,6 +404,11 @@ public class Lev extends Activity {
     @Override
     public void onBackPressed() {
         Intent intent = new Intent(Lev.this, NavigationDrawer.class);
+        startActivity(intent);
+    }
+
+    public void onGGP(View view) {
+        Intent intent = new Intent(Lev.this, userProfile.class);
         startActivity(intent);
     }
 }

@@ -65,7 +65,7 @@ public class NavigationDrawer extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
-        view=
+ //       view=
 //Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
 //        View contentHamburger=findViewById(R.id.content_hamburger);
         //HT adsMob(banner) section start
@@ -78,14 +78,26 @@ public class NavigationDrawer extends AppCompatActivity
         SharedPre sp = new SharedPre(getApplicationContext());
         int starsin;
         try {
-            starsin=Integer.parseInt(sp.Get("stars").toString());
-            Log.e("sp.Get(stars)", starsin+"");
+            starsin=Integer.parseInt(sp.Get("winstars").toString());
+            Log.e("sp.Get(winstars)", starsin+"");
         } catch(NumberFormatException nfe) {
             //	System.out.println("Could not parse " + nfe);
             starsin=0;
         }
+
+        String userName="Name";
+        try {
+            userName=(sp.Get("username"));
+            if (userName=="400400400400"){userName="Name!";}
+            Log.e("userName", userName+"");
+        } catch(NumberFormatException nfe) {
+            //	System.out.println("Could not parse " + nfe);
+            userName="Name";
+        }
         TextView tv1 = (TextView)findViewById(R.id.starsNo);
         tv1.setText(Integer.toString(starsin));
+        tv1 = (TextView)findViewById(R.id.tvUserName);
+        tv1.setText(userName);
         //HT adsMob section end
 //
 //        if (toolbar != null) {
@@ -309,12 +321,16 @@ public class NavigationDrawer extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
+        /*
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
             closed();
         }
+        */
+
+        closed();
     }
 
 
@@ -379,6 +395,11 @@ public class NavigationDrawer extends AppCompatActivity
         finish();
         android.os.Process.killProcess(android.os.Process.myPid());
         super.onDestroy();
+    }
+
+    public void onGGP(View view) {
+        Intent intent = new Intent(NavigationDrawer.this, userProfile.class);
+        startActivity(intent);
     }
 
 

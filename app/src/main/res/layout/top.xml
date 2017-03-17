@@ -4,6 +4,8 @@
     android:layout_height="@dimen/_43sdp"
     android:background="@color/blueBg"
     >
+
+
   <TextView
       android:layout_width="@dimen/_100sdp"
       android:layout_height="@dimen/_33sdp"
@@ -13,7 +15,8 @@
       android:layout_marginLeft="@dimen/_50sdp"
       android:layout_marginTop="@dimen/_10sdp"
       android:layout_marginBottom="@dimen/_10sdp"
-      android:background="@drawable/roundbg"/>
+      android:background="@drawable/roundbg"
+      android:onClick="onGGP"/>
 <TextView
     android:layout_width="wrap_content"
     android:layout_gravity="left"
@@ -25,14 +28,15 @@ android:layout_marginLeft="@dimen/_60sdp"
     android:layout_marginTop="@dimen/_10sdp"
     android:layout_height="wrap_content"
     android:text="@string/icon_game"/>
+
+
   <TextView
       android:layout_width="wrap_content"
-android:layout_marginLeft="@dimen/_100sdp"
-      android:id="@+id/txtU"
-android:layout_gravity="left"
+      android:layout_marginLeft="@dimen/_100sdp"
+      android:id="@+id/tvUserName"
+      android:layout_gravity="left"
       android:layout_marginTop="@dimen/_20sdp"
-      android:textColor="@color/colorCloud"
-
+      android:textColor="@color/common_google_signin_btn_text_dark_default"
       android:textSize="@dimen/_10sdp"
       android:layout_height="wrap_content"
       android:text="username"/>
@@ -47,6 +51,7 @@ android:layout_gravity="left"
       android:layout_gravity="right"
       android:gravity="right"
       android:background="@drawable/roundbg"/>
+
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -108,7 +108,6 @@ public class BaseGameUtils {
         return true;
     }
 
-
     /**
      * Show a {@link android.app.Dialog} with the correct message for a connection error.
      *  @param activity the Activity in which the Dialog should be displayed.

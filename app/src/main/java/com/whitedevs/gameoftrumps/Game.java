@@ -116,8 +116,21 @@ public class Game extends Activity {
 			//	System.out.println("Could not parse " + nfe);
 			starsin=0;
 		}
+
+		String userName;
+		try {
+			userName=(sp.Get("username"));
+			if (userName.equals("400400400400")){userName="Name!";}
+			Log.e("userName", userName+"");
+		} catch(NumberFormatException nfe) {
+			//	System.out.println("Could not parse " + nfe);
+			userName="Name";
+		}
 		TextView tv1 = (TextView)findViewById(R.id.starsNo);
 		tv1.setText(Integer.toString(starsin));
+		tv1 = (TextView)findViewById(R.id.tvUserName);
+		tv1.setText(userName);
+
 		newGame(levelNo);
 
 
@@ -699,6 +712,11 @@ public class Game extends Activity {
 
 		final AlertDialog alert = dialog.create();
 		alert.show(); */
+	}
+
+	public void onGGP(View view) {
+		Intent intent = new Intent(Game.this, userProfile.class);
+		startActivity(intent);
 	}
 
 	//*/

@@ -106,12 +106,12 @@ public class userProfile extends Activity
 
     // Message buffer for sending messages
     byte[] mMsgBuf = new byte[2];
-
+    private SharedPre sp;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_profile);
-
+        sp = new SharedPre(getApplicationContext());
         // Create the Google Api Client with access to Games
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
@@ -149,6 +149,8 @@ public class userProfile extends Activity
                 Log.d(TAG, "Sign-in button clicked");
                 mSignInClicked = true;
                 mGoogleApiClient.connect();
+
+                Log.w(TAG, "*** Warning: setup problems detected. Sign in may not work!");
                 break;
             case R.id.button_sign_out:
                 // user wants to sign out
@@ -156,6 +158,7 @@ public class userProfile extends Activity
                 Log.d(TAG, "Sign-out button clicked");
                 mSignInClicked = false;
                 Games.signOut(mGoogleApiClient);
+                sp.Set("username","Name");
                 mGoogleApiClient.disconnect();
                 switchToScreen(R.id.screen_sign_in);
                 break;
@@ -426,7 +429,8 @@ public class userProfile extends Activity
     @Override
     public void onConnected(Bundle connectionHint) {
         Log.d(TAG, "onConnected() called. Sign in successful!");
-
+        sp.Set("username",Games.Players.getCurrentPlayer(mGoogleApiClient).getDisplayName());
+        Log.d(TAG, "onConnected()"+Games.Players.getCurrentPlayer(mGoogleApiClient).getDisplayName());
         Log.d(TAG, "Sign-in succeeded.");
 
         // register listener so we are notified if we receive an invitation to play
