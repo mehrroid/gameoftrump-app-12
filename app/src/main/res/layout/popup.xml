@@ -25,11 +25,12 @@
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/_190sdp"
+        android:id="@+id/winSentence"
         android:text="You Get..."/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_42sdp"
         android:id="@+id/icon_star"
@@ -38,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_44sdp"
         android:id="@+id/icon_star01"
@@ -48,7 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_42sdp"
         android:id="@+id/icon_star2"
@@ -58,7 +59,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_44sdp"
         android:id="@+id/icon_star02"
@@ -68,7 +69,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_42sdp"
         android:id="@+id/icon_star3"
@@ -78,7 +79,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/icon_star"
+        android:text="@string/icon_star_o"
         android:textColor="@color/colorStars"
         android:textSize="@dimen/_44sdp"
         android:id="@+id/icon_star03"

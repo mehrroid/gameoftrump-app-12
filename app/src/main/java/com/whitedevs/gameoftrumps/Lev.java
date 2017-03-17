@@ -95,18 +95,63 @@ public class Lev extends Activity {
         txtstars5.setTypeface(font2);
         txtstars6.setTypeface(font2);
         final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
+
+
         fl.setVisibility(View.GONE);
         //
         //HT 748
         int winStars= getIntent().getIntExtra("winstars", 0);
         if (winStars!=0)
         {
+
             //777
             sp.Set("stars",Integer.toString(0));
             Log.e("winStars", winStars+"");
             CharSequence text = "You Win , " + winStars + " Stars";
             Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
             toast.show();
+            TextView winSentence;
+            winSentence=(TextView) findViewById(R.id.winSentence);
+            switch (winStars){
+                case 0:
+                    winSentence.setText("You Lose!");
+
+                    break;
+                case 1:
+                    //R.string.icon_trophy
+                    winSentence.setText("Fine!");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 2:
+                    winSentence.setText("You did it");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 3:
+                    winSentence.setText("You made it");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star3);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star03);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+            }
 
             //mehrnaz
             fl.setVisibility(View.VISIBLE);
@@ -317,7 +362,7 @@ public class Lev extends Activity {
                 if (levelselect!=1)
                 {
                     starsin=starsin-2;
-                    sp.Set("stars",Integer.toString(starsin));
+                    sp.Set("winstars",Integer.toString(starsin));
 
                 }
                 Intent intent = new Intent(Lev.this, Game.class);

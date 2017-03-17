@@ -22,6 +22,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -109,8 +110,8 @@ public class Game extends Activity {
 		context  = mainTable.getContext();
 		sp = new SharedPre(getApplicationContext());
 		try {
-			starsin=Integer.parseInt(sp.Get("stars").toString());
-			Log.e("sp.Get(stars)", starsin+"");
+			starsin=Integer.parseInt(sp.Get("winstars").toString());
+			Log.e("sp.Get()", starsin+"");
 		} catch(NumberFormatException nfe) {
 			//	System.out.println("Could not parse " + nfe);
 			starsin=0;
@@ -119,36 +120,31 @@ public class Game extends Activity {
 		tv1.setText(Integer.toString(starsin));
 		newGame(levelNo);
 
-        /*
-        ///start 777
 
-        String s = Character.toString((char)uniqeIcon);
-        //نام  تکس ویو با تکس ویو مربوطه به نمایش شکل جایگزین شود .
-        textview=setText(s);
 
-        //end 777
-        */
-		//mehrnaz 777
-		String s = Character.toString((char)uniqeIcon);
-		txtcar.setText(s);
-		fl.setVisibility(View.VISIBLE);
+		if (levelNo>20) {
+			//mehrnaz 777
+			String s = Character.toString((char) uniqeIcon);
+			txtcar.setText(s);
+			fl.setVisibility(View.VISIBLE);
 
-		final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
-		fl.startAnimation(myAnim);
-		fm.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				fl.setVisibility(v.GONE);
+			final Animation myAnim = AnimationUtils.loadAnimation(Game.this, R.anim.anim2);
+			fl.startAnimation(myAnim);
+			fm.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					fl.setVisibility(v.GONE);
 
-			}
-		});
-		fl.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				fl.setVisibility(v.GONE);
+				}
+			});
+			fl.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					fl.setVisibility(v.GONE);
 
-			}
-		});
+				}
+			});
+		}
 
 		//
 	}
@@ -255,9 +251,10 @@ public class Game extends Activity {
 		Log.i("cards_fisher","levelNo: " +levelNo);
 		rtrn = rndm.Fisher4(levelNo);
         Random rand = new Random();
-        uniqeIcon=rand.nextInt((levelNo/2)+1) ;
-
-        uniqeIcon=rtrn[uniqeIcon][1];
+		if (levelNo>20) {
+			uniqeIcon = rand.nextInt((levelNo / 2) + 1);
+			uniqeIcon = rtrn[uniqeIcon][1];
+		}
         Log.i("cards_fisher_uniqeIcon","uniqeIcon: " +uniqeIcon);
 		cards = new int [COL_COUNT] [ROW_COUNT];
 		mAdView = (AdView) findViewById(adView);
@@ -473,6 +470,7 @@ public class Game extends Activity {
 
 	private View createButton(int x, int y){
 		final Button button = new Button(context);
+
 		TextView textView=new TextView(context);
 		//button.setBackgroundDrawable(null);
 		Typeface fontawsome = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
@@ -484,7 +482,7 @@ public class Game extends Activity {
 		//button.setText("\uf04d");
 		Log.i("cards-icon",""+icon);
 		button.setText(icon);
-		button.setBackgroundResource(R.drawable.square);
+	    button.setBackgroundResource(R.drawable.square);
 
 
 		//textView.setText("Hi");
@@ -493,6 +491,10 @@ public class Game extends Activity {
 		button.setTextSize(TypedValue.COMPLEX_UNIT_PX, sizeIcon);
 		button.setId(100*x+y);
 		button.setOnClickListener(buttonListener);
+
+
+
+
 		/* H.T E
 		button.setOnClickListener(new OnClickListener() {
 			@Override
@@ -594,9 +596,9 @@ public class Game extends Activity {
 				{
 
 					try {
-						starsin=Integer.parseInt(sp.Get("stars").toString());
+						starsin=Integer.parseInt(sp.Get("winstars").toString());
 						Log.e("sp.Get(stars)", starsin+"");
-						if (uniqeIcon==cards[seconedCard.x][seconedCard.y])
+						if (uniqeIcon==cards[seconedCard.x][seconedCard.y] && levelNo>20)
 						{uniqeIcon=1;
 							Log.e("uniqeIcon", uniqeIcon+"");
 						}else {
@@ -608,7 +610,7 @@ public class Game extends Activity {
 					}
 					TextView tv1 = (TextView)findViewById(R.id.starsNo);
 					tv1.setText(Integer.toString(starsin));
-					sp.Set("stars",Integer.toString(starsin));
+					sp.Set("winstars",Integer.toString(starsin));
 
 					Intent intent = new Intent(Game.this, Lev.class);
 					intent.putExtra("winstars", (Integer)getStar());
@@ -661,8 +663,9 @@ public class Game extends Activity {
 	@Override
 	public void onBackPressed() {
 		try {
-			starsin=Integer.parseInt(sp.Get("stars").toString());
-			Log.e("sp.Get(stars)", starsin+"");
+			starsin=Integer.parseInt(sp.Get("winstars").toString());
+
+			Log.e("sp.Get(winstars)", starsin+"");
 
 		} catch(NumberFormatException nfe) {
 			//	System.out.println("Could not parse " + nfe);

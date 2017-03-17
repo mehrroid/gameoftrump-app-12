@@ -233,7 +233,7 @@ public class NavigationDrawer extends AppCompatActivity
             public void onClick(View v) {
 //                userFrag usr_frag = new userFrag();
 //                loadFragment(usr_frag);
-                Intent intent = new Intent(NavigationDrawer.this, Lev.class);
+                Intent intent = new Intent(NavigationDrawer.this, userProfile.class);
                 startActivity(intent);
             }
         });
