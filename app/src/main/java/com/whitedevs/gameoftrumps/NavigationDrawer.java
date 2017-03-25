@@ -153,6 +153,8 @@ public class NavigationDrawer extends AppCompatActivity
         //
         txtIconPlay = (TextView) findViewById(R.id.txtIconPlay);
         txtIconPlay.setTypeface(font);
+        TextView txtIconPlayBg = (TextView) findViewById(R.id.txtIconPlayBg);
+        txtIconPlayBg.setTypeface(font);
 
 //        playGameBg = (TextView) findViewById(R.id.txtIconPlaybg);
 //        playGameBg.setTypeface(font);
@@ -177,6 +179,18 @@ public class NavigationDrawer extends AppCompatActivity
         txtcloud9.setTypeface(font);
         TextView txtcloud10= (TextView) findViewById(R.id.txtcloud10);
         txtcloud10.setTypeface(font);
+        TextView txtMale= (TextView) findViewById(R.id.txtMale);
+        txtMale.setTypeface(font);
+        TextView txtcloudBr1= (TextView) findViewById(R.id.txtcloudBr1);
+        txtcloudBr1.setTypeface(font);
+        TextView txtcloudBr2= (TextView) findViewById(R.id.txtcloudBr2);
+        txtcloudBr2.setTypeface(font);
+        TextView txtcloudBr3= (TextView) findViewById(R.id.txtcloudBr3);
+        txtcloudBr3.setTypeface(font);
+        TextView txtcloudBr4= (TextView) findViewById(R.id.txtcloudBr4);
+        txtcloudBr4.setTypeface(font);
+        TextView txtcloudBr5= (TextView) findViewById(R.id.txtcloudDif);
+        txtcloudBr5.setTypeface(font);
 //        txtIconMenuBg = (TextView) findViewById(R.id.txtIconMenubg);
 //        txtIconMenuBg.setTypeface(font);
 //        txtIconSquare = (TextView) findViewById(R.id.txtsquare);
