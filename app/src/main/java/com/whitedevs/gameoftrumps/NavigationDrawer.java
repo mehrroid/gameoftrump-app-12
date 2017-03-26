@@ -32,9 +32,7 @@ import com.google.android.gms.ads.AdView;
 public class NavigationDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout drawer;
-    Typeface font;
-
-    //az icon play baraye mosalasha estfade shode
+    Typeface font;    //az icon play baraye mosalasha estfade shode
 //    TextView txtIconPlay1;
 //    TextView txtIconPlay2;
 //    TextView txtIconPlay4;
