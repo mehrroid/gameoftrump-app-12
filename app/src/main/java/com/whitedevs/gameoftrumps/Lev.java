@@ -13,6 +13,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -71,13 +72,7 @@ public class Lev extends Activity {
 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
 //items of header
-        TextView txtg= (TextView) findViewById(R.id.game);
-        txtg.setTypeface(font2);
-        TextView txtsq1= (TextView) findViewById(R.id.sqbg);
-        TextView txtstar= (TextView) findViewById(R.id.star);
-        txtstar.setTypeface(font2);
-        TextView plus = (TextView) findViewById(R.id.pl);
-        plus.setTypeface(font2);
+//     ll
 //        txtIconStar = (TextView) findViewById(R.id.txtstar);
 //        txtIconStar.setTypeface(font2);
 //        txtStarBg = (TextView) findViewById(R.id.txtstarbg);
@@ -171,7 +166,7 @@ public class Lev extends Activity {
             fl.startAnimation(myAnim);
             //
 
-            final FrameLayout fm2= (FrameLayout) findViewById(R.id.levelmain);
+            final TableLayout fm2= (TableLayout) findViewById(R.id.levelmain);
             fm2.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {

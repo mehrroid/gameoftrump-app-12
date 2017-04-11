@@ -324,11 +324,6 @@ public class NavigationDrawer extends AppCompatActivity
         scaleDown.setDuration(1000);
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-  /*
-        txtcloud2.setVisibility(View.GONE);
-        txtcloud3.setVisibility(View.GONE);
-        txtcloud4.setVisibility(View.GONE);
-        txtcloud7.setVisibility(View.GONE); */
     }
 
     @Override

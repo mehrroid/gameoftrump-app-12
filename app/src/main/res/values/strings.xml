@@ -64,6 +64,9 @@
     <string name="icon_glass">&#xf000;</string>
     <string name="icon_globe">&#xf0ac;</string>
     <string name="icon_gratipay">&#xf184;</string>
+    <string name="icon_emptystar">&#xf123;</string>
+
+
     <string name="icon_trophy">&#xf091;</string>
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
 
