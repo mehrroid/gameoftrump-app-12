@@ -32,7 +32,7 @@ public class SharedPre {
         //return value of nameIn
         Log.d("Response: ", ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>sp.Get()");
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-        return settings.getString(nameIn, "400400400400");
+        return settings.getString(nameIn, "400400400");
     }
 	// یاز به داشتن نام اش هست و اگر حذف کند مقدار
    public boolean Remove (String nameIn)

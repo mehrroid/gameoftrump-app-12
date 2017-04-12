@@ -8,7 +8,7 @@
     android:id="@+id/levelmain"
     android:background="@color/blueBg">
 
-    <!--<include layout="@layout/top"/>-->
+    <include layout="@layout/top"/>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"

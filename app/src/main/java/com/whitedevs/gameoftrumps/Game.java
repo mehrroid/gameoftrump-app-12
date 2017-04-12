@@ -120,7 +120,7 @@ public class Game extends Activity {
 		String userName;
 		try {
 			userName=(sp.Get("username"));
-			if (userName.equals("400400400400")){userName="Name!";}
+			if (userName.equals("400400400")){userName="Name!";}
 			Log.e("userName", userName+"");
 		} catch(NumberFormatException nfe) {
 			//	System.out.println("Could not parse " + nfe);

@@ -86,16 +86,18 @@ public class NavigationDrawer extends AppCompatActivity
         String userName="Name";
         try {
             userName=(sp.Get("username"));
-            if (userName=="400400400400"){userName="Name!";}
+            if (userName=="400400400"){userName="Name!";}
             Log.e("userName", userName+"");
         } catch(NumberFormatException nfe) {
             //	System.out.println("Could not parse " + nfe);
             userName="Name";
         }
-        TextView tv1 = (TextView)findViewById(R.id.starsNo);
-        tv1.setText(Integer.toString(starsin));
-        tv1 = (TextView)findViewById(R.id.tvUserName);
-        tv1.setText(userName);
+        try {
+            TextView tv1 = (TextView) findViewById(R.id.starsNo);
+            tv1.setText("" + starsin);
+            tv1 = (TextView) findViewById(R.id.tvUserName);
+            tv1.setText(userName);
+        } catch(NumberFormatException nfe) {}
         //HT adsMob section end
 //
 //        if (toolbar != null) {
@@ -246,9 +248,11 @@ public class NavigationDrawer extends AppCompatActivity
         txtIconPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Log.i("checkIconPlay","come");
                 Intent intent = new Intent(NavigationDrawer.this, Lev.class);
+                Log.i("checkIconPlay","after intent");
                 startActivity(intent);
+                Log.i("checkIconPlay","after intent");
             }
         });
         //Go to Level Activity

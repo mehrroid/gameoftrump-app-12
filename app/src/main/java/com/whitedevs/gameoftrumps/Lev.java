@@ -31,8 +31,8 @@ public class Lev extends Activity {
     private String vGatTag;
     InterstitialAd mInterstitialAd;
     private AdView mAdView;
-    private int starsin;;
-    private SharedPre sp;;
+    private int starsin;
+    private SharedPre sp;
 
     //az icon play baraye mosalasha estfade shode
     //items of header
@@ -41,34 +41,46 @@ public class Lev extends Activity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        Log.e("level", "come");
         setContentView(R.layout.level);
+        Log.e("level", "R.layout.level");
         container = (LinearLayout) findViewById(R.id.activity_main);
+        Log.e("level", "R.id.activity_main");
         sp = new SharedPre(getApplicationContext());
+        starsin=0;
+        String userName="Name";
 
         try {
             //remove below line ht700 for lunch
             sp.Set("winstars",Integer.toString(1000));
             //end remove
-            starsin=Integer.parseInt(sp.Get("winstars").toString());
+           starsin=Integer.parseInt(sp.Get("winstars").toString());
+            if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
             Log.e("sp.Get(winstars)", starsin+"");
         } catch(NumberFormatException nfe) {
             //	System.out.println("Could not parse " + nfe);
             starsin=0;
         }
-        String userName="Name";
+
         try {
             userName=(sp.Get("username"));
-            if (userName=="400400400400"){userName="Name!";}
+            if (userName=="400400400"){userName="Name!";}
             Log.e("userName", userName+"");
         } catch(NumberFormatException nfe) {
             //	System.out.println("Could not parse " + nfe);
-            userName="Name";
-        }
-        TextView tv1 = (TextView)findViewById(R.id.starsNo);
-        tv1.setText(Integer.toString(starsin));
-        tv1 = (TextView)findViewById(R.id.tvUserName);
+            userName="Name"; }
+
+
+        try {
+
+        TextView tv1 = (TextView) findViewById(R.id.starsNo);
+        tv1.setText(""+starsin);
+        tv1 = (TextView) findViewById(R.id.tvUserName);
         tv1.setText(userName);
+
+        } catch(NumberFormatException nfe) {}
 
         Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
 //items of header
@@ -221,7 +233,7 @@ public class Lev extends Activity {
                 card.setTag(i +""+ j);
                 card.setBackgroundResource(R.drawable.circle2);
                 ll.addView(card);
-                card.setTextColor(R.color.colorPrimary);
+                //card.setTextColor(R.color.gray);
                 card.setOnClickListener(clickListener);
                 index++;
 
