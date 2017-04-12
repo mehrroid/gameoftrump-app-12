@@ -48,7 +48,7 @@ public class Game extends Activity {
 	private static int COL_COUNT = -1;
 	private Context context;
 	private AdView mAdView;
-
+//JUST TEST
 	private int [] [] cards;
 	private  int winCard;
 	private int size;
