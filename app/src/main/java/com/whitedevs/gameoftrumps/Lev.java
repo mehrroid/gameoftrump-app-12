@@ -147,6 +147,13 @@ TextView levLogo00;
     TextView star075;
 
     //
+    //clouds
+    TextView cloudl1;
+    TextView cloudl2;
+    TextView cloudl3;
+    TextView cloudl4;
+    TextView cloudl5;
+    //
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
@@ -401,6 +408,18 @@ TextView levLogo00;
         star074.setTypeface(font2);
         star075= (TextView) findViewById(R.id.star075);
         star075.setTypeface(font2);
+        //cloud
+        //
+        cloudl1= (TextView) findViewById(R.id.cloudl1);
+        cloudl1.setTypeface(font2);
+        cloudl2= (TextView) findViewById(R.id.cloudl2);
+        cloudl2.setTypeface(font2);
+        cloudl3= (TextView) findViewById(R.id.cloudl3);
+        cloudl3.setTypeface(font2);
+        cloudl4= (TextView) findViewById(R.id.cloudl4);
+        cloudl4.setTypeface(font2);
+        cloudl5= (TextView) findViewById(R.id.cloudl5);
+        cloudl5.setTypeface(font2);
         //
 //        Log.e("level", "R.layout.level");
 //        container = (LinearLayout) findViewById(R.id.activity_main);

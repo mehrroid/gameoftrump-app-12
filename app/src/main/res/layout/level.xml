@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+
     android:layout_height="wrap_content"
-    android:paddingBottom="@dimen/activity_vertical_margin"
 
 
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -18,12 +16,19 @@
     android:layout_height="43dp">
     <include layout="@layout/top"/>
 </FrameLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toplayout"
 
+    >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:id="@+id/linn"
-android:layout_below="@id/toplayout"
+
 
 
         >
@@ -31,13 +36,14 @@ android:layout_below="@id/toplayout"
             android:layout_width="0dp"
             android:orientation="horizontal"
             android:layout_height="wrap_content"
-
-            android:layout_weight="1">
+            android:layout_weight="1"
+           >
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="1"
 
+android:layout_marginTop="50dp"
                 android:layout_height="wrap_content">
                 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                     android:layout_width="wrap_content"
@@ -309,7 +315,8 @@ android:layout_below="@id/toplayout"
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:background="@color/blueBg"
         android:layout_marginTop="100dp">
         <LinearLayout
@@ -596,6 +603,8 @@ android:id="@+id/Star029"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blueBg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:layout_marginTop="150dp">
         <LinearLayout
             android:layout_width="0dp"
@@ -880,6 +889,8 @@ android:id="@+id/levLogo24"
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:background="@color/blueBg"
         android:layout_marginTop="200dp">
         <LinearLayout
@@ -1163,6 +1174,8 @@ android:id="@+id/Star060"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/blueBg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:layout_marginTop="250dp">
         <LinearLayout
             android:layout_width="0dp"
@@ -1438,5 +1451,66 @@ android:id="@+id/star074"
                 </FrameLayout>
             </LinearLayout>
         </LinearLayout>
+
     </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_cloud"
+            android:textColor="@color/blueCloud"
+            android:textSize="50dp"
+
+            android:id="@+id/cloudl1"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_minus5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_cloud"
+            android:textColor="@color/blueCloud"
+            android:textSize="20dp"
+            android:id="@+id/cloudl2"
+            android:gravity="bottom"
+
+            android:layout_marginBottom="@dimen/_minus60sdp"
+android:paddingBottom="@dimen/_minus60sdp"
+            android:layout_marginLeft="@dimen/_60sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_cloud"
+            android:textColor="@color/blueCloud"
+            android:textSize="25dp"
+            android:id="@+id/cloudl3"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_120sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_cloud"
+            android:textColor="@color/blueCloud"
+            android:textSize="30dp"
+            android:id="@+id/cloudl4"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/_170sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_cloud"
+            android:textColor="@color/blueCloud"
+            android:textSize="40dp"
+            android:id="@+id/cloudl5"
+            android:gravity="right"
+            android:layout_marginLeft="@dimen/_250sdp"
+            android:layout_marginBottom="@dimen/_minus40sdp"
+          />
+    </RelativeLayout>
+    </RelativeLayout>
 </RelativeLayout>

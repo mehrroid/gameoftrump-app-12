@@ -9,7 +9,7 @@ android:shape="oval"
 <stroke
     android:width="2dp"
 
-    android:color="@color/darkblue"/>
+    android:color="@color/blueBg"/>
 <corners android:radius="10dp"
     ></corners>
 <size android:width="50dp"

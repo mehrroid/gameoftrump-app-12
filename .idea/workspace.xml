@@ -23,53 +23,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GuillotineMenu_Android_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GuillotineMenu_Android_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_analytics_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_core_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_iid_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_invites_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/firebase_invites_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_lite_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_tasks_10_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_4_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_4_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circle3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/level.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/level.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="gameoftrump-app-9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,49 +56,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lev.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lev.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7947">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="162" selection-end-column="32" />
+            <state relative-caret-position="279">
+              <caret line="420" column="55" selection-start-line="420" selection-start-column="55" selection-end-line="420" selection-end-column="55" />
               <folding>
-                <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-                <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+                <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
               </folding>
             </state>
           </provider>
@@ -184,7 +145,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
               <caret line="83" column="20" selection-start-line="77" selection-start-column="8" selection-end-line="85" selection-end-column="31" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,15 +165,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="level.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="level.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21015">
-              <caret line="1401" column="61" selection-start-line="1401" selection-start-column="61" selection-end-line="1401" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="1487" column="45" selection-start-line="1487" selection-start-column="45" selection-end-line="1487" selection-end-column="45" />
+              <folding>
+                <element signature="e#1870#1889#0" expanded="true" />
+                <element signature="e#2037#2052#0" expanded="true" />
+                <element signature="e#2512#2531#0" expanded="true" />
+                <element signature="e#2947#2966#0" expanded="true" />
+                <element signature="e#3432#3451#0" expanded="true" />
+                <element signature="e#4228#4247#0" expanded="true" />
+                <element signature="e#4395#4410#0" expanded="true" />
+                <element signature="e#4870#4889#0" expanded="true" />
+                <element signature="e#5354#5373#0" expanded="true" />
+                <element signature="e#5839#5858#0" expanded="true" />
+                <element signature="e#6582#6601#0" expanded="true" />
+                <element signature="e#6749#6764#0" expanded="true" />
+                <element signature="e#7174#7193#0" expanded="true" />
+                <element signature="e#8918#8937#0" expanded="true" />
+                <element signature="e#9036#9051#0" expanded="true" />
+                <element signature="e#11245#11264#0" expanded="true" />
+                <element signature="e#11363#11378#0" expanded="true" />
+                <element signature="e#59599#59614#0" expanded="true" />
+                <element signature="e#61566#61586#0" expanded="true" />
+                <element signature="e#61784#61803#0" expanded="true" />
+                <element signature="e#61946#61966#0" expanded="true" />
+                <element signature="e#62168#62188#0" expanded="true" />
+                <element signature="e#62211#62231#0" expanded="true" />
+                <element signature="e#62270#62285#0" expanded="true" />
+                <element signature="e#62428#62448#0" expanded="true" />
+                <element signature="e#62645#62661#0" expanded="true" />
+                <element signature="e#62804#62824#0" expanded="true" />
+                <element signature="e#63021#63037#0" expanded="true" />
+                <element signature="e#63180#63200#0" expanded="true" />
+                <element signature="e#63398#63414#0" expanded="true" />
+                <element signature="e#63455#63475#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2109,10 +2104,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/SharedPre.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/NavigationDrawer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Game.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/level.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/circle3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/level.xml" />
       </list>
     </option>
   </component>
@@ -2595,15 +2590,23 @@
       <option name="presentableId" value="Default" />
       <updated>1492015394326</updated>
     </task>
+    <task id="LOCAL-00001" summary="change level">
+      <created>1493324466848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493324466848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5091633" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72525597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2612,7 +2615,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49083665" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2647,6 +2650,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change level" />
+    <option name="LAST_COMMIT_MESSAGE" value="change level" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -2667,6 +2674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2677,7 +2685,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#1870#1889#0" expanded="true" />
+            <element signature="e#2037#2052#0" expanded="true" />
+            <element signature="e#2512#2531#0" expanded="true" />
+            <element signature="e#2947#2966#0" expanded="true" />
+            <element signature="e#3432#3451#0" expanded="true" />
+            <element signature="e#4228#4247#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
+            <element signature="e#4870#4889#0" expanded="true" />
+            <element signature="e#5354#5373#0" expanded="true" />
+            <element signature="e#5839#5858#0" expanded="true" />
+            <element signature="e#6582#6601#0" expanded="true" />
+            <element signature="e#6749#6764#0" expanded="true" />
+            <element signature="e#7174#7193#0" expanded="true" />
+            <element signature="e#8918#8937#0" expanded="true" />
+            <element signature="e#9036#9051#0" expanded="true" />
+            <element signature="e#11245#11264#0" expanded="true" />
+            <element signature="e#11363#11378#0" expanded="true" />
+            <element signature="e#59599#59614#0" expanded="true" />
+            <element signature="e#61566#61586#0" expanded="true" />
+            <element signature="e#61784#61803#0" expanded="true" />
+            <element signature="e#61946#61966#0" expanded="true" />
+            <element signature="e#62168#62188#0" expanded="true" />
+            <element signature="e#62211#62231#0" expanded="true" />
+            <element signature="e#62270#62285#0" expanded="true" />
+            <element signature="e#62428#62448#0" expanded="true" />
+            <element signature="e#62645#62661#0" expanded="true" />
+            <element signature="e#62804#62824#0" expanded="true" />
+            <element signature="e#63021#63037#0" expanded="true" />
+            <element signature="e#63180#63200#0" expanded="true" />
+            <element signature="e#63398#63414#0" expanded="true" />
+            <element signature="e#63455#63475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2698,6 +2738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2706,43 +2747,43 @@
         <state relative-caret-position="2520">
           <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
           <folding>
-            <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
           </folding>
         </state>
       </provider>
@@ -2751,7 +2792,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9225">
           <caret line="651" column="32" selection-start-line="651" selection-start-column="32" selection-end-line="651" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2770,6 +2813,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2780,7 +2824,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#1870#1889#0" expanded="true" />
+            <element signature="e#2037#2052#0" expanded="true" />
+            <element signature="e#2512#2531#0" expanded="true" />
+            <element signature="e#2947#2966#0" expanded="true" />
+            <element signature="e#3432#3451#0" expanded="true" />
+            <element signature="e#4228#4247#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
+            <element signature="e#4870#4889#0" expanded="true" />
+            <element signature="e#5354#5373#0" expanded="true" />
+            <element signature="e#5839#5858#0" expanded="true" />
+            <element signature="e#6582#6601#0" expanded="true" />
+            <element signature="e#6749#6764#0" expanded="true" />
+            <element signature="e#7174#7193#0" expanded="true" />
+            <element signature="e#8918#8937#0" expanded="true" />
+            <element signature="e#9036#9051#0" expanded="true" />
+            <element signature="e#11245#11264#0" expanded="true" />
+            <element signature="e#11363#11378#0" expanded="true" />
+            <element signature="e#59599#59614#0" expanded="true" />
+            <element signature="e#61566#61586#0" expanded="true" />
+            <element signature="e#61784#61803#0" expanded="true" />
+            <element signature="e#61946#61966#0" expanded="true" />
+            <element signature="e#62168#62188#0" expanded="true" />
+            <element signature="e#62211#62231#0" expanded="true" />
+            <element signature="e#62270#62285#0" expanded="true" />
+            <element signature="e#62428#62448#0" expanded="true" />
+            <element signature="e#62645#62661#0" expanded="true" />
+            <element signature="e#62804#62824#0" expanded="true" />
+            <element signature="e#63021#63037#0" expanded="true" />
+            <element signature="e#63180#63200#0" expanded="true" />
+            <element signature="e#63398#63414#0" expanded="true" />
+            <element signature="e#63455#63475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2801,6 +2877,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2809,43 +2886,43 @@
         <state relative-caret-position="2856">
           <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
           <folding>
-            <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
           </folding>
         </state>
       </provider>
@@ -2854,7 +2931,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10455">
           <caret line="651" column="32" selection-start-line="651" selection-start-column="32" selection-end-line="651" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2873,6 +2952,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2883,7 +2963,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
+          <folding>
+            <element signature="e#1870#1889#0" expanded="true" />
+            <element signature="e#2037#2052#0" expanded="true" />
+            <element signature="e#2512#2531#0" expanded="true" />
+            <element signature="e#2947#2966#0" expanded="true" />
+            <element signature="e#3432#3451#0" expanded="true" />
+            <element signature="e#4228#4247#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
+            <element signature="e#4870#4889#0" expanded="true" />
+            <element signature="e#5354#5373#0" expanded="true" />
+            <element signature="e#5839#5858#0" expanded="true" />
+            <element signature="e#6582#6601#0" expanded="true" />
+            <element signature="e#6749#6764#0" expanded="true" />
+            <element signature="e#7174#7193#0" expanded="true" />
+            <element signature="e#8918#8937#0" expanded="true" />
+            <element signature="e#9036#9051#0" expanded="true" />
+            <element signature="e#11245#11264#0" expanded="true" />
+            <element signature="e#11363#11378#0" expanded="true" />
+            <element signature="e#59599#59614#0" expanded="true" />
+            <element signature="e#61566#61586#0" expanded="true" />
+            <element signature="e#61784#61803#0" expanded="true" />
+            <element signature="e#61946#61966#0" expanded="true" />
+            <element signature="e#62168#62188#0" expanded="true" />
+            <element signature="e#62211#62231#0" expanded="true" />
+            <element signature="e#62270#62285#0" expanded="true" />
+            <element signature="e#62428#62448#0" expanded="true" />
+            <element signature="e#62645#62661#0" expanded="true" />
+            <element signature="e#62804#62824#0" expanded="true" />
+            <element signature="e#63021#63037#0" expanded="true" />
+            <element signature="e#63180#63200#0" expanded="true" />
+            <element signature="e#63398#63414#0" expanded="true" />
+            <element signature="e#63455#63475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2904,6 +3016,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2922,43 +3035,43 @@
         <state relative-caret-position="1088">
           <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
-            <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
           </folding>
         </state>
       </provider>
@@ -2967,7 +3080,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2975,6 +3090,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2985,7 +3101,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#1870#1889#0" expanded="true" />
+            <element signature="e#2037#2052#0" expanded="true" />
+            <element signature="e#2512#2531#0" expanded="true" />
+            <element signature="e#2947#2966#0" expanded="true" />
+            <element signature="e#3432#3451#0" expanded="true" />
+            <element signature="e#4228#4247#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
+            <element signature="e#4870#4889#0" expanded="true" />
+            <element signature="e#5354#5373#0" expanded="true" />
+            <element signature="e#5839#5858#0" expanded="true" />
+            <element signature="e#6582#6601#0" expanded="true" />
+            <element signature="e#6749#6764#0" expanded="true" />
+            <element signature="e#7174#7193#0" expanded="true" />
+            <element signature="e#8918#8937#0" expanded="true" />
+            <element signature="e#9036#9051#0" expanded="true" />
+            <element signature="e#11245#11264#0" expanded="true" />
+            <element signature="e#11363#11378#0" expanded="true" />
+            <element signature="e#59599#59614#0" expanded="true" />
+            <element signature="e#61566#61586#0" expanded="true" />
+            <element signature="e#61784#61803#0" expanded="true" />
+            <element signature="e#61946#61966#0" expanded="true" />
+            <element signature="e#62168#62188#0" expanded="true" />
+            <element signature="e#62211#62231#0" expanded="true" />
+            <element signature="e#62270#62285#0" expanded="true" />
+            <element signature="e#62428#62448#0" expanded="true" />
+            <element signature="e#62645#62661#0" expanded="true" />
+            <element signature="e#62804#62824#0" expanded="true" />
+            <element signature="e#63021#63037#0" expanded="true" />
+            <element signature="e#63180#63200#0" expanded="true" />
+            <element signature="e#63398#63414#0" expanded="true" />
+            <element signature="e#63455#63475#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3006,6 +3154,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3024,43 +3173,43 @@
         <state relative-caret-position="289">
           <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
-            <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
           </folding>
         </state>
       </provider>
@@ -3076,6 +3225,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3131,6 +3281,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3141,6 +3292,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3170,22 +3322,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="83" column="20" selection-start-line="77" selection-start-column="8" selection-end-line="85" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_navigation_drawer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
@@ -3203,17 +3346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21015">
-          <caret line="1401" column="61" selection-start-line="1401" selection-start-column="61" selection-end-line="1401" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -3237,48 +3369,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_navigation_drawer.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7947">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="162" selection-end-column="32" />
+        <state relative-caret-position="279">
+          <caret line="420" column="55" selection-start-line="420" selection-start-column="55" selection-end-line="420" selection-end-column="55" />
           <folding>
-            <marker date="1493317951257" expanded="false" signature="17375:17393" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17515:17533" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17765:17783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="17905:17923" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18044:18062" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18184:18202" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18435:18453" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18575:18593" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18714:18732" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18854:18872" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="18993:19011" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="19133:19151" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22624:22642" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="22825:22843" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23023:23041" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23224:23242" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23422:23440" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23620:23638" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23765:23783" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="23878:23896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24020:24038" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24163:24181" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24306:24324" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24449:24467" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24592:24610" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24735:24753" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="24878:24896" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25021:25039" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25164:25182" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25307:25325" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25450:25468" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25593:25611" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25736:25754" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="25879:25897" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26022:26040" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26165:26183" ph="&quot;&quot;" />
-            <marker date="1493317951257" expanded="false" signature="26308:26326" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="17992:18010" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18132:18150" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18382:18400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18522:18540" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18661:18679" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="18801:18819" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19052:19070" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19192:19210" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19331:19349" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19471:19489" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19610:19628" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="19750:19768" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23241:23259" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23442:23460" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23640:23658" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="23841:23859" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24039:24057" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24237:24255" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24382:24400" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24495:24513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24637:24655" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24780:24798" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="24923:24941" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25066:25084" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25209:25227" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25352:25370" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25495:25513" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25638:25656" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25781:25799" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="25924:25942" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26067:26085" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26210:26228" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26353:26371" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26496:26514" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26639:26657" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26782:26800" ph="&quot;&quot;" />
+            <marker date="1493327869879" expanded="false" signature="26925:26943" ph="&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/level.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1487" column="45" selection-start-line="1487" selection-start-column="45" selection-end-line="1487" selection-end-column="45" />
+          <folding>
+            <element signature="e#1870#1889#0" expanded="true" />
+            <element signature="e#2037#2052#0" expanded="true" />
+            <element signature="e#2512#2531#0" expanded="true" />
+            <element signature="e#2947#2966#0" expanded="true" />
+            <element signature="e#3432#3451#0" expanded="true" />
+            <element signature="e#4228#4247#0" expanded="true" />
+            <element signature="e#4395#4410#0" expanded="true" />
+            <element signature="e#4870#4889#0" expanded="true" />
+            <element signature="e#5354#5373#0" expanded="true" />
+            <element signature="e#5839#5858#0" expanded="true" />
+            <element signature="e#6582#6601#0" expanded="true" />
+            <element signature="e#6749#6764#0" expanded="true" />
+            <element signature="e#7174#7193#0" expanded="true" />
+            <element signature="e#8918#8937#0" expanded="true" />
+            <element signature="e#9036#9051#0" expanded="true" />
+            <element signature="e#11245#11264#0" expanded="true" />
+            <element signature="e#11363#11378#0" expanded="true" />
+            <element signature="e#59599#59614#0" expanded="true" />
+            <element signature="e#61566#61586#0" expanded="true" />
+            <element signature="e#61784#61803#0" expanded="true" />
+            <element signature="e#61946#61966#0" expanded="true" />
+            <element signature="e#62168#62188#0" expanded="true" />
+            <element signature="e#62211#62231#0" expanded="true" />
+            <element signature="e#62270#62285#0" expanded="true" />
+            <element signature="e#62428#62448#0" expanded="true" />
+            <element signature="e#62645#62661#0" expanded="true" />
+            <element signature="e#62804#62824#0" expanded="true" />
+            <element signature="e#63021#63037#0" expanded="true" />
+            <element signature="e#63180#63200#0" expanded="true" />
+            <element signature="e#63398#63414#0" expanded="true" />
+            <element signature="e#63455#63475#0" expanded="true" />
           </folding>
         </state>
       </provider>
