@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/star000"
+                        android:id="@+id/star0101"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -68,7 +68,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star001"
+                        android:id="@+id/Star0102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -77,7 +77,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star002"
+                        android:id="@+id/Star0103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -102,7 +102,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
-                        android:id="@+id/Star003"
+                        android:id="@+id/Star0201"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star004"
+                        android:id="@+id/Star0202"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -121,7 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
-                        android:id="@+id/Star005"
+                        android:id="@+id/Star0203"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -149,7 +149,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star006"
+                        android:id="@+id/Star0301"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -158,7 +158,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star007"
+                        android:id="@+id/Star0302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -167,7 +167,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star008"
+                        android:id="@+id/Star0303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -194,7 +194,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star009"
+                        android:id="@+id/Star0401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -203,7 +203,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star010"
+                        android:id="@+id/Star0402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -212,7 +212,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star011"
+                        android:id="@+id/Star0403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -239,7 +239,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star012"
+                        android:id="@+id/Star0501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -248,7 +248,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star013"
+                        android:id="@+id/Star0502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -257,7 +257,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star014"
+                        android:id="@+id/Star0503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -303,7 +303,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star015"
+                        android:id="@+id/Star0601"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -312,7 +312,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star016"
+                        android:id="@+id/Star0602"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -321,7 +321,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star017"
+                        android:id="@+id/Star0603"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -348,7 +348,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star018"
+                        android:id="@+id/Star0701"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -357,7 +357,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star019"
+                        android:id="@+id/Star0702"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -366,7 +366,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star020"
+                        android:id="@+id/Star0703"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -393,7 +393,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star021"
+                        android:id="@+id/Star0801"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -402,7 +402,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star022"
+                        android:id="@+id/Star0802"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -411,7 +411,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star023"
+                        android:id="@+id/Star0803"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -438,7 +438,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star024"
+                        android:id="@+id/Star0901"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -447,7 +447,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star025"
+                        android:id="@+id/Star0902"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -456,7 +456,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star026"
+                        android:id="@+id/Star0903"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -483,7 +483,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star027"
+                        android:id="@+id/Star1001"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
 
@@ -493,7 +493,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star028"
+                        android:id="@+id/Star1002"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -502,7 +502,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star029"
+                        android:id="@+id/Star1003"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -547,7 +547,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star030"
+                        android:id="@+id/Star1101"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -557,7 +557,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star031"
+                        android:id="@+id/Star1102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -566,7 +566,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star032"
+                        android:id="@+id/Star1103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -593,7 +593,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star033"
+                        android:id="@+id/Star1201"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -602,7 +602,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star034"
+                        android:id="@+id/Star1202"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -611,7 +611,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star035"
+                        android:id="@+id/Star1203"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -637,7 +637,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star036"
+                        android:id="@+id/Star1301"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -647,7 +647,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star037"
+                        android:id="@+id/Star1302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -656,7 +656,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star038"
+                        android:id="@+id/Star1303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -683,7 +683,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star039"
+                        android:id="@+id/Star1401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -692,7 +692,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star040"
+                        android:id="@+id/Star1402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -701,7 +701,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star041"
+                        android:id="@+id/Star1403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -728,7 +728,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star042"
+                        android:id="@+id/Star1501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -737,7 +737,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star043"
+                        android:id="@+id/Star1502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -746,7 +746,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star044"
+                        android:id="@+id/Star1503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -792,7 +792,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star045"
+                        android:id="@+id/Star1601"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -801,7 +801,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star046"
+                        android:id="@+id/Star1602"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -810,7 +810,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star047"
+                        android:id="@+id/Star1603"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -837,7 +837,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star048"
+                        android:id="@+id/Star1701"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -846,7 +846,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star049"
+                        android:id="@+id/Star1702"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -855,7 +855,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star050"
+                        android:id="@+id/Star1703"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -882,7 +882,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star052"
+                        android:id="@+id/Star1801"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -891,7 +891,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star053"
+                        android:id="@+id/Star1802"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -900,7 +900,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star054"
+                        android:id="@+id/Star1803"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -927,7 +927,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star055"
+                        android:id="@+id/Star1901"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -936,7 +936,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star056"
+                        android:id="@+id/Star1902"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -945,7 +945,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star057"
+                        android:id="@+id/star1903"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -972,7 +972,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star058"
+                        android:id="@+id/Star2001"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -981,7 +981,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star059"
+                        android:id="@+id/Star2002"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -990,7 +990,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star060"
+                        android:id="@+id/Star2003"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1034,7 +1034,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
-                        android:id="@+id/Star061"
+                        android:id="@+id/Star2101"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
@@ -1045,7 +1045,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star062"
+                        android:id="@+id/Star2102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1054,7 +1054,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star063"
+                        android:id="@+id/Star2103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1081,7 +1081,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star064"
+                        android:id="@+id/Star2201"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1090,7 +1090,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star065"
+                        android:id="@+id/Star2202"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1099,7 +1099,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star066"
+                        android:id="@+id/Star2203"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1126,7 +1126,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star067"
+                        android:id="@+id/Star2301"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1135,7 +1135,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star068"
+                        android:id="@+id/Star2302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1144,7 +1144,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star069"
+                        android:id="@+id/Star2303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1171,7 +1171,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star070"
+                        android:id="@+id/Star2401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1180,7 +1180,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star071"
+                        android:id="@+id/Star2402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1189,7 +1189,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star072"
+                        android:id="@+id/Star2403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1216,7 +1216,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star073"
+                        android:id="@+id/Star2501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1225,7 +1225,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star074"
+                        android:id="@+id/Star2502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1234,7 +1234,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star075"
+                        android:id="@+id/star2503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>

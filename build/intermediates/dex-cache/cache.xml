@@ -21,24 +21,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_6de9a505eccb87b9a928d1c84b8425bc5826810f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_86e70dda49ef77fd2e4734e557ddd2f2797d133d/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/mehrnaz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -65,15 +47,6 @@
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_1e2ab943ce95c12f6f28f201f49bf01d9ce9cb98.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1d193729baf37df3d902a423291423a0df7e3779">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.0.1_791b6671d978524a68d2484f562b0511546db267.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="true"
@@ -83,15 +56,6 @@
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_922c09e0eb013b6213a632b67261076d62c6d7e1/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_dc40fc4787aadc5e803f6d88449e9f1388a4d6a5.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="true"
@@ -99,6 +63,15 @@
         revision="23.0.3"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_cde5e12211e7140a72577d27cf2a222d51a63583/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_614c8127a411cf7a7091c487f147929168c16050.jar" />
     </item>
     <item
         is-multidex="true"
@@ -117,6 +90,285 @@
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_4de451913397df4bf5afbd5e277ad3ba1903721a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_b13fc61ef943508ef0eeecefb15ac9e00288deb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.0.1_a4f5a64abd3d52568fa79d4798b0e8795484a889.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_6540b6a7cbde3fe96a23121a65936ad0e2721a13.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_fed9d1de8894c93586c0562f763bfae6b40d3b79/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-10.0.1_6f71429881a3149a96286d6321cd3a0054b0cb87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_393c6e41c4e19b471195b538ee4d9e9b5b71a1b0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7203311c799e73b40fd78ac340fcea71a6ebefdc">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d89194ca172e030e84b3d831f04e673a9d395d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_2892fcbccaf9b8ec4d27e3150e3515822a7a343c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_d9046842b92b6a751ddb626a9b8da6aa5d35e00b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_759909c4d0ceff56b47a87ca345fa62e9f08c6b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-10.0.1_86e70dda49ef77fd2e4734e557ddd2f2797d133d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_cde5e12211e7140a72577d27cf2a222d51a63583.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_922c09e0eb013b6213a632b67261076d62c6d7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-10.0.1_23b14592c44249d3d9699173f4f8cf2bc94dcaf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.intuit.sdp-sdp-android-1.0.4_610ef17236633c98a67400f5c1b1999f1e844058.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.0.1_29b377e0b8223fa48077ebb8557c679646e9a036.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_5777da96527fa30576f01f2d4b65263a0ab5911f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_95fbd8ae396dbbe52d040b5f9e4f46c9038521ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.github.Yalantis/GuillotineMenu-Android/1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a1e3403c2cf477dc1b99ca5f85ca1f92655ecba7">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.github.Yalantis-GuillotineMenu-Android-1.2_5f74e12c06eafeb2af2d8d0d75ff5021bc5adf19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_b13fc61ef943508ef0eeecefb15ac9e00288deb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.intuit.sdp-sdp-android-1.0.4_77a6198f063a2a225ae3d7a0c7fcaecf391108ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_2692bb3b7557ec1d1cd0fa290af1738fdb0d243d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-10.0.1_14b3afd5735962b250ef90bf3df9cc656ffda9d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_96a6804a3cc50abbba335ce1f7baf472c771dc56.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_6f71429881a3149a96286d6321cd3a0054b0cb87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_6534cb8196fab803ee89a246498f9b4a4465e517/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_6de9a505eccb87b9a928d1c84b8425bc5826810f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_86e70dda49ef77fd2e4734e557ddd2f2797d133d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.0.1_791b6671d978524a68d2484f562b0511546db267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_dc40fc4787aadc5e803f6d88449e9f1388a4d6a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_89ba77defdf8b8c5b238ab20a44c662ae791df80.jar" />
     </item>
     <item
         is-multidex="true"
@@ -147,30 +399,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_b13fc61ef943508ef0eeecefb15ac9e00288deb9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_14b3afd5735962b250ef90bf3df9cc656ffda9d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_fed9d1de8894c93586c0562f763bfae6b40d3b79/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +417,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-10.0.1_6f71429881a3149a96286d6321cd3a0054b0cb87.jar" />
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_27402e2f01d9e9ab1abc9bafc3b837ffa57c6519.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-10.0.1_c9864fffb39c9bd56399bba18190ae9ac4e91bac.jar" />
     </item>
     <item
         is-multidex="true"
@@ -219,15 +462,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7203311c799e73b40fd78ac340fcea71a6ebefdc">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d89194ca172e030e84b3d831f04e673a9d395d6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -237,30 +471,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_d9046842b92b6a751ddb626a9b8da6aa5d35e00b.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mehrnaz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_759909c4d0ceff56b47a87ca345fa62e9f08c6b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-10.0.1_86e70dda49ef77fd2e4734e557ddd2f2797d133d.jar" />
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_e7eff1973329d582d3b09b8838a6bec1172b5988.jar" />
     </item>
     <item
         is-multidex="true"
@@ -299,6 +515,15 @@
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_1e2ab943ce95c12f6f28f201f49bf01d9ce9cb98/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_c82ee674daaf5ccd6e0ceb4e34e309e35b754c88.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -309,21 +534,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_cde5e12211e7140a72577d27cf2a222d51a63583.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_922c09e0eb013b6213a632b67261076d62c6d7e1.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_a67ef3f4e07a7e6edaae947930d7d5d4eb6dfcf1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -345,12 +561,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.4/jars/classes.jar"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="11262f887015dc774ff36eb66698308df0a376d1">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.intuit.sdp-sdp-android-1.0.4_610ef17236633c98a67400f5c1b1999f1e844058.jar" />
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_d9421d320871608cba4b61b9aea87fdf4355bff4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -363,21 +579,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-10.0.1_29b377e0b8223fa48077ebb8557c679646e9a036.jar" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_96c9f19944adbd76f017225c608093723e4021a2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_5777da96527fa30576f01f2d4b65263a0ab5911f/classes.dex" />
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-10.0.1_3cededf0d2b99e54650006877566d20738827119.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-10.0.1_c2509d69fc8742441572c38eddb4e2199d5b60f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_382834b77714e8a4ef3b7eb963b62411e00d58c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-10.0.1_75729a8f116bf3071c59795f0375d9ed3fea9b08.jar" />
     </item>
     <item
         is-multidex="true"
@@ -390,39 +633,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_b13fc61ef943508ef0eeecefb15ac9e00288deb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-10.0.1_fed9d1de8894c93586c0562f763bfae6b40d3b79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-10.0.1_14b3afd5735962b250ef90bf3df9cc656ffda9d0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_96a6804a3cc50abbba335ce1f7baf472c771dc56.jar" />
     </item>
     <item
         is-multidex="false"
@@ -434,22 +650,13 @@
         <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_c73b31bdf6b7adeaacc83bb4e5293d871824ed23.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_6f71429881a3149a96286d6321cd3a0054b0cb87/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
-        <dex dex="/home/mehrnaz/AndroidStudioProjects/got2/gameoftrump-app-9/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_6534cb8196fab803ee89a246498f9b4a4465e517/classes.dex" />
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/mehrnaz/AndroidStudioProjects/n/gameoftrump-app-12/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-10.0.1_c447c42432aace4ce5fed5d3401dcbcf83324b1d.jar" />
     </item>
 
 </items>
