@@ -7,6 +7,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -67,6 +69,7 @@ public class Game extends Activity {
 	private int starsin;
 	private int endRow;
     private int uniqeIcon;
+	private MediaPlayer player;
 
     //H>T added End
 
@@ -537,6 +540,7 @@ public class Game extends Activity {
 
 		private void turnCard(Button button,int x, int y) {
 			//	button.setBackgroundDrawable(images.get(cards[x][y]));
+			playSound();
 			Log.i("turndCards()", "card["+(x)+
 					"]["+(y)+"]=" + cards[x][y]);
 			Typeface fontawsome = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
@@ -713,6 +717,17 @@ public class Game extends Activity {
 	public void onGGP(View view) {
 		Intent intent = new Intent(Game.this, userProfile.class);
 		startActivity(intent);
+	}
+	private void  playSound()
+	{
+		setVolumeControlStream(AudioManager.STREAM_MUSIC);
+		//we now instantiate the player using our music file;
+		//note that since it is a resource in the "raw" directory,
+		//we don't need the file's extension;
+		//our file here is in fact called "soundfile.mp3";
+		player = MediaPlayer.create(this, R.raw.card);
+		//we start playing the file!
+		player.start();
 	}
 
 	//*/

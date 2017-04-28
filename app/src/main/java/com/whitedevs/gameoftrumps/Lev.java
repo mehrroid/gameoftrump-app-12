@@ -766,10 +766,7 @@ TextView levLogo00;
                 /*
             if(true)
             {
-                Intent intent = new Intent(Lev.this, Game.class);
-                levelselect=levelselect*2;
-                intent.putExtra("levelNo", (Integer)levelselect);
-                startActivity(intent);
+levelselect
             }
  */
         }

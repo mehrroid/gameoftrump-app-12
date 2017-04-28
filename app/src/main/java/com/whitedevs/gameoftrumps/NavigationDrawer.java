@@ -136,8 +136,11 @@ public class NavigationDrawer extends AppCompatActivity
         txtIconSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
                 Intent i=new Intent(NavigationDrawer.this,Setting.class);
                 startActivity(i);
+                */
+
             }
         });
         txtIconUser = (TextView) findViewById(R.id.txtIconUser);
@@ -240,7 +243,10 @@ public class NavigationDrawer extends AppCompatActivity
         txtIconSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(NavigationDrawer.this, Lev.class);
+                Log.e("levelNo","levelNo");
+                Intent intent = new Intent(NavigationDrawer.this, Game.class);
+                int noiii=16;
+                intent.putExtra("levelNo", (Integer)noiii);
                 startActivity(intent);
 
             }
