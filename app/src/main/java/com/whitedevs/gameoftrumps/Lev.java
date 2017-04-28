@@ -169,9 +169,22 @@ TextView levLogo00;
         TextView plus = (TextView) findViewById(R.id.pl);
         plus.setTypeface(font2);
         //mehrnaz lock
+        TextView levLogo;
+        for(int i=0;i<5;i++)
+        {
+          //  for(int j=1;i<4;i++)
+           // {
+            String noo;
+              if (i<11) {
+                  noo="levLogo"+"0"+Integer.toString(i);
+              } else {
+                  noo="levLogo"+Integer.toString(i);}
+             levLogo = (TextView) findViewById(getResources().getIdentifier(noo, "id", getPackageName()));
+             levLogo.setTypeface(font2);
+            //}
+        }
 
-
-
+/*
         levLogo00= (TextView) findViewById(R.id.levLogo00);
         levLogo00.setTypeface(font2);
 
@@ -188,7 +201,7 @@ TextView levLogo00;
         levLogo04= (TextView) findViewById(R.id.levLogo04);
         levLogo04.setTypeface(font2);
 
-
+*/
         levLogo10= (TextView) findViewById(R.id.levLogo10);
         levLogo10.setTypeface(font2);
 
