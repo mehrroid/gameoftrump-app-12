@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/_90sdp"
         android:text="@string/icon_male"
-        android:id="@+id/male"
+        android:id="@+id/popUpIcMale"
         android:background="@drawable/circle3"/>
     <TextView
         android:layout_width="wrap_content"

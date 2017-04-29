@@ -14,6 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -268,157 +269,157 @@ TextView levLogo00;
 
         //
         //mehrnaz stars
-        star0101= (TextView) findViewById(R.id.star0101);
+        star0101= (TextView) findViewById(R.id.levStar0101);
         star0101.setTypeface(font2);
-        star0102= (TextView) findViewById(R.id.Star0102);
+        star0102= (TextView) findViewById(R.id.levStar0102);
         star0102.setTypeface(font2);
-        star0103= (TextView) findViewById(R.id.Star0103);
+        star0103= (TextView) findViewById(R.id.levStar0103);
         star0103.setTypeface(font2);
-        star0201= (TextView) findViewById(R.id.Star0201);
+        star0201= (TextView) findViewById(R.id.levStar0201);
         star0201.setTypeface(font2);
-        star0202= (TextView) findViewById(R.id.Star0202);
+        star0202= (TextView) findViewById(R.id.levStar0202);
         star0202.setTypeface(font2);
-        star0203= (TextView) findViewById(R.id.Star0203);
+        star0203= (TextView) findViewById(R.id.levStar0203);
         star0203.setTypeface(font2);
-        star0301= (TextView) findViewById(R.id.Star0301);
+        star0301= (TextView) findViewById(R.id.levStar0301);
         star0301.setTypeface(font2);
-        star0302= (TextView) findViewById(R.id.Star0302);
+        star0302= (TextView) findViewById(R.id.levStar0302);
         star0302.setTypeface(font2);
-        star0303= (TextView) findViewById(R.id.Star0303);
+        star0303= (TextView) findViewById(R.id.levStar0303);
         star0303.setTypeface(font2);
-        star0401= (TextView) findViewById(R.id.Star0401);
+        star0401= (TextView) findViewById(R.id.levStar0401);
         star0401.setTypeface(font2);
-        star0402= (TextView) findViewById(R.id.Star0402);
+        star0402= (TextView) findViewById(R.id.levStar0402);
         star0402.setTypeface(font2);
-        star0403= (TextView) findViewById(R.id.Star0403);
+        star0403= (TextView) findViewById(R.id.levStar0403);
         star0403.setTypeface(font2);
-        star0501= (TextView) findViewById(R.id.Star0501);
+        star0501= (TextView) findViewById(R.id.levStar0501);
         star0501.setTypeface(font2);
-        star0502= (TextView) findViewById(R.id.Star0502);
+        star0502= (TextView) findViewById(R.id.levStar0502);
         star0502.setTypeface(font2);
-        star0503= (TextView) findViewById(R.id.Star0503);
+        star0503= (TextView) findViewById(R.id.levStar0503);
         star0503.setTypeface(font2);
-        star0601= (TextView) findViewById(R.id.Star0601);
+        star0601= (TextView) findViewById(R.id.levStar0601);
         star0601.setTypeface(font2);
-        star0602= (TextView) findViewById(R.id.Star0602);
+        star0602= (TextView) findViewById(R.id.levStar0602);
         star0602.setTypeface(font2);
-        star0603= (TextView) findViewById(R.id.Star0603);
+        star0603= (TextView) findViewById(R.id.levStar0603);
         star0603.setTypeface(font2);
-        star0701= (TextView) findViewById(R.id.Star0701);
+        star0701= (TextView) findViewById(R.id.levStar0701);
         star0701.setTypeface(font2);
-        star0702= (TextView) findViewById(R.id.Star0702);
+        star0702= (TextView) findViewById(R.id.levStar0702);
         star0702.setTypeface(font2);
-        star0703= (TextView) findViewById(R.id.Star0703);
+        star0703= (TextView) findViewById(R.id.levStar0703);
         star0703.setTypeface(font2);
-        star0801= (TextView) findViewById(R.id.Star0801);
+        star0801= (TextView) findViewById(R.id.levStar0801);
         star0801.setTypeface(font2);
-        star0802= (TextView) findViewById(R.id.Star0802);
+        star0802= (TextView) findViewById(R.id.levStar0802);
         star0802.setTypeface(font2);
-        star0803= (TextView) findViewById(R.id.Star0803);
+        star0803= (TextView) findViewById(R.id.levStar0803);
         star0803.setTypeface(font2);
-        star0901= (TextView) findViewById(R.id.Star0901);
+        star0901= (TextView) findViewById(R.id.levStar0901);
         star0901.setTypeface(font2);
-        star0902= (TextView) findViewById(R.id.Star0902);
+        star0902= (TextView) findViewById(R.id.levStar0902);
         star0902.setTypeface(font2);
-        star0903= (TextView) findViewById(R.id.Star0903);
+        star0903= (TextView) findViewById(R.id.levStar0903);
         star0903.setTypeface(font2);
-        star1001= (TextView) findViewById(R.id.Star1001);
+        star1001= (TextView) findViewById(R.id.levStar1001);
         star1001.setTypeface(font2);
-        star1002= (TextView) findViewById(R.id.Star1002);
+        star1002= (TextView) findViewById(R.id.levStar1002);
         star1002.setTypeface(font2);
-        star1003= (TextView) findViewById(R.id.Star1003);
+        star1003= (TextView) findViewById(R.id.levStar1003);
         star1003.setTypeface(font2);
-        star1101= (TextView) findViewById(R.id.Star1101);
+        star1101= (TextView) findViewById(R.id.levStar1101);
         star1101.setTypeface(font2);
-        star1102= (TextView) findViewById(R.id.Star1102);
+        star1102= (TextView) findViewById(R.id.levStar1102);
         star1102.setTypeface(font2);
-        star1103= (TextView) findViewById(R.id.Star1103);
+        star1103= (TextView) findViewById(R.id.levStar1103);
         star1103.setTypeface(font2);
-        star1201= (TextView) findViewById(R.id.Star1201);
+        star1201= (TextView) findViewById(R.id.levStar1201);
         star1201.setTypeface(font2);
-        star1202= (TextView) findViewById(R.id.Star1202);
+        star1202= (TextView) findViewById(R.id.levStar1202);
         star1202.setTypeface(font2);
-        star1203= (TextView) findViewById(R.id.Star1203);
+        star1203= (TextView) findViewById(R.id.levStar1203);
         star1203.setTypeface(font2);
-        star1301= (TextView) findViewById(R.id.Star1301);
+        star1301= (TextView) findViewById(R.id.levStar1301);
         star1301.setTypeface(font2);
-        star1302= (TextView) findViewById(R.id.Star1302);
+        star1302= (TextView) findViewById(R.id.levStar1302);
         star1302.setTypeface(font2);
-        star1303= (TextView) findViewById(R.id.Star1303);
+        star1303= (TextView) findViewById(R.id.levStar1303);
         star1303.setTypeface(font2);
 
-        star1401= (TextView) findViewById(R.id.Star1401);
+        star1401= (TextView) findViewById(R.id.levStar1401);
         star1401.setTypeface(font2);
-        star1402= (TextView) findViewById(R.id.Star1402);
+        star1402= (TextView) findViewById(R.id.levStar1402);
         star1402.setTypeface(font2);
 
-        star1403= (TextView) findViewById(R.id.Star1403);
+        star1403= (TextView) findViewById(R.id.levStar1403);
         star1403.setTypeface(font2);
-        star1501= (TextView) findViewById(R.id.Star1501);
+        star1501= (TextView) findViewById(R.id.levStar1501);
         star1501.setTypeface(font2);
-        star1502= (TextView) findViewById(R.id.Star1502);
+        star1502= (TextView) findViewById(R.id.levStar1502);
         star1502.setTypeface(font2);
-        star1503= (TextView) findViewById(R.id.Star1503);
+        star1503= (TextView) findViewById(R.id.levStar1503);
         star1503.setTypeface(font2);
-        star1601= (TextView) findViewById(R.id.Star1601);
+        star1601= (TextView) findViewById(R.id.levStar1601);
         star1601.setTypeface(font2);
-        star1602= (TextView) findViewById(R.id.Star1602);
+        star1602= (TextView) findViewById(R.id.levStar1602);
         star1602.setTypeface(font2);
-        star1603= (TextView) findViewById(R.id.Star1603);
+        star1603= (TextView) findViewById(R.id.levStar1603);
         star1603.setTypeface(font2);
-        star1701= (TextView) findViewById(R.id.Star1701);
+        star1701= (TextView) findViewById(R.id.levStar1701);
         star1701.setTypeface(font2);
-        star1702= (TextView) findViewById(R.id.Star1702);
+        star1702= (TextView) findViewById(R.id.levStar1702);
         star1702.setTypeface(font2);
-        star1703= (TextView) findViewById(R.id.Star1703);
+        star1703= (TextView) findViewById(R.id.levStar1703);
         star1703.setTypeface(font2);
-        star1801= (TextView) findViewById(R.id.Star1801);
+        star1801= (TextView) findViewById(R.id.levStar1801);
         star1801.setTypeface(font2);
-        star1802= (TextView) findViewById(R.id.Star1802);
+        star1802= (TextView) findViewById(R.id.levStar1802);
         star1802.setTypeface(font2);
-        star1803= (TextView) findViewById(R.id.Star1803);
+        star1803= (TextView) findViewById(R.id.levStar1803);
         star1803.setTypeface(font2);
-        star1901= (TextView) findViewById(R.id.Star1901);
+        star1901= (TextView) findViewById(R.id.levStar1901);
         star1901.setTypeface(font2);
-        star1902= (TextView) findViewById(R.id.Star1902);
+        star1902= (TextView) findViewById(R.id.levStar1902);
         star1902.setTypeface(font2);
-        star1903= (TextView) findViewById(R.id.star1903);
+        star1903= (TextView) findViewById(R.id.levStar1903);
         star1903.setTypeface(font2);
-        star2001= (TextView) findViewById(R.id.Star2001);
+        star2001= (TextView) findViewById(R.id.levStar2001);
         star2001.setTypeface(font2);
-        star2002= (TextView) findViewById(R.id.Star2002);
+        star2002= (TextView) findViewById(R.id.levStar2002);
         star2002.setTypeface(font2);
-        star2003= (TextView) findViewById(R.id.Star2003);
+        star2003= (TextView) findViewById(R.id.levStar2003);
         star2003.setTypeface(font2);
-        star2101= (TextView) findViewById(R.id.Star2101);
+        star2101= (TextView) findViewById(R.id.levStar2101);
         star2101.setTypeface(font2);
-        star2102= (TextView) findViewById(R.id.Star2102);
+        star2102= (TextView) findViewById(R.id.levStar2102);
         star2102.setTypeface(font2);
-        star2103= (TextView) findViewById(R.id.Star2103);
+        star2103= (TextView) findViewById(R.id.levStar2103);
         star2103.setTypeface(font2);
-        star2201= (TextView) findViewById(R.id.Star2201);
+        star2201= (TextView) findViewById(R.id.levStar2201);
         star2201.setTypeface(font2);
-        star2202= (TextView) findViewById(R.id.Star2202);
+        star2202= (TextView) findViewById(R.id.levStar2202);
         star2202.setTypeface(font2);
-        star2203= (TextView) findViewById(R.id.Star2203);
+        star2203= (TextView) findViewById(R.id.levStar2203);
         star2203.setTypeface(font2);
-        star2301= (TextView) findViewById(R.id.Star2301);
+        star2301= (TextView) findViewById(R.id.levStar2301);
         star2301.setTypeface(font2);
-        star2302= (TextView) findViewById(R.id.Star2302);
+        star2302= (TextView) findViewById(R.id.levStar2302);
         star2302.setTypeface(font2);
-        star2303= (TextView) findViewById(R.id.Star2303);
+        star2303= (TextView) findViewById(R.id.levStar2303);
         star2303.setTypeface(font2);
-        star2401= (TextView) findViewById(R.id.Star2401);
+        star2401= (TextView) findViewById(R.id.levStar2401);
         star2401.setTypeface(font2);
-        star2402= (TextView) findViewById(R.id.Star2402);
+        star2402= (TextView) findViewById(R.id.levStar2402);
         star2402.setTypeface(font2);
-        star2403= (TextView) findViewById(R.id.Star2403);
+        star2403= (TextView) findViewById(R.id.levStar2403);
         star2403.setTypeface(font2);
-        star2501= (TextView) findViewById(R.id.Star2501);
+        star2501= (TextView) findViewById(R.id.levStar2501);
         star2501.setTypeface(font2);
-        star2502= (TextView) findViewById(R.id.Star2502);
+        star2502= (TextView) findViewById(R.id.levStar2502);
         star2502.setTypeface(font2);
-        star2503= (TextView) findViewById(R.id.star2503);
+        star2503= (TextView) findViewById(R.id.levStar2503);
         star2503.setTypeface(font2);
 
         //cloud
@@ -433,148 +434,136 @@ TextView levLogo00;
         cloudl4.setTypeface(font2);
         cloudl5= (TextView) findViewById(R.id.cloudl5);
         cloudl5.setTypeface(font2);
-        //
-//        Log.e("level", "R.layout.level");
-//        container = (LinearLayout) findViewById(R.id.activity_main);
-//        Log.e("level", "R.id.activity_main");
-//        sp = new SharedPre(getApplicationContext());
-//        starsin=0;
-//        String userName="Name";
+
+        sp = new SharedPre(getApplicationContext());
+        starsin=0;
+        String userName="Name";
 //
-//        try {
-//            //remove below line ht700 for lunch
-//            sp.Set("winstars",Integer.toString(1000));
-//            //end remove
-//           starsin=Integer.parseInt(sp.Get("winstars").toString());
-//            if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
-//            Log.e("sp.Get(winstars)", starsin+"");
-//        } catch(NumberFormatException nfe) {
-//            //	System.out.println("Could not parse " + nfe);
-//            starsin=0;
-//        }
-//
-//        try {
-//            userName=(sp.Get("username"));
-//            if (userName=="400400400"){userName="Name!";}
-//            Log.e("userName", userName+"");
-//        } catch(NumberFormatException nfe) {
-//            //	System.out.println("Could not parse " + nfe);
-//            userName="Name"; }
-//
-//
-//        try {
-//
-//        TextView tv1 = (TextView) findViewById(R.id.starsNo);
-//        tv1.setText(""+starsin);
-//        tv1 = (TextView) findViewById(R.id.tvUserName);
-//        tv1.setText(userName);
-//
-//        } catch(NumberFormatException nfe) {}
-//
-//        Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
-////items of header
-////     ll
-////        txtIconStar = (TextView) findViewById(R.id.txtstar);
-////        txtIconStar.setTypeface(font2);
-////        txtStarBg = (TextView) findViewById(R.id.txtstarbg);
-////        txtStarBg.setTypeface(font2);
-//
-//        mAdView = (AdView) findViewById(R.id.adView);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//
-//        mAdView.loadAd(adRequest);
+        try {
+            //remove below line ht700 for lunch
+            sp.Set("winstars",Integer.toString(1000));
+            //end remove
+           starsin=Integer.parseInt(sp.Get("winstars").toString());
+            if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
+            Log.e("sp.Get(winstars)", starsin+"");
+        } catch(NumberFormatException nfe) {
+            //	System.out.println("Could not parse " + nfe);
+            starsin=0;
+        }
+
+        try {
+            userName=(sp.Get("username"));
+            if (userName=="400400400"){userName="Name!";}
+            Log.e("userName", userName+"");
+        } catch(NumberFormatException nfe) {
+            //	System.out.println("Could not parse " + nfe);
+            userName="Name"; }
+
+
+        try {
+
+        TextView tv1 = (TextView) findViewById(R.id.starsNo);
+        tv1.setText(""+starsin);
+        tv1 = (TextView) findViewById(R.id.tvUserName);
+        tv1.setText(userName);
+
+        } catch(NumberFormatException nfe) {}
+
+
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+
+        mAdView.loadAd(adRequest);
 //        draw(getResources().getStringArray(R.array.type), 5);
-//        //mehrnaz
-//        TextView txt= (TextView) findViewById(R.id.male);
-//        TextView txtstars= (TextView) findViewById(R.id.icon_star);
-//        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
-//
-//        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
-//        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
-//        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
-//        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
-//
-//        txt.setTypeface(font2);
-//        txtstars.setTypeface(font2);
-//        txtstars2.setTypeface(font2);
-//        txtstars3.setTypeface(font2);
-//        txtstars4.setTypeface(font2);
-//        txtstars5.setTypeface(font2);
-//        txtstars6.setTypeface(font2);
-//        final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
-//
-//
-//        fl.setVisibility(View.GONE);
+//        //mehrnaz code for popUp items
+        TextView txt= (TextView) findViewById(R.id.popUpIcMale);
+        TextView txtstars= (TextView) findViewById(R.id.icon_star);
+        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
+        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
+        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
+        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
+        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
+        txt.setTypeface(font2);
+        txtstars.setTypeface(font2);
+        txtstars2.setTypeface(font2);
+        txtstars3.setTypeface(font2);
+        txtstars4.setTypeface(font2);
+        txtstars5.setTypeface(font2);
+        txtstars6.setTypeface(font2);
+        final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
+
+
+        fl.setVisibility(View.GONE);
 //        //
 //        //HT 748
-//        int winStars= getIntent().getIntExtra("winstars", 0);
-//        if (winStars!=0)
-//        {
-//
-//            //777
-//            sp.Set("stars",Integer.toString(0));
-//            Log.e("winStars", winStars+"");
-//            CharSequence text = "You Win , " + winStars + " Stars";
-//            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
-//            toast.show();
-//            TextView winSentence;
-//            winSentence=(TextView) findViewById(R.id.winSentence);
-//            switch (winStars){
-//                case 0:
-//                    winSentence.setText("You Lose!");
-//
-//                    break;
-//                case 1:
-//                    //R.string.icon_trophy
-//                    winSentence.setText("Fine!");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//                case 2:
-//                    winSentence.setText("You did it");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star2);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star02);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//                case 3:
-//                    winSentence.setText("You made it");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star2);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star02);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star3);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star03);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//            }
-//
+        int winStars= getIntent().getIntExtra("winstars", 0);
+        if (winStars!=0)
+        {
+
+            //777
+            sp.Set("stars",Integer.toString(0));
+            Log.e("winStars", winStars+"");
+            CharSequence text = "You Win , " + winStars + " Stars";
+            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
+            toast.show();
+            TextView winSentence;
+            winSentence=(TextView) findViewById(R.id.winSentence);
+            switch (winStars){
+                case 0:
+                    winSentence.setText("You Lose!");
+
+                    break;
+                case 1:
+                    //R.string.icon_trophy
+                    winSentence.setText("Fine!");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 2:
+                    winSentence.setText("You did it");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 3:
+                    winSentence.setText("You made it");
+                    winSentence=(TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star3);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence=(TextView) findViewById(R.id.icon_star03);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+            }
+
 //            //mehrnaz
-////            fl.setVisibility(View.VISIBLE);
+         fl.setVisibility(View.VISIBLE);
 ////
-////            final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
-////            fl.startAnimation(myAnim);
+        final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
+           fl.startAnimation(myAnim);
 //            //
 //
-////            final TableLayout fm2= (TableLayout) findViewById(R.id.levelmain);
-////            fm2.setOnClickListener(new View.OnClickListener() {
+           final RelativeLayout fm2= (RelativeLayout) findViewById(R.id.activity_main);
+          fm2.setOnClickListener(new View.OnClickListener() {
 ////    @Override
-////    public void onClick(View v) {
-////        fl.setVisibility(v.GONE);
+   public void onClick(View v) {
+      fl.setVisibility(v.GONE);
 ////
-////    }
-////});
+  }
+});
 //        }
 //        //full screen adsMob start
 //        mInterstitialAd = new InterstitialAd(this);
@@ -783,7 +772,7 @@ levelselect
             }
  */
         }
-//    }
+    }
 
     private void requestNewInterstitial() {
         AdRequest adRequest = new AdRequest.Builder()

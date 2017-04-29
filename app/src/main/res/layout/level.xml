@@ -19,7 +19,10 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_below="@id/toplayout">
+    android:layout_below="@id/toplayout"
+    android:gravity="center"
+
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/star0101"
+                        android:id="@+id/levStar0101"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -68,7 +71,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star0102"
+                        android:id="@+id/levStar0102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -77,7 +80,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star0103"
+                        android:id="@+id/levStar0103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -102,7 +105,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
-                        android:id="@+id/Star0201"
+                        android:id="@+id/levStar0201"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
@@ -112,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star0202"
+                        android:id="@+id/levStar0202"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -121,7 +124,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
-                        android:id="@+id/Star0203"
+                        android:id="@+id/levStar0203"
                         android:text="@string/icon_star"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -149,7 +152,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="@string/icon_star"
-                        android:id="@+id/Star0301"
+                        android:id="@+id/levStar0301"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -158,7 +161,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0302"
+                        android:id="@+id/levStar0302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -167,7 +170,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0303"
+                        android:id="@+id/levStar0303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -194,7 +197,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0401"
+                        android:id="@+id/levStar0401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -203,7 +206,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0402"
+                        android:id="@+id/levStar0402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -212,7 +215,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0403"
+                        android:id="@+id/levStar0403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -239,7 +242,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0501"
+                        android:id="@+id/levStar0501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -248,7 +251,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0502"
+                        android:id="@+id/levStar0502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -257,7 +260,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0503"
+                        android:id="@+id/levStar0503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -303,7 +306,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0601"
+                        android:id="@+id/levStar0601"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -312,7 +315,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0602"
+                        android:id="@+id/levStar0602"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -321,7 +324,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0603"
+                        android:id="@+id/levStar0603"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -348,7 +351,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0701"
+                        android:id="@+id/levStar0701"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -357,7 +360,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0702"
+                        android:id="@+id/levStar0702"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -366,7 +369,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0703"
+                        android:id="@+id/levStar0703"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -393,7 +396,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0801"
+                        android:id="@+id/levStar0801"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -402,7 +405,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0802"
+                        android:id="@+id/levStar0802"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -411,7 +414,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0803"
+                        android:id="@+id/levStar0803"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -438,7 +441,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0901"
+                        android:id="@+id/levStar0901"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -447,7 +450,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0902"
+                        android:id="@+id/levStar0902"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -456,7 +459,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star0903"
+                        android:id="@+id/levStar0903"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -483,7 +486,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1001"
+                        android:id="@+id/levStar1001"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
 
@@ -493,7 +496,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1002"
+                        android:id="@+id/levStar1002"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -502,7 +505,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1003"
+                        android:id="@+id/levStar1003"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -547,7 +550,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star1101"
+                        android:id="@+id/levStar1101"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -557,7 +560,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1102"
+                        android:id="@+id/levStar1102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -566,7 +569,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1103"
+                        android:id="@+id/levStar1103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -593,7 +596,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1201"
+                        android:id="@+id/levStar1201"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -602,7 +605,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1202"
+                        android:id="@+id/levStar1202"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -611,7 +614,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1203"
+                        android:id="@+id/levStar1203"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -637,7 +640,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
-                        android:id="@+id/Star1301"
+                        android:id="@+id/levStar1301"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
@@ -647,7 +650,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1302"
+                        android:id="@+id/levStar1302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -656,7 +659,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1303"
+                        android:id="@+id/levStar1303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -683,7 +686,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1401"
+                        android:id="@+id/levStar1401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -692,7 +695,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1402"
+                        android:id="@+id/levStar1402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -701,7 +704,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1403"
+                        android:id="@+id/levStar1403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -728,7 +731,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1501"
+                        android:id="@+id/levStar1501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -737,7 +740,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1502"
+                        android:id="@+id/levStar1502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -746,7 +749,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1503"
+                        android:id="@+id/levStar1503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -792,7 +795,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1601"
+                        android:id="@+id/levStar1601"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -801,7 +804,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1602"
+                        android:id="@+id/levStar1602"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -810,7 +813,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1603"
+                        android:id="@+id/levStar1603"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -837,7 +840,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1701"
+                        android:id="@+id/levStar1701"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -846,7 +849,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1702"
+                        android:id="@+id/levStar1702"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -855,7 +858,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1703"
+                        android:id="@+id/levStar1703"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -882,7 +885,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1801"
+                        android:id="@+id/levStar1801"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -891,7 +894,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1802"
+                        android:id="@+id/levStar1802"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -900,7 +903,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1803"
+                        android:id="@+id/levStar1803"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -927,7 +930,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1901"
+                        android:id="@+id/levStar1901"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -936,7 +939,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star1902"
+                        android:id="@+id/levStar1902"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -945,7 +948,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star1903"
+                        android:id="@+id/levStar1903"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -972,7 +975,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2001"
+                        android:id="@+id/levStar2001"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -981,7 +984,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2002"
+                        android:id="@+id/levStar2002"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -990,7 +993,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2003"
+                        android:id="@+id/levStar2003"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1034,7 +1037,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="32dp"
-                        android:id="@+id/Star2101"
+                        android:id="@+id/levStar2101"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
                         android:textColor="@color/colorStars"
@@ -1045,7 +1048,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2102"
+                        android:id="@+id/levStar2102"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1054,7 +1057,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2103"
+                        android:id="@+id/levStar2103"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1081,7 +1084,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2201"
+                        android:id="@+id/levStar2201"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1090,7 +1093,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2202"
+                        android:id="@+id/levStar2202"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1099,7 +1102,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2203"
+                        android:id="@+id/levStar2203"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1126,7 +1129,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2301"
+                        android:id="@+id/levStar2301"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1135,7 +1138,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2302"
+                        android:id="@+id/levStar2302"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1144,7 +1147,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2303"
+                        android:id="@+id/levStar2303"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1171,7 +1174,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2401"
+                        android:id="@+id/levStar2401"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1180,7 +1183,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2402"
+                        android:id="@+id/levStar2402"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1189,7 +1192,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2403"
+                        android:id="@+id/levStar2403"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1216,7 +1219,7 @@
                         android:layout_marginLeft="32dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2501"
+                        android:id="@+id/levStar2501"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1225,7 +1228,7 @@
                         android:layout_marginLeft="8dp"
                         android:layout_marginTop="30dp"
                         android:text="&#xf005;"
-                        android:id="@+id/Star2502"
+                        android:id="@+id/levStar2502"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                     <TextView
@@ -1234,7 +1237,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="35dp"
                         android:text="&#xf005;"
-                        android:id="@+id/star2503"
+                        android:id="@+id/levStar2503"
                         android:textColor="@color/colorStars"
                         android:textSize="12dp" />
                 </FrameLayout>
@@ -1295,8 +1298,21 @@
             android:id="@+id/cloudl5"
             android:gravity="right"
             android:layout_marginLeft="@dimen/_250sdp"
-            android:layout_marginBottom="@dimen/_minus40sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
           />
     </RelativeLayout>
     </RelativeLayout>
-</RelativeLayout>
+    <include layout="@layout/popup"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom" >
+    <include layout="@layout/footer"/>
+</FrameLayout>
+    </RelativeLayout>
+
+
+
+
