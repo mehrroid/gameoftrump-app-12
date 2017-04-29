@@ -234,7 +234,6 @@ public class Lev extends Activity {
 //                    winSentence.setText(R.string.icon_star);
 //                    break;
 //            }
-//
 //            //mehrnaz
 ////            fl.setVisibility(View.VISIBLE);
 ////
