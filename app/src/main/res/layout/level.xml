@@ -1,4 +1,5 @@
 
+
 <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -10,1293 +11,1293 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/blueBg"
     >
-<FrameLayout
-    android:layout_width="match_parent"
-    android:id="@+id/toplayout"
-    android:layout_height="43dp">
-    <include layout="@layout/top"/>
-</FrameLayout>
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@id/toplayout">
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:id="@+id/linn">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_marginTop="50dp"
-                android:layout_height="wrap_content">
-                <!-- object 01 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl01">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo00"
-                        android:gravity="center"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/star000"
-                        android:text="@string/icon_star"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="@string/icon_star"
-                        android:id="@+id/Star001"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="@string/icon_star"
-                        android:id="@+id/Star002"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 02 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl02">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:gravity="center"
-                        android:id="@+id/levLogo01"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:id="@+id/Star003"
-                        android:layout_marginTop="30dp"
-                        android:text="@string/icon_star"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/Star004"
-                        android:text="@string/icon_star"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:id="@+id/Star005"
-                        android:text="@string/icon_star"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 03 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl03">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:gravity="center"
-                        android:id="@+id/levLogo02"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="@string/icon_star"
-                        android:id="@+id/Star006"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star007"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star008"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 04 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl04">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo03"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star009"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star010"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star011"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 05 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl05">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo04"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star012"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star013"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star014"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:background="@color/blueBg"
-        android:layout_marginTop="100dp">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content">
-                <!-- object 06 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl06">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo10"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star015"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star016"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star017"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 07 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl07">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo11"
-                        android:gravity="center"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star018"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star019"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star020"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 08 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl08">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo12"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star021"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star022"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star023"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 09 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl09">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo13"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star024"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star025"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star026"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 10 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl10">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:id="@+id/levLogo14"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star027"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star028"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star029"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/blueBg"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:layout_marginTop="150dp">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content">
-                <!-- object 11 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl11">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo20"
-                        android:gravity="center"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/Star030"
-                        android:text="&#xf005;"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star031"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star032"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 12 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl12">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:id="@+id/levLogo21"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star033"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star034"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star035"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 13 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl13">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo22"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:id="@+id/Star036"
-                        android:text="&#xf005;"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star037"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star038"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 14 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl14">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo23"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star039"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star040"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star041"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 15 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl15">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo24"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star042"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star043"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star044"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:background="@color/blueBg"
-        android:layout_marginTop="200dp">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content">
-                <!-- object 16 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl16">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:id="@+id/levLogo30"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star045"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star046"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star047"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 17 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl17">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo31"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star048"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star049"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star050"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 18 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl18">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo32"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star052"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star053"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star054"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 19 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl19">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo33"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star055"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star056"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star057"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 20 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl20">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo34"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star058"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star059"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star060"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/blueBg"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:layout_marginTop="250dp">
-        <LinearLayout
-            android:layout_width="0dp"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content">
-                <!-- object 21 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl21">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo40"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:id="@+id/Star061"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star062"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star063"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 22 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl22">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:id="@+id/levLogo41"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star064"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star065"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star066"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 23 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl23">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo42"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star067"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star068"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star069"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 24 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl24">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo43"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/Star070"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star071"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star072"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-                <!-- object 25 !-->
-                <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:layout_width="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueBg"
-                    android:id="@+id/fl25">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/circle3"
-                        android:text="@string/icon_lock"
-                        android:id="@+id/levLogo44"
-                        android:paddingBottom="@dimen/_10sdp"
-                        android:gravity="center"
-                        android:textColor="@color/gray"
-                        android:textSize="22dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star073"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="30dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star074"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginTop="35dp"
-                        android:text="&#xf005;"
-                        android:id="@+id/star075"
-                        android:textColor="@color/colorStars"
-                        android:textSize="12dp" />
-                </FrameLayout>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-
-
+        android:id="@+id/toplayout"
+        android:layout_height="43dp">
+        <include layout="@layout/top"/>
+    </FrameLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom">
-        <TextView
-            android:layout_width="wrap_content"
+        android:layout_below="@id/toplayout">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/icon_cloud"
-            android:textColor="@color/blueCloud"
-            android:textSize="50dp"
-            android:id="@+id/cloudl1"
-            android:gravity="left"
-            android:layout_marginLeft="@dimen/_minus5sdp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/icon_cloud"
-            android:textColor="@color/blueCloud"
-            android:textSize="20dp"
-            android:id="@+id/cloudl2"
-            android:gravity="bottom"
-            android:layout_marginBottom="@dimen/_minus60sdp"
-            android:paddingBottom="@dimen/_minus60sdp"
-            android:layout_marginLeft="@dimen/_60sdp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/icon_cloud"
-            android:textColor="@color/blueCloud"
-            android:textSize="25dp"
-            android:id="@+id/cloudl3"
-            android:gravity="left"
-            android:layout_marginLeft="@dimen/_120sdp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/icon_cloud"
-            android:textColor="@color/blueCloud"
-            android:textSize="30dp"
-            android:id="@+id/cloudl4"
-            android:gravity="left"
-            android:layout_marginLeft="@dimen/_170sdp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/icon_cloud"
-            android:textColor="@color/blueCloud"
-            android:textSize="40dp"
-            android:id="@+id/cloudl5"
-            android:gravity="right"
-            android:layout_marginLeft="@dimen/_250sdp"
-            android:layout_marginBottom="@dimen/_minus40sdp"
-          />
-    </RelativeLayout>
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/linn">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="wrap_content">
+                    <!-- object 01 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl01">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo01"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:id="@+id/Star0101"
+                            android:text="@string/icon_star"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="@string/icon_star"
+                            android:id="@+id/Star0102"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="@string/icon_star"
+                            android:id="@+id/Star0103"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 02 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl02">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:gravity="center"
+                            android:id="@+id/levLogo02"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:id="@+id/Star0201"
+                            android:layout_marginTop="30dp"
+                            android:text="@string/icon_star"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:id="@+id/Star0202"
+                            android:text="@string/icon_star"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:id="@+id/Star0203"
+                            android:text="@string/icon_star"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 03 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl03">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:gravity="center"
+                            android:id="@+id/levLogo03"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="@string/icon_star"
+                            android:id="@+id/Star0301"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0302"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0303"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 04 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl04">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo04"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0401"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0402"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0403"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 05 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl05">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo05"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0501"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0502"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0503"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/blueBg"
+            android:layout_marginTop="100dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <!-- object 06 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl06">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo06"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0601"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0602"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0603"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 07 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl07">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo07"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0701"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0702"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0703"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 08 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl08">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo08"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0801"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0802"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0803"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 09 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl09">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo09"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0901"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0902"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star0903"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 10 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl10">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:id="@+id/levLogo10"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1001"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1002"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1003"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blueBg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="150dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <!-- object 11 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl11">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo11"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:id="@+id/Star1101"
+                            android:text="&#xf005;"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1102"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1103"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 12 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl12">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:id="@+id/levLogo12"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1201"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1202"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1203"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 13 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl13">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo13"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:id="@+id/Star1301"
+                            android:text="&#xf005;"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1302"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1303"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 14 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl14">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo14"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1401"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1402"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1403"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 15 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl15">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo15"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1501"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1502"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1503"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/blueBg"
+            android:layout_marginTop="200dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <!-- object 16 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl16">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:id="@+id/levLogo16"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1601"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1602"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1603"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 17 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl17">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo17"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1701"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1702"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1703"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 18 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl18">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo18"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1801"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1802"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1803"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 19 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl19">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo19"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1901"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1902"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star1903"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 20 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl20">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo20"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2001"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2002"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2003"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blueBg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="250dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <!-- object 21 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl21">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo21"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:id="@+id/Star2101"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2102"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2103"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 22 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl22">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:id="@+id/levLogo22"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2201"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2202"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2203"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 23 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl23">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo23"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2301"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2302"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2303"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 24 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl24">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo24"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2401"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2402"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2403"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                    <!-- object 25 !-->
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blueBg"
+                        android:id="@+id/fl25">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle3"
+                            android:text="@string/icon_lock"
+                            android:id="@+id/levLogo25"
+                            android:paddingBottom="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textColor="@color/gray"
+                            android:textSize="22dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2501"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="30dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2502"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="35dp"
+                            android:text="&#xf005;"
+                            android:id="@+id/Star2503"
+                            android:textColor="@color/colorStars"
+                            android:textSize="12dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_cloud"
+                android:textColor="@color/blueCloud"
+                android:textSize="50dp"
+                android:id="@+id/cloudl1"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/_minus5sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_cloud"
+                android:textColor="@color/blueCloud"
+                android:textSize="20dp"
+                android:id="@+id/cloudl2"
+                android:gravity="bottom"
+                android:layout_marginBottom="@dimen/_minus60sdp"
+                android:paddingBottom="@dimen/_minus60sdp"
+                android:layout_marginLeft="@dimen/_60sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_cloud"
+                android:textColor="@color/blueCloud"
+                android:textSize="25dp"
+                android:id="@+id/cloudl3"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/_120sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_cloud"
+                android:textColor="@color/blueCloud"
+                android:textSize="30dp"
+                android:id="@+id/cloudl4"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/_170sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_cloud"
+                android:textColor="@color/blueCloud"
+                android:textSize="40dp"
+                android:id="@+id/cloudl5"
+                android:gravity="right"
+                android:layout_marginLeft="@dimen/_250sdp"
+                android:layout_marginBottom="@dimen/_minus40sdp"
+                />
+        </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>
