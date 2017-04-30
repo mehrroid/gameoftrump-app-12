@@ -40,111 +40,6 @@ public class Lev extends Activity {
     TextView txtStarBg;
     TextView txtIconStar;
     Typeface font2;
-//lock items
-TextView levLogo00;
-    TextView levLogo01;
-    TextView levLogo02;
-    TextView levLogo03;
-    TextView levLogo04;
-    TextView levLogo10;
-    TextView levLogo11;
-    TextView levLogo12;
-    TextView levLogo13;
-    TextView levLogo14;
-    TextView levLogo20;
-    TextView levLogo21;
-    TextView levLogo22;
-    TextView levLogo23;
-    TextView levLogo24;
-    TextView levLogo30;
-    TextView levLogo31;
-    TextView levLogo32;
-    TextView levLogo33;
-    TextView levLogo34;
-    TextView levLogo40;
-    TextView levLogo41;
-    TextView levLogo42;
-    TextView levLogo43;
-    TextView levLogo44;
-    //
-//star items
-   TextView star000;
- TextView star001;
-    TextView star015;
-    TextView star016;
-    TextView star017;
-    TextView star002;
-    TextView star003;
-    TextView star004;
-    TextView star005;
-    TextView star006;
-    TextView star007;
-    TextView star008;
-    TextView star009;
-    TextView star010;
-    TextView star011;
-    TextView star012;
-    TextView star013;
-    TextView star014;
-
-    TextView star018;
-    TextView star019;
-    TextView star020;
-    TextView star021;
-    TextView star022;
-    TextView star023;
-    TextView star024;
-    TextView star025;
-    TextView star026;
-    TextView star027;
-    TextView star028;
-    TextView star029;
-    TextView star030;
-    TextView star031;
-    TextView star032;
-    TextView star033;
-    TextView star034;
-    TextView star035;
-    TextView star036;
-    TextView star037;
-    TextView star038;
-    TextView star039;
-    TextView star040;
-    TextView star041;
-    TextView star042;
-    TextView star043;
-    TextView star044;
-    TextView star045;
-    TextView star046;
-    TextView star047;
-    TextView star048;
-    TextView star049;
-    TextView star050;
-    TextView star051;
-    TextView star052;
-    TextView star053;
-    TextView star054;
-    TextView star055;
-    TextView star056;
-    TextView star057;
-    TextView star058;
-    TextView star059;
-    TextView star060;
-    TextView star061;
-    TextView star062;
-    TextView star063;
-    TextView star064;
-    TextView star065;
-    TextView star066;
-    TextView star067;
-    TextView star068;
-    TextView star069;
-    TextView star070;
-    TextView star071;
-    TextView star072;
-    TextView star073;
-    TextView star074;
-    TextView star075;
 
     //
     //clouds
@@ -160,33 +55,47 @@ TextView levLogo00;
 //        Log.e("level", "come");
         setContentView(R.layout.level);
 
-      font2=Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
-        TextView txtg= (TextView) findViewById(R.id.game);
+        font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+        TextView txtg = (TextView) findViewById(R.id.game);
         txtg.setTypeface(font2);
-        TextView txtsq1= (TextView) findViewById(R.id.sqbg);
-        TextView txtstar= (TextView) findViewById(R.id.star);
+        TextView txtsq1 = (TextView) findViewById(R.id.sqbg);
+        TextView txtstar = (TextView) findViewById(R.id.star);
         txtstar.setTypeface(font2);
         TextView plus = (TextView) findViewById(R.id.pl);
         plus.setTypeface(font2);
         //mehrnaz lock
-        TextView levLogo , levStar;
-        for(int i=1;i<=25;i++)
-        {
+        TextView levLogo, levStar;
+        FrameLayout FL;
+        for (int i = 1; i <= 25; i++) {
 
             String NOLevLogo;
-              if (i<10) {
-                  NOLevLogo="levLogo"+"0"+Integer.toString(i);
-              } else {
-                  NOLevLogo="levLogo"+Integer.toString(i);}
-             levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevLogo, "id", getPackageName()));
-             levLogo.setTypeface(font2);
-            for (int j=1 ; j<=3;j++)
-            {
+            String NOFL;
+            if (i < 10) {
+                NOLevLogo = "levLogo" + "0" + Integer.toString(i);
+                NOFL = "fl" + "0" + Integer.toString(i);
+            } else {
+                NOLevLogo = "levLogo" + Integer.toString(i);
+                NOFL = "fl" + "0" + Integer.toString(i);
+            }
+
+            levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevLogo, "id", getPackageName()));
+            levLogo.setTypeface(font2);
+            final int outI=i;
+            FL = (FrameLayout) findViewById(getResources().getIdentifier(NOFL, "id", getPackageName()));
+            FL.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    playingGame(outI);
+                }
+            });
+
+            for (int j = 1; j <= 3; j++) {
                 String NOLevStar;
-                if (i<10) {
-                    NOLevStar="levStar"+"0"+Integer.toString(i)+"0"+Integer.toString(j);
+                if (i < 10) {
+                    NOLevStar = "levStar" + "0" + Integer.toString(i) + "0" + Integer.toString(j);
                 } else {
-                NOLevStar="levStar"+Integer.toString(i)+"0"+Integer.toString(j);}
+                    NOLevStar = "levStar" + Integer.toString(i) + "0" + Integer.toString(j);
+                }
                 levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevStar, "id", getPackageName()));
                 levLogo.setTypeface(font2);
 
@@ -195,16 +104,18 @@ TextView levLogo00;
 
 
         //
-        cloudl1= (TextView) findViewById(R.id.cloudl1);
+        cloudl1 = (TextView) findViewById(R.id.cloudl1);
         cloudl1.setTypeface(font2);
-        cloudl2= (TextView) findViewById(R.id.cloudl2);
+        cloudl2 = (TextView) findViewById(R.id.cloudl2);
         cloudl2.setTypeface(font2);
-        cloudl3= (TextView) findViewById(R.id.cloudl3);
+        cloudl3 = (TextView) findViewById(R.id.cloudl3);
         cloudl3.setTypeface(font2);
-        cloudl4= (TextView) findViewById(R.id.cloudl4);
+        cloudl4 = (TextView) findViewById(R.id.cloudl4);
         cloudl4.setTypeface(font2);
-        cloudl5= (TextView) findViewById(R.id.cloudl5);
+        cloudl5 = (TextView) findViewById(R.id.cloudl5);
         cloudl5.setTypeface(font2);
+    }
+ // must be remove
         //
 //        Log.e("level", "R.layout.level");
 //        container = (LinearLayout) findViewById(R.id.activity_main);
@@ -413,19 +324,19 @@ TextView levLogo00;
 //        }
 //    };
 //
-//    private void playingGame(String in) {
-//        multi mlt = new multi();
-//        int icon;
-//        mlt.VibrationStart(1,getApplicationContext(),true);
-//        int levelselect=0;
-//
-//        //  if (mInterstitialAd.isLoaded()) {
-//        //ht789  show ads
-//        //    mInterstitialAd.show();
-//        //  } else {
+  private void playingGame(int in) {
+        multi mlt = new multi();
+      int icon;
+      mlt.VibrationStart(1,getApplicationContext(),true);
+      int levelselect=0;
+
+        //  if (mInterstitialAd.isLoaded()) {
+        //ht789  show ads
+        //    mInterstitialAd.show();
+        //  } else {
 //        if(true){
 //            switch (in) {
-//                case "00":
+//                 case "00":
 //                    Log.i("goneToGame()", "case 00");
 //                    levelselect=1;
 //                    icon=R.string.icon_plus;
@@ -535,19 +446,20 @@ TextView levLogo00;
 //                    break;
 //
 //            }
-//
-//            if (starsin>2 || levelselect==1 )
-//            {
-//                if (levelselect!=1)
-//                {
-//                    starsin=starsin-2;
-//                    sp.Set("winstars",Integer.toString(starsin));
-//                }
-//                Intent intent = new Intent(Lev.this, Game.class);
-//                levelselect=levelselect*2;
-//                intent.putExtra("levelNo", (Integer)levelselect);
-//                startActivity(intent);
-//            }
+           levelselect=in;
+           icon=R.string.icon_plus;
+           if (starsin>2 || levelselect==1 )
+           {
+               if (levelselect!=1)
+               {
+                  starsin=starsin-2;
+                   sp.Set("winstars",Integer.toString(starsin));
+               }
+                Intent intent = new Intent(Lev.this, Game.class);
+                levelselect=levelselect*2;
+                intent.putExtra("levelNo", (Integer)levelselect);
+                startActivity(intent);
+           }
                 /*
             if(true)
             {
