@@ -174,13 +174,23 @@ TextView levLogo00;
         {
 
             String NOLevLogo;
-              if (i<11) {
+              if (i<10) {
                   NOLevLogo="levLogo"+"0"+Integer.toString(i);
               } else {
                   NOLevLogo="levLogo"+Integer.toString(i);}
              levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevLogo, "id", getPackageName()));
              levLogo.setTypeface(font2);
+            for (int j=1 ; j<=3;j++)
+            {
+                String NOLevStar;
+                if (i<10) {
+                    NOLevStar="levStar"+"0"+Integer.toString(i)+"0"+Integer.toString(j);
+                } else {
+                NOLevStar="levStar"+Integer.toString(i)+"0"+Integer.toString(j);}
+                levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevStar, "id", getPackageName()));
+                levLogo.setTypeface(font2);
 
+            }
         }
 
 
