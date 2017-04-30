@@ -20,24 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0009fdc-2c78-4957-ac73-cc95d251677c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/splash.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Game.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Splash_Screen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Splash_Screen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="gameoftrump-app-9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lev.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lev.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1530">
@@ -103,32 +92,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="top.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
               <folding>
                 <element signature="e#208#223#0" expanded="true" />
                 <element signature="e#308#323#0" expanded="true" />
                 <element signature="e#352#367#0" expanded="true" />
                 <element signature="e#387#406#0" expanded="true" />
-                <element signature="e#439#454#0" expanded="true" />
-                <element signature="e#520#534#0" expanded="true" />
-                <element signature="e#558#573#0" expanded="true" />
-                <element signature="e#602#616#0" expanded="true" />
-                <element signature="e#879#894#0" expanded="true" />
-                <element signature="e#926#941#0" expanded="true" />
-                <element signature="e#976#991#0" expanded="true" />
-                <element signature="e#1363#1378#0" expanded="true" />
-                <element signature="e#1696#1711#0" expanded="true" />
-                <element signature="e#2064#2079#0" expanded="true" />
-                <element signature="e#2680#2695#0" expanded="true" />
-                <element signature="e#3446#3465#0" expanded="true" />
-                <element signature="e#3724#3739#0" expanded="true" />
+                <element signature="e#439#455#0" expanded="true" />
+                <element signature="e#521#535#0" expanded="true" />
+                <element signature="e#559#574#0" expanded="true" />
+                <element signature="e#603#617#0" expanded="true" />
+                <element signature="e#693#709#0" expanded="true" />
+                <element signature="e#880#895#0" expanded="true" />
+                <element signature="e#927#942#0" expanded="true" />
+                <element signature="e#977#992#0" expanded="true" />
+                <element signature="e#1234#1249#0" expanded="true" />
+                <element signature="e#1364#1379#0" expanded="true" />
+                <element signature="e#1548#1564#0" expanded="true" />
+                <element signature="e#1698#1713#0" expanded="true" />
+                <element signature="e#2066#2081#0" expanded="true" />
+                <element signature="e#2682#2697#0" expanded="true" />
+                <element signature="e#3265#3280#0" expanded="true" />
+                <element signature="e#3448#3467#0" expanded="true" />
+                <element signature="e#3726#3741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2070,9 +2063,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_navigation_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Lev.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Game.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/whitedevs/gameoftrumps/Splash_Screen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
       </list>
     </option>
   </component>
@@ -2566,7 +2559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493540801750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change level, change name of stars,edit comments">
+      <created>1493552804333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1493552804333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3043,35 +3043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
-          <folding>
-            <element signature="e#208#223#0" expanded="true" />
-            <element signature="e#308#323#0" expanded="true" />
-            <element signature="e#352#367#0" expanded="true" />
-            <element signature="e#387#406#0" expanded="true" />
-            <element signature="e#439#454#0" expanded="true" />
-            <element signature="e#520#534#0" expanded="true" />
-            <element signature="e#558#573#0" expanded="true" />
-            <element signature="e#602#616#0" expanded="true" />
-            <element signature="e#879#894#0" expanded="true" />
-            <element signature="e#926#941#0" expanded="true" />
-            <element signature="e#976#991#0" expanded="true" />
-            <element signature="e#1363#1378#0" expanded="true" />
-            <element signature="e#1696#1711#0" expanded="true" />
-            <element signature="e#2064#2079#0" expanded="true" />
-            <element signature="e#2680#2695#0" expanded="true" />
-            <element signature="e#3446#3465#0" expanded="true" />
-            <element signature="e#3724#3739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3118,6 +3089,39 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+          <folding>
+            <element signature="e#208#223#0" expanded="true" />
+            <element signature="e#308#323#0" expanded="true" />
+            <element signature="e#352#367#0" expanded="true" />
+            <element signature="e#387#406#0" expanded="true" />
+            <element signature="e#439#455#0" expanded="true" />
+            <element signature="e#521#535#0" expanded="true" />
+            <element signature="e#559#574#0" expanded="true" />
+            <element signature="e#603#617#0" expanded="true" />
+            <element signature="e#693#709#0" expanded="true" />
+            <element signature="e#880#895#0" expanded="true" />
+            <element signature="e#927#942#0" expanded="true" />
+            <element signature="e#977#992#0" expanded="true" />
+            <element signature="e#1234#1249#0" expanded="true" />
+            <element signature="e#1364#1379#0" expanded="true" />
+            <element signature="e#1548#1564#0" expanded="true" />
+            <element signature="e#1698#1713#0" expanded="true" />
+            <element signature="e#2066#2081#0" expanded="true" />
+            <element signature="e#2682#2697#0" expanded="true" />
+            <element signature="e#3265#3280#0" expanded="true" />
+            <element signature="e#3448#3467#0" expanded="true" />
+            <element signature="e#3726#3741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
