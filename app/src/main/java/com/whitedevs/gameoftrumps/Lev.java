@@ -75,12 +75,13 @@ public class Lev extends Activity {
                 NOFL = "fl" + "0" + Integer.toString(i);
             } else {
                 NOLevLogo = "levLogo" + Integer.toString(i);
-                NOFL = "fl" + "0" + Integer.toString(i);
+                NOFL = "fl"  + Integer.toString(i);
             }
 
             levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevLogo, "id", getPackageName()));
             levLogo.setTypeface(font2);
             final int outI=i;
+            Log.e("fl",i +"  " + NOFL);
             FL = (FrameLayout) findViewById(getResources().getIdentifier(NOFL, "id", getPackageName()));
             FL.setOnClickListener(new View.OnClickListener() {
                 @Override
