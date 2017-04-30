@@ -559,6 +559,7 @@ TextView levLogo00;
 //                    winSentence.setText(R.string.icon_star);
 //                    break;
 //            }
+//
 //            //mehrnaz
 ////            fl.setVisibility(View.VISIBLE);
 ////

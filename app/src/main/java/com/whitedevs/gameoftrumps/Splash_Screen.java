@@ -14,7 +14,7 @@ import android.widget.Toast;
  */
 
 public class Splash_Screen extends Activity {
-    TextView txtLoading;
+//    TextView txtLoading;
     Typeface font;
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 10000;
@@ -22,9 +22,9 @@ public class Splash_Screen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
-        txtLoading = (TextView) findViewById(R.id.txtLoading);
+//        txtLoading = (TextView) findViewById(R.id.txtLoading);
         font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
-        txtLoading.setTypeface(font);
+//        txtLoading.setTypeface(font);
         caller();
 
         try {

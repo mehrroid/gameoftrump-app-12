@@ -84,6 +84,8 @@ public class Game extends Activity {
 		TextView txtsq1= (TextView) findViewById(R.id.sqbg);
 		TextView txtstar= (TextView) findViewById(R.id.star);
 		txtstar.setTypeface(font2);
+		TextView topIcMale= (TextView) findViewById(R.id.topIcMale);
+		topIcMale.setTypeface(font2);
 		sizeIcon=40;
 		TextView plus = (TextView) findViewById(R.id.pl);
 		plus.setTypeface(font);

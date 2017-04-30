@@ -63,6 +63,7 @@ public class NavigationDrawer extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
+
  //       view=
 //Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
 //        View contentHamburger=findViewById(R.id.content_hamburger);
@@ -120,6 +121,8 @@ public class NavigationDrawer extends AppCompatActivity
         TextView txtsq1= (TextView) findViewById(R.id.sqbg);
         TextView txtstar= (TextView) findViewById(R.id.star);
         txtstar.setTypeface(font);
+        TextView topIcMale= (TextView) findViewById(R.id.topIcMale);
+        topIcMale.setTypeface(font);
 
 //        txtsq1.setTypeface(font);
 //        TextView txtsq2= (TextView) findViewById(R.id.sqbg2);
