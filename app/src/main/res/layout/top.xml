@@ -83,7 +83,7 @@ android:layout_marginLeft="@dimen/_80sdp"
       android:textSize="@dimen/_10sdp"
       android:layout_gravity="right"
       android:gravity="right"
-      android:layout_marginRight="@dimen/_60sdp"
+      android:layout_marginRight="@dimen/_40sdp"
       android:textColor="@color/transparent_white_hex_15"
       android:paddingTop="@dimen/_1sdp"
 
