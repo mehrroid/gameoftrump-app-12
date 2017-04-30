@@ -11,6 +11,6 @@
         android:color="@color/blueBg"/>
     <corners android:radius="@dimen/_10sdp"/>
     <size
-        android:width="@dimen/_30sdp"
-        android:height="@dimen/_30sdp"/>
+        android:width="@dimen/_110sdp"
+        android:height="@dimen/_110sdp"/>
 </shape>

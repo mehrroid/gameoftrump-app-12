@@ -83,14 +83,14 @@ android:layout_marginLeft="@dimen/_80sdp"
       android:textSize="@dimen/_10sdp"
       android:layout_gravity="right"
       android:gravity="right"
-      android:layout_marginRight="@dimen/_35sdp"
+      android:layout_marginRight="@dimen/_60sdp"
       android:textColor="@color/transparent_white_hex_15"
-      android:paddingTop="@dimen/_minus5sdp"
+      android:paddingTop="@dimen/_1sdp"
 
       android:textStyle="bold"
 
-      android:layout_marginTop="@dimen/_18sdp"
-      android:layout_marginBottom="@dimen/_5sdp"/>
+      android:layout_marginTop="@dimen/_15sdp"
+      android:layout_marginBottom="@dimen/_10sdp"/>
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -14,6 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -114,6 +115,48 @@ public class Lev extends Activity {
         cloudl4.setTypeface(font2);
         cloudl5 = (TextView) findViewById(R.id.cloudl5);
         cloudl5.setTypeface(font2);
+        // popUp items
+        TextView txt= (TextView) findViewById(R.id.popUpIcMale);
+        TextView txtstars= (TextView) findViewById(R.id.icon_star);
+        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
+
+        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
+        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
+        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
+        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
+
+        txt.setTypeface(font2);
+        txtstars.setTypeface(font2);
+        txtstars2.setTypeface(font2);
+        txtstars3.setTypeface(font2);
+        txtstars4.setTypeface(font2);
+        txtstars5.setTypeface(font2);
+        txtstars6.setTypeface(font2);
+        TextView topIcMale= (TextView) findViewById(R.id.topIcMale);
+        topIcMale.setTypeface(font2);
+        final FrameLayout flPopUp= (FrameLayout) findViewById(R.id.popupFrameLayout);
+
+
+        flPopUp.setVisibility(View.GONE);
+
+//        flPopUp.setVisibility(View.VISIBLE);
+
+        final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
+        flPopUp.startAnimation(myAnim);
+
+
+        final RelativeLayout fm2= (RelativeLayout) findViewById(R.id.activity_main);
+        fm2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flPopUp.setVisibility(v.GONE);
+
+            }
+        });
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+
+        mAdView.loadAd(adRequest);
     }
  // must be remove
         //
@@ -154,7 +197,7 @@ public class Lev extends Activity {
 //
 //        } catch(NumberFormatException nfe) {}
 //
-//        Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+
 ////items of header
 ////     ll
 ////        txtIconStar = (TextView) findViewById(R.id.txtstar);
@@ -162,33 +205,10 @@ public class Lev extends Activity {
 ////        txtStarBg = (TextView) findViewById(R.id.txtstarbg);
 ////        txtStarBg.setTypeface(font2);
 //
-//        mAdView = (AdView) findViewById(R.id.adView);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//
-//        mAdView.loadAd(adRequest);
+
 //        draw(getResources().getStringArray(R.array.type), 5);
-//        //mehrnaz
-//        TextView txt= (TextView) findViewById(R.id.male);
-//        TextView txtstars= (TextView) findViewById(R.id.icon_star);
-//        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
-//
-//        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
-//        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
-//        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
-//        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
-//
-//        txt.setTypeface(font2);
-//        txtstars.setTypeface(font2);
-//        txtstars2.setTypeface(font2);
-//        txtstars3.setTypeface(font2);
-//        txtstars4.setTypeface(font2);
-//        txtstars5.setTypeface(font2);
-//        txtstars6.setTypeface(font2);
-//        final FrameLayout fl= (FrameLayout) findViewById(R.id.popupFrameLayout);
-//
-//
-//        fl.setVisibility(View.GONE);
-//        //
+
+        //
 //        //HT 748
 //        int winStars= getIntent().getIntExtra("winstars", 0);
 //        if (winStars!=0)
@@ -244,20 +264,7 @@ public class Lev extends Activity {
 //            }
 //
 //            //mehrnaz
-////            fl.setVisibility(View.VISIBLE);
-////
-////            final Animation myAnim = AnimationUtils.loadAnimation(Lev.this, R.anim.anim2);
-////            fl.startAnimation(myAnim);
-//            //
-//
-////            final TableLayout fm2= (TableLayout) findViewById(R.id.levelmain);
-////            fm2.setOnClickListener(new View.OnClickListener() {
-////    @Override
-////    public void onClick(View v) {
-////        fl.setVisibility(v.GONE);
-////
-////    }
-////});
+
 //        }
 //        //full screen adsMob start
 //        mInterstitialAd = new InterstitialAd(this);
