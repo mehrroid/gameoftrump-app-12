@@ -34,6 +34,7 @@ dependencies {
     compile 'com.github.Yalantis:GuillotineMenu-Android:1.2'
     compile 'com.google.android.gms:play-services-games:10.0.1'
     testCompile 'junit:junit:4.12'
+
 }
 
 
