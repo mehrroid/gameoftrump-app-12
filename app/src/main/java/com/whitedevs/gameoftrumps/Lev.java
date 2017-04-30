@@ -168,6 +168,8 @@ TextView levLogo00;
         txtstar.setTypeface(font2);
         TextView plus = (TextView) findViewById(R.id.pl);
         plus.setTypeface(font2);
+        TextView topIcMale= (TextView) findViewById(R.id.topIcMale);
+        topIcMale.setTypeface(font2);
         //mehrnaz lock
         TextView levLogo;
         for(int i=0;i<5;i++)

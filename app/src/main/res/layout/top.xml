@@ -5,13 +5,23 @@
     android:background="@color/blueBg"
     >
   <TextView
+      android:layout_width="@dimen/_30sdp"
+      android:layout_height="@dimen/_30sdp"
+      android:text="@string/icon_male"
+      android:layout_marginLeft="@dimen/_95sdp"
+      android:id="@+id/topIcMale"
+      android:layout_marginTop="@dimen/_1sdp"
+      android:textSize="@dimen/_20sdp"
+android:layout_marginBottom="@dimen/_5sdp"
+      android:textColor="#000000"/>
+  <TextView
       android:layout_width="@dimen/_100sdp"
       android:layout_height="@dimen/_25sdp"
       android:id="@+id/sqbg"
       android:layout_gravity="left"
       android:gravity="left"
       android:layout_marginLeft="@dimen/_45sdp"
-      android:layout_marginTop="@dimen/_5sdp"
+      android:layout_marginTop="@dimen/_10sdp"
       android:layout_marginBottom="@dimen/_10sdp"
       android:background="@drawable/roundbg"
       android:onClick="onGGP"/>
@@ -23,7 +33,7 @@
 android:layout_marginLeft="@dimen/_50sdp"
     android:textSize="@dimen/_25sdp"
     android:textColor="@color/colorPrimaryDark"
-    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
     android:layout_height="wrap_content"
     android:text="@string/icon_game"/>
 
@@ -34,7 +44,7 @@ android:layout_marginLeft="@dimen/_50sdp"
       android:id="@+id/tvUserName"
       android:layout_gravity="left"
       android:textStyle="bold"
-      android:layout_marginTop="@dimen/_10sdp"
+      android:layout_marginTop="@dimen/_15sdp"
       android:textColor="@color/common_google_signin_btn_text_dark_default"
       android:textSize="@dimen/_11sdp"
       android:layout_height="wrap_content"
@@ -44,7 +54,7 @@ android:layout_marginLeft="@dimen/_50sdp"
       android:layout_height="@dimen/_25sdp"
       android:id="@+id/sqbg2"
 
-      android:layout_marginTop="@dimen/_5sdp"
+      android:layout_marginTop="@dimen/_10sdp"
       android:layout_marginBottom="@dimen/_10sdp"
       android:layout_marginRight="@dimen/_20sdp"
       android:layout_gravity="right"
@@ -60,7 +70,7 @@ android:layout_marginLeft="@dimen/_50sdp"
       android:gravity="right"
       android:layout_marginRight="@dimen/_95sdp"
       android:textColor="@color/colorStars"
-    android:paddingTop="@dimen/_10sdp"
+    android:paddingTop="@dimen/_15sdp"
       android:paddingBottom="@dimen/_5sdp"
       android:paddingLeft="@dimen/_5sdp"
      />
@@ -79,7 +89,7 @@ android:layout_marginLeft="@dimen/_50sdp"
 
       android:textStyle="bold"
 
-      android:layout_marginTop="@dimen/_12sdp"
+      android:layout_marginTop="@dimen/_18sdp"
       android:layout_marginBottom="@dimen/_5sdp"/>
   <TextView
       android:layout_width="wrap_content"
@@ -92,6 +102,6 @@ android:layout_marginLeft="@dimen/_50sdp"
       android:gravity="right"
       android:layout_marginRight="@dimen/_24sdp"
       android:textColor="@color/colorStars"
-      android:layout_marginTop="@dimen/_12sdp"
+      android:layout_marginTop="@dimen/_18sdp"
       android:layout_marginBottom="@dimen/_5sdp"/>
 </FrameLayout>
