@@ -87,7 +87,8 @@ public class Lev extends Activity {
             FL.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    playingGame(outI);}
+                    Log.e("fl",outI +"  " + v);
+                    playingGame(outI*2);}
             });
 
             for (int j = 1; j <= 3; j++) {
@@ -157,27 +158,27 @@ public class Lev extends Activity {
         AdRequest adRequest = new AdRequest.Builder().build();
 
         mAdView.loadAd(adRequest);
-    }
- // must be remove
-        //
+
+
 //        Log.e("level", "R.layout.level");
 //        container = (LinearLayout) findViewById(R.id.activity_main);
 //        Log.e("level", "R.id.activity_main");
-//        sp = new SharedPre(getApplicationContext());
-//        starsin=0;
+          sp = new SharedPre(getApplicationContext());
+          starsin=0;
 //        String userName="Name";
 //
-//        try {
-//            //remove below line ht700 for lunch
-//            sp.Set("winstars",Integer.toString(1000));
-//            //end remove
-//           starsin=Integer.parseInt(sp.Get("winstars").toString());
-//            if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
-//            Log.e("sp.Get(winstars)", starsin+"");
-//        } catch(NumberFormatException nfe) {
+       try {
+            //remove below line ht700 for lunch
+            sp.Set("winstars",Integer.toString(1000));
+            //end remove
+           starsin=Integer.parseInt(sp.Get("winstars").toString());
+           if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
+            Log.e("sp.Get(winstars)", starsin+"");
+        } catch(NumberFormatException nfe) {
 //            //	System.out.println("Could not parse " + nfe);
 //            starsin=0;
-//        }
+        }
+       }
 //
 //        try {
 //            userName=(sp.Get("username"));
@@ -455,8 +456,7 @@ public class Lev extends Activity {
 //            }
            levelselect=in;
            icon=R.string.icon_plus;
-           if (starsin>2 || levelselect==1 )
-           {
+
                if (levelselect!=1)
                {
                   starsin=starsin-2;
@@ -466,7 +466,7 @@ public class Lev extends Activity {
                 levelselect=levelselect*2;
                 intent.putExtra("levelNo", (Integer)levelselect);
                 startActivity(intent);
-           }
+
                 /*
             if(true)
             {
