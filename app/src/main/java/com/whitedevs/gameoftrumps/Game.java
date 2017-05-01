@@ -542,7 +542,7 @@ public class Game extends Activity {
 
 		private void turnCard(Button button,int x, int y) {
 			//	button.setBackgroundDrawable(images.get(cards[x][y]));
-			playSound();
+
 			Log.i("turndCards()", "card["+(x)+
 					"]["+(y)+"]=" + cards[x][y]);
 			Typeface fontawsome = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
@@ -555,14 +555,16 @@ public class Game extends Activity {
 //			button.startAnimation(myAnim);
 
 			if(firstCard==null){
+				playSound(1);
 				firstCard = new Card(button,x,y);
 			}
 			else{
 
 				if(firstCard.x == x && firstCard.y == y){
+
 					return; //the user pressed the same card
 				}
-
+				playSound(1);
 				seconedCard = new Card(button,x,y);
 
 				turns++;
@@ -601,6 +603,7 @@ public class Game extends Activity {
 		}
 		public void checkCards(){
 			if(cards[seconedCard.x][seconedCard.y] == cards[firstCard.x][firstCard.y]){
+				playSound(2);
 				firstCard.button.setVisibility(View.INVISIBLE);
 				seconedCard.button.setVisibility(View.INVISIBLE);
 				winCard +=1;
@@ -720,14 +723,19 @@ public class Game extends Activity {
 		Intent intent = new Intent(Game.this, userProfile.class);
 		startActivity(intent);
 	}
-	private void  playSound()
+	private void  playSound(int in)
 	{
 		setVolumeControlStream(AudioManager.STREAM_MUSIC);
-		//we now instantiate the player using our music file;
-		//note that since it is a resource in the "raw" directory,
-		//we don't need the file's extension;
-		//our file here is in fact called "soundfile.mp3";
-		player = MediaPlayer.create(this, R.raw.card);
+
+		if (in==1) {
+			player = MediaPlayer.create(this, R.raw.card);
+		}
+		if (in==2){
+			player = MediaPlayer.create(this, R.raw.pick);
+		}
+		else {
+			player = MediaPlayer.create(this, R.raw.tab);
+		}
 		//we start playing the file!
 		player.start();
 	}
