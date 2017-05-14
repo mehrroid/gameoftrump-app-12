@@ -33,7 +33,7 @@
 
 
     </string-array>
-    <string name="app_name">GOT</string>
+    <string name="app_name">بازی ترامپ</string>
     <string name="icon_heart">&#xf1ee;</string>
     <string name="icon_triangle"> &#xf071;</string>
     <string name="icon_spinner">&#xf110;</string>
@@ -92,18 +92,18 @@
 
     <string name="game_title">Button Clicker 2000!</string>
     <string name="game_blurb">A sample game that tests your ability to click a button. Can you click faster than your friends? Only one way to find out! To play this game with friends, you must sign in with Google.</string>
-    <string name="single_player">Single Player</string>
+    <string name="single_player">تک نفره</string>
     <string name="single_player_explanation">Get some practice!</string>
-    <string name="quick_game">Quick game</string>
-    <string name="invite_players">Invite friends</string>
-    <string name="see_invitations">See invitations</string>
+    <string name="quick_game">بازی سریع</string>
+    <string name="invite_players">دعوت دوستان</string>
+    <string name="see_invitations">دیدن دعوتنامه ها</string>
     <string name="quick_game_explanation">Challenge a random opponent.</string>
-    <string name="invite_players_explanation">Invite friends to play a game.</string>
-    <string name="see_invitations_explanation">See who is inviting you right now.</string>
-    <string name="inv_popup_text">Incoming invitation!</string>
-    <string name="accept_popup_invite">Accept!</string>
-    <string name="sign_out">Sign Out</string>
-    <string name="please_wait">Please wait&#8230;</string>
+    <string name="invite_players_explanation">دوست خود را برای بازی دعوت کنید</string>
+    <string name="see_invitations_explanation">دیدن افرادی که شما را دعوت به بازی کرده اند</string>
+    <string name="inv_popup_text">دعوتنامه های در راه</string>
+    <string name="accept_popup_invite">قبول دارم</string>
+    <string name="sign_out">خروج</string>
+    <string name="please_wait">لطف صبر کنید</string>
     <string name="instructions">Click the button as fast as you can!</string>
     <string name="game_problem">An error occurred while starting the game. Please try again.</string>
     <string name="click_me">Click me!</string>
@@ -112,7 +112,7 @@
     <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="license_failed">License check failed.</string>
-    <string name="unknown_error">Unknown error.</string>
+    <string name="unknown_error">پیام خطا ناشناس</string>
 
 
 
