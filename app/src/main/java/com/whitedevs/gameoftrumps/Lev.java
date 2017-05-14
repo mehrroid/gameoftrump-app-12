@@ -76,19 +76,20 @@ public class Lev extends Activity {
                 NOFL = "fl" + "0" + Integer.toString(i);
             } else {
                 NOLevLogo = "levLogo" + Integer.toString(i);
-                NOFL = "fl"  + Integer.toString(i);
+                NOFL = "fl" + Integer.toString(i);
             }
 
             levLogo = (TextView) findViewById(getResources().getIdentifier(NOLevLogo, "id", getPackageName()));
             levLogo.setTypeface(font2);
-            final int outI=i;
-            Log.e("fl",i +"  " + NOFL);
+            final int outI = i;
+            Log.e("fl", i + "  " + NOFL);
             FL = (FrameLayout) findViewById(getResources().getIdentifier(NOFL, "id", getPackageName()));
             FL.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.e("fl",outI +"  " + v);
-                    playingGame(outI*2);}
+                    Log.e("fl", outI + "  " + v);
+                    playingGame(outI * 2);
+                }
             });
 
             for (int j = 1; j <= 3; j++) {
@@ -117,14 +118,14 @@ public class Lev extends Activity {
         cloudl5 = (TextView) findViewById(R.id.cloudl5);
         cloudl5.setTypeface(font2);
         // popUp items
-        TextView txt= (TextView) findViewById(R.id.popUpIcMale);
-        TextView txtstars= (TextView) findViewById(R.id.icon_star);
-        TextView txtstars2= (TextView) findViewById(R.id.icon_star2);
+        TextView txt = (TextView) findViewById(R.id.popUpIcMale);
+        TextView txtstars = (TextView) findViewById(R.id.icon_star);
+        TextView txtstars2 = (TextView) findViewById(R.id.icon_star2);
 
-        TextView txtstars3= (TextView) findViewById(R.id.icon_star3);
-        TextView txtstars4= (TextView) findViewById(R.id.icon_star03);
-        TextView txtstars5= (TextView) findViewById(R.id.icon_star02);
-        TextView txtstars6= (TextView) findViewById(R.id.icon_star01);
+        TextView txtstars3 = (TextView) findViewById(R.id.icon_star3);
+        TextView txtstars4 = (TextView) findViewById(R.id.icon_star03);
+        TextView txtstars5 = (TextView) findViewById(R.id.icon_star02);
+        TextView txtstars6 = (TextView) findViewById(R.id.icon_star01);
 
         txt.setTypeface(font2);
         txtstars.setTypeface(font2);
@@ -133,9 +134,9 @@ public class Lev extends Activity {
         txtstars4.setTypeface(font2);
         txtstars5.setTypeface(font2);
         txtstars6.setTypeface(font2);
-        TextView topIcMale= (TextView) findViewById(R.id.topIcMale);
+        TextView topIcMale = (TextView) findViewById(R.id.topIcMale);
         topIcMale.setTypeface(font2);
-        final FrameLayout flPopUp= (FrameLayout) findViewById(R.id.popupFrameLayout);
+        final FrameLayout flPopUp = (FrameLayout) findViewById(R.id.popupFrameLayout);
 
 
         flPopUp.setVisibility(View.GONE);
@@ -146,7 +147,7 @@ public class Lev extends Activity {
         flPopUp.startAnimation(myAnim);
 
 
-        final RelativeLayout fm2= (RelativeLayout) findViewById(R.id.activity_main);
+        final RelativeLayout fm2 = (RelativeLayout) findViewById(R.id.activity_main);
         fm2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -163,22 +164,24 @@ public class Lev extends Activity {
 //        Log.e("level", "R.layout.level");
 //        container = (LinearLayout) findViewById(R.id.activity_main);
 //        Log.e("level", "R.id.activity_main");
-          sp = new SharedPre(getApplicationContext());
-          starsin=0;
+        sp = new SharedPre(getApplicationContext());
+        starsin = 0;
 //        String userName="Name";
 //
-       try {
+        try {
             //remove below line ht700 for lunch
-            sp.Set("winstars",Integer.toString(1000));
+            sp.Set("winstars", Integer.toString(1000));
             //end remove
-           starsin=Integer.parseInt(sp.Get("winstars").toString());
-           if (Integer.parseInt(sp.Get("winstars").toString())!=400400400){ starsin=Integer.parseInt(sp.Get("winstars").toString());}
-            Log.e("sp.Get(winstars)", starsin+"");
-        } catch(NumberFormatException nfe) {
+            starsin = Integer.parseInt(sp.Get("winstars").toString());
+            if (Integer.parseInt(sp.Get("winstars").toString()) != 400400400) {
+                starsin = Integer.parseInt(sp.Get("winstars").toString());
+            }
+            Log.e("sp.Get(winstars)", starsin + "");
+        } catch (NumberFormatException nfe) {
 //            //	System.out.println("Could not parse " + nfe);
 //            starsin=0;
         }
-       }
+
 //
 //        try {
 //            userName=(sp.Get("username"));
@@ -211,58 +214,60 @@ public class Lev extends Activity {
 
         //
 //        //HT 748
-//        int winStars= getIntent().getIntExtra("winstars", 0);
-//        if (winStars!=0)
-//        {
-//
-//            //777
-//            sp.Set("stars",Integer.toString(0));
-//            Log.e("winStars", winStars+"");
-//            CharSequence text = "You Win , " + winStars + " Stars";
-//            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
-//            toast.show();
-//            TextView winSentence;
-//            winSentence=(TextView) findViewById(R.id.winSentence);
-//            switch (winStars){
-//                case 0:
-//                    winSentence.setText("You Lose!");
-//
-//                    break;
-//                case 1:
-//                    //R.string.icon_trophy
-//                    winSentence.setText("Fine!");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//                case 2:
-//                    winSentence.setText("You did it");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star2);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star02);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//                case 3:
-//                    winSentence.setText("You made it");
-//                    winSentence=(TextView) findViewById(R.id.icon_star);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star01);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star2);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star02);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star3);
-//                    winSentence.setText(R.string.icon_star);
-//                    winSentence=(TextView) findViewById(R.id.icon_star03);
-//                    winSentence.setText(R.string.icon_star);
-//                    break;
-//            }
+        int winStars = getIntent().getIntExtra("winstars", 0);
+        if (winStars != 0) {
+            //777
+            sp.Set("stars", Integer.toString(0));
+            Log.e("winStars", winStars + "");
+            CharSequence text = "You Win , " + winStars + " Stars";
+            Toast toast = Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG);
+            toast.show();
+            TextView winSentence;
+            winSentence = (TextView) findViewById(R.id.winSentence);
+            switch (winStars) {
+                case 0:
+                    winSentence.setText(R.string.txtMLose);
+
+                    break;
+                case 1:
+                    //R.string.icon_trophy
+                    winSentence.setText(R.string.txtMWin1Star);
+                    winSentence = (TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 2:
+                    winSentence.setText(R.string.txtMWin2Star);
+                    winSentence = (TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                case 3:
+                    winSentence.setText(R.string.txtMWin3Star);
+                    winSentence = (TextView) findViewById(R.id.icon_star);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star01);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star2);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star02);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star3);
+                    winSentence.setText(R.string.icon_star);
+                    winSentence = (TextView) findViewById(R.id.icon_star03);
+                    winSentence.setText(R.string.icon_star);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
 //
 //            //mehrnaz
 
