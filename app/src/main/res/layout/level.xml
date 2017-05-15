@@ -1,25 +1,27 @@
 <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
 
 
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/blueBg"
     >
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/toplayout"
-        android:layout_height="43dp">
+        android:gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
         <include layout="@layout/top"/>
-    </FrameLayout>
+    </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/toplayout"
         android:gravity="center"
+        android:layout_marginLeft="@dimen/_20sdp"
 
         >
         <LinearLayout
@@ -1258,7 +1260,7 @@
                 android:textSize="50dp"
                 android:id="@+id/cloudl1"
                 android:gravity="left"
-                android:layout_marginLeft="@dimen/_minus5sdp"/>
+                android:layout_marginLeft="@dimen/_5sdp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1296,7 +1298,7 @@
                 android:textSize="40dp"
                 android:id="@+id/cloudl5"
                 android:gravity="right"
-                android:layout_marginLeft="@dimen/_250sdp"
+                android:layout_marginLeft="@dimen/_230sdp"
                 android:layout_marginBottom="@dimen/_40sdp"
                 />
         </RelativeLayout>

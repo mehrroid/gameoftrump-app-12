@@ -24,7 +24,7 @@
         android:id="@+id/arrow"
 android:gravity="center"
         android:layout_marginTop="@dimen/_60sdp"
-        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_60sdp"
         android:layout_gravity="center"
         android:text="@string/icon_arrow"/>
     <TextView

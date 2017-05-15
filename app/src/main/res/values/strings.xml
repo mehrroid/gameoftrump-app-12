@@ -42,6 +42,10 @@
 
     <string name="icon_lock">&#xf023;</string>
     <string name="icon_circle">&#xf111;</string>
+    <string name="icon_volume">&#xf028;</string>
+    <string name="icon_mobile">&#xf10b;</string>
+    <string name="icon_circlef"> &#xf111; </string>
+    <string name="icon_tint">  &#xf043;  </string>
 
 
     <string name="icon_play">&#xf04b;</string>
