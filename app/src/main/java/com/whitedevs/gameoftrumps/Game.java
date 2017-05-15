@@ -122,6 +122,7 @@ public class Game extends Activity implements View.OnClickListener{
 	TextView txtBackCard48;
 	TextView txtBackCard49;
 	TextView txtBackCard50;
+	
 	//H>T added End
 
 	protected void onCreate(Bundle savedInstanceState) {
@@ -259,6 +260,7 @@ public class Game extends Activity implements View.OnClickListener{
 		txtBackCard48.setOnClickListener(this);
 		txtBackCard49.setOnClickListener(this);
 		txtBackCard50.setOnClickListener(this);
+
 
 
 

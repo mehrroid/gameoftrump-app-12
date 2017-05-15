@@ -8,6 +8,6 @@
     <corners android:radius="0dp" />
     <solid android:color="@color/colorgamebg" />
     <size
-        android:width="@dimen/_30sdp"
-        android:height="@dimen/_30sdp"/>
+        android:width="@dimen/_40sdp"
+        android:height="@dimen/_40sdp"/>
 </shape>
