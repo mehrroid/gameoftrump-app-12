@@ -125,4 +125,10 @@
     <string name="achievement_achieve_01">CgkIqv__oeYKEAIQAQ</string>
     <string name="leaderboard_my_little_leaderboard">HzkA4Kz04F8MRYIBVU</string>
 
+
+    <string name="txtMFITW"> Find it to WIN!</string>
+    <string name="txtMLose">You Lose!</string>
+    <string name="txtMWin1Star">Fine!</string>
+    <string name="txtMWin2Star">You did it</string>
+    <string name="txtMWin3Star">You made it</string>
 </resources>
