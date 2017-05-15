@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:gravity="center"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+
 
         >
         <!--row1-->
@@ -27,31 +29,34 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
-                android:paddingRight="@dimen/_50sdp"
-                android:paddingLeft="@dimen/_50sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5">
+                android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_weight="5"
+                    android:layout_weight="1"
 
                     android:layout_height="wrap_content">
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard1"
-                        android:background="@color/blueBg"
+
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:text="Back"
                             android:id="@+id/txtBackCard1"
-
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+android:textSize="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
 
                             android:textColor="@color/transparent_white_hex_15"
                             />
@@ -60,41 +65,45 @@
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard2"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:id="@+id/txtBackCard2"
-
+                            android:textSize="@dimen/_10sdp"
                             android:textColor="@color/transparent_white_hex_15"
-
                             />
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard3"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
                             android:id="@+id/txtBackCard3"
 
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
 
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -103,17 +112,20 @@
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard4"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+android:textSize="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:id="@+id/txtBackCard4"
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -123,20 +135,49 @@
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard5"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
+
                             android:text="Back"
                             android:id="@+id/txtBackCard5"
                             android:textColor="@color/transparent_white_hex_15"
 
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+android:textSize="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard6"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Back"
+                            android:textSize="@dimen/_10sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:id="@+id/txtBackCard6"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
 
                             />
 
@@ -153,122 +194,164 @@
             android:paddingLeft="10dp"
             android:id="@+id/linnRow2"
             android:paddingRight="10dp"
-android:layout_below="@id/linn"
+            android:layout_below="@id/linn"
             android:background="@color/blueBg"
-       >
+            >
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
-
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
                 android:layout_height="wrap_content"
-                android:layout_weight="5">
+                android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:layout_weight="5"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:layout_weight="1"
+
                     android:layout_height="wrap_content">
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard7"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard7"
+
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard8"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:id="@+id/txtBackCard8"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard9"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:textSize="@dimen/_10sdp"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard9"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard10"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:id="@+id/txtBackCard10"
+
+
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:id="@+id/flCard11"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
+
                             android:text="Back"
+                            android:textSize="@dimen/_10sdp"
                             android:id="@+id/txtBackCard11"
-                            android:gravity="center"
 
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
-
                             />
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="5"
+                        android:layout_weight="1"
                         android:id="@+id/flCard12"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:id="@+id/txtBackCard12"
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="5"
-                        android:id="@+id/flCard13"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard13"
-
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="5"
-                        android:id="@+id/flCard14"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard14"
-
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="5"
-                        android:id="@+id/flCard15"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard15"
-
-                            android:gravity="center"
-
+android:textSize="@dimen/_10sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
@@ -281,8 +364,7 @@ android:layout_below="@id/linn"
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+
             android:id="@+id/linnRow3"
             android:background="@color/blueBg"
 
@@ -290,29 +372,36 @@ android:layout_below="@id/linn"
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content">
+
+
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard6"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard13"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard6"
-                            android:gravity="center"
+                            android:text="back"
+                            android:id="@+id/txtBackCard13"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -322,59 +411,19 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard7"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard14"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard7"
-
-                            android:textColor="@color/transparent_white_hex_15"
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard8"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard8"
-
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard9"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard9"
+                            android:text="back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard14"
 
 
                             android:textColor="@color/transparent_white_hex_15"
@@ -386,20 +435,90 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard10"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard15"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard10"
+                            android:text="back"
+                            android:id="@+id/txtBackCard15"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
 
-                            android:gravity="center"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard16"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard16"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard17"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:textSize="@dimen/_10sdp"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard17"
 
                             android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard18"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard18"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
 
@@ -416,7 +535,7 @@ android:layout_below="@id/linn"
             android:paddingRight="10dp"
             android:id="@+id/linnRow4"
             android:background="@color/blueBg"
-           android:layout_below="@id/linnRow3">
+            android:layout_below="@id/linnRow3">
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
@@ -425,89 +544,29 @@ android:layout_below="@id/linn"
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_height="wrap_content">
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard16"
-                        android:background="@color/blueBg"
-                        >
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard16"
-                            android:gravity="center"
 
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard17"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard17"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard18"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard18"
-
-                            android:gravity="center"
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard19"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard19"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard19"
 
-
+android:textSize="@dimen/_10sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -518,17 +577,113 @@ android:layout_below="@id/linn"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard20"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
                             android:id="@+id/txtBackCard20"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
 
-                            android:gravity="center"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard21"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Back"
+                            android:textSize="@dimen/_10sdp"
+                            android:id="@+id/txtBackCard21"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard22"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:textSize="@dimen/_10sdp"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard22"
+
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard23"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:textSize="@dimen/_10sdp"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard23"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard24"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard24"
+
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -555,112 +710,146 @@ android:layout_below="@id/linn"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content">
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard21"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard21"
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard22"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard22"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard23"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard23"
-
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard24"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard24"
 
 
-                            android:textColor="@color/transparent_white_hex_15"
 
-                            />
 
-                    </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard25"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
                             android:id="@+id/txtBackCard25"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
-                            android:gravity="center"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard26"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard26"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard27"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard27"
+android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard28"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard28"
+android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard29"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard29"
+
+android:textSize="@dimen/_10sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard30"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard30"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -678,7 +867,7 @@ android:layout_below="@id/linn"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:background="@color/blueBg"
-           android:layout_below="@id/linnRow5">
+            android:layout_below="@id/linnRow5">
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
@@ -687,24 +876,49 @@ android:layout_below="@id/linn"
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_height="wrap_content">
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard26"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard31"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:id="@+id/txtBackCard26"
-                            android:gravity="center"
+                            android:id="@+id/txtBackCard31"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:textSize="@dimen/_10sdp"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard32"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard32"
+                            android:textSize="@dimen/_10sdp"
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -715,17 +929,42 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard27"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard33"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard27"
+                            android:id="@+id/txtBackCard33"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard34"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard34"
+                            android:textSize="@dimen/_10sdp"
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -736,20 +975,21 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard28"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard35"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:id="@+id/txtBackCard28"
+                            android:id="@+id/txtBackCard35"
+                            android:textSize="@dimen/_10sdp"
 
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
 
@@ -758,41 +998,21 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard29"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard36"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard29"
+                            android:textSize="@dimen/_10sdp"
 
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard30"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard30"
-
-                            android:gravity="center"
-
+                            android:id="@+id/txtBackCard36"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -810,7 +1030,7 @@ android:layout_below="@id/linn"
             android:id="@+id/linnRow7"
             android:paddingRight="10dp"
             android:background="@color/blueBg"
-           android:layout_below="@id/linnRow6">
+            android:layout_below="@id/linnRow6">
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
@@ -819,24 +1039,30 @@ android:layout_below="@id/linn"
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_height="wrap_content">
+
+
+
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard31"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard37"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:id="@+id/txtBackCard31"
-                            android:gravity="center"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard37"
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -847,17 +1073,45 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard32"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard38"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
+                            android:textSize="@dimen/_10sdp"
+
+
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard32"
+                            android:id="@+id/txtBackCard38"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
+
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard39"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard39"
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -868,18 +1122,44 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard33"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard40"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:id="@+id/txtBackCard33"
+                            android:id="@+id/txtBackCard40"
+                            android:textSize="@dimen/_10sdp"
 
-                            android:gravity="center"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
+                            />
+
+                    </FrameLayout>
+                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/flCard41"
+                        android:background="@drawable/squarebg2"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Back"
+                            android:id="@+id/txtBackCard41"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -889,39 +1169,21 @@ android:layout_below="@id/linn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard34"
-                        android:background="@color/blueBg"
+                        android:id="@+id/flCard42"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard34"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard42"
 
-                            android:textColor="@color/transparent_white_hex_15"
+                            android:textSize="@dimen/_10sdp"
 
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard35"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard35"
-
-                            android:gravity="center"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -939,7 +1201,7 @@ android:layout_below="@id/linn"
             android:id="@+id/linnRow8"
             android:paddingRight="10dp"
             android:background="@color/blueBg"
-         android:layout_below="@id/linnRow7">
+            android:layout_below="@id/linnRow7">
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
@@ -947,196 +1209,31 @@ android:layout_below="@id/linn"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="0dp"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_10sdp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content">
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard36"
-                        android:background="@color/blueBg"
-                        >
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard36"
-                            android:gravity="center"
 
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard37"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard37"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard38"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard38"
-
-                            android:gravity="center"
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard39"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard39"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard40"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard40"
-
-                            android:gravity="center"
-                            android:textColor="@color/transparent_white_hex_15"
-                            />
-
-                    </FrameLayout>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--row9-->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:id="@+id/linnRow9"
-            android:background="@color/blueBg"
-         android:layout_below="@id/linnRow8">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
-                    android:layout_height="wrap_content">
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard41"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard41"
-                            android:gravity="center"
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard42"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard42"
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard43"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
                             android:id="@+id/txtBackCard43"
+                            android:textSize="@dimen/_10sdp"
 
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
 
@@ -1146,20 +1243,21 @@ android:layout_below="@id/linn"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard44"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
                             android:id="@+id/txtBackCard44"
-
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
 
                             android:textColor="@color/transparent_white_hex_15"
-
                             />
 
                     </FrameLayout>
@@ -1168,65 +1266,44 @@ android:layout_below="@id/linn"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard45"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:id="@+id/txtBackCard45"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard45"
+                            android:textSize="@dimen/_10sdp"
 
-                            android:gravity="center"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
 
                     </FrameLayout>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--row10-->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:id="@+id/linnRow10"
-            android:paddingRight="10dp"
-
-            android:background="@color/blueBg"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:layout_below="@id/linnRow9">
-            <LinearLayout
-                android:layout_width="0dp"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-
-                    android:paddingRight="@dimen/_50sdp"
-                    android:paddingLeft="@dimen/_50sdp"
-                    android:layout_height="wrap_content">
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard46"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
                             android:id="@+id/txtBackCard46"
-                            android:gravity="center"
 
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:textSize="@dimen/_10sdp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
@@ -1236,16 +1313,18 @@ android:layout_below="@id/linn"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard47"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
                             android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard47"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard47"
+                            android:textSize="@dimen/_10sdp"
 
                             android:textColor="@color/transparent_white_hex_15"
 
@@ -1257,59 +1336,21 @@ android:layout_below="@id/linn"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard48"
-                        android:background="@color/blueBg"
+                        android:background="@drawable/squarebg2"
                         >
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
+
                             android:text="Back"
                             android:id="@+id/txtBackCard48"
+                            android:textSize="@dimen/_10sdp"
 
-                            android:gravity="center"
-
-                            android:textColor="@color/transparent_white_hex_15"
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard49"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:gravity="center"
-                            android:id="@+id/txtBackCard49"
-
-                            android:textColor="@color/transparent_white_hex_15"
-
-                            />
-
-                    </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/flCard50"
-                        android:background="@color/blueBg"
-                        >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/squarebg2"
-                            android:text="Back"
-                            android:id="@+id/txtBackCard50"
-
-                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
@@ -1318,6 +1359,7 @@ android:layout_below="@id/linn"
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+
 
     </RelativeLayout>
     <include layout="@layout/popup2"/>

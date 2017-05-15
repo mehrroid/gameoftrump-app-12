@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="ddbd8bca8f3f562bb7ff3a895780d37b6c029e54">
+        sha1="120df778d35307eca8df7151a07982098a3c91dc">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/nw/g/gameoftrump-app-12/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fe009fe949b08025145071673da6b50d3f94dc87/classes.dex" />
     </item>
     <item
@@ -205,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="7a3742dd7c7f26aaff4710f09ceda8d185859517">
+        sha1="e76931e5ef2cbdcd9e59c0342aa76bfc977ee144">
         <dex dex="/home/mehrnaz/AndroidStudioProjects/nw/g/gameoftrump-app-12/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e3d7d95e5013bc568bbdb7deecfb89ff38fdca53/classes.dex" />
     </item>
     <item

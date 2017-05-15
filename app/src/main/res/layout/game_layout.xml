@@ -55,7 +55,6 @@
                             android:id="@+id/txtBackCard1"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
 
                             android:textColor="@color/transparent_white_hex_15"
