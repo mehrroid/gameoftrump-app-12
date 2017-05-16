@@ -264,10 +264,10 @@
 
     <style name="MySwitch" parent="Theme.AppCompat.Light">
         <!-- active thumb & track color (30% transparency) -->
-        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/blueBg</item>
 
         <!-- inactive thumb color -->
-        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/gray</item>
 
         <!-- inactive track color (30% transparency) -->
         <item name="android:colorForeground">@color/gray</item>

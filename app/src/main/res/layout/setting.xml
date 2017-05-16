@@ -6,7 +6,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_40sdp">
+        android:id="@+id/linSetting"
+        android:layout_marginTop="@dimen/_20sdp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,46 +25,55 @@
             android:text="Volume"
             android:textSize="@dimen/_16sdp"
             android:paddingTop="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_10sdp"
             android:layout_gravity="right"
-            android:layout_marginLeft="@dimen/_30sdp"/>
-        <!--<ToggleButton-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:textColor="@color/blueBg"-->
-        <!--android:layout_gravity="right"-->
-        <!--android:checked="true"-->
-        <!--android:paddingTop="@dimen/_10sdp"-->
-        <!--android:layout_marginLeft="@dimen/_150sdp"/>-->
+            android:layout_toRightOf="@id/txtVolume"
+            />
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right">
         <android.support.v7.widget.SwitchCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/_10sdp"
             android:layout_gravity="right"
             android:theme="@style/MySwitch"
-            android:layout_marginLeft="@dimen/_120sdp"
             android:gravity="right"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:id="@+id/switch1"
             android:layout_alignParentRight="true"
             android:paddingBottom="@dimen/_5sdp"
             android:checked="true"/>
-
+</RelativeLayout>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linView"
+        android:layout_below="@id/linSetting"
+        android:layout_marginTop="@dimen/_minus20sdp"
+        android:layout_height="wrap_content">
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="@dimen/_minus5sdp"
         android:layout_marginLeft="@dimen/_16sdp"
         android:layout_marginRight="@dimen/_16sdp"
         android:paddingLeft="@dimen/_16sdp"
         android:paddingRight="@dimen/_16sdp"
-        android:paddingBottom="@dimen/_5sdp"
         android:background="#c0c0c0"/>
+    </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_40sdp">
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/linVibration"
+        android:layout_below="@id/linView"
+
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,7 +83,7 @@
             android:layout_marginTop="@dimen/_50sdp"
             android:paddingTop="@dimen/_10sdp"
             android:textSize="@dimen/_25sdp"
-            android:paddingLeft="@dimen/_16sdp"
+           android:layout_marginLeft="@dimen/_16sdp"
             android:text="@string/icon_mobile"/>
         <TextView
             android:layout_width="wrap_content"
@@ -82,7 +92,9 @@
             android:textSize="@dimen/_16sdp"
             android:paddingTop="@dimen/_10sdp"
             android:layout_gravity="right"
-            android:layout_marginLeft="@dimen/_30sdp"/>
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_toRightOf="@id/txtVibration"
+            />
         <!--<ToggleButton-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
@@ -91,18 +103,31 @@
         <!--android:checked="true"-->
         <!--android:paddingTop="@dimen/_10sdp"-->
         <!--android:layout_marginLeft="@dimen/_150sdp"/>-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
         <android.support.v7.widget.SwitchCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/_10sdp"
             android:layout_gravity="right"
-            android:layout_marginLeft="@dimen/_120sdp"
+            android:layout_marginRight="@dimen/_16sdp"
             android:theme="@style/MySwitch"
+            android:layout_alignParentRight="true"
+
             android:paddingBottom="@dimen/_5sdp"
 
             android:checked="false"/>
-
+</RelativeLayout>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linViewVibrate"
+        android:layout_below="@id/linVibration"
+        android:layout_marginTop="@dimen/_minus25sdp"
+        android:layout_height="wrap_content">
     <View
         android:layout_width="fill_parent"
         android:layout_height="1dp"
@@ -110,19 +135,22 @@
         android:layout_marginRight="@dimen/_16sdp"
         android:paddingLeft="@dimen/_16sdp"
         android:paddingRight="@dimen/_16sdp"
-        android:layout_marginTop="@dimen/_minus15sdp"
         android:background="#c0c0c0"/>
+        </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_40sdp">
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/icon_tint"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:gravity="center"
             android:textSize="@dimen/_25sdp"
             android:id="@+id/circlef"
@@ -131,10 +159,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/icon_tint"
-            android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_100sdp"
+      android:layout_marginLeft="@dimen/_80sdp"
             android:gravity="center"
-            android:textSize="@dimen/_20sdp"
+            android:textSize="@dimen/_25sdp"
             android:id="@+id/circlef2"
             android:textColor="@color/colorAccent"/>
         <TextView
@@ -142,10 +169,10 @@
             android:layout_height="wrap_content"
             android:text="@string/icon_tint"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_110sdp"
+            android:layout_marginLeft="@dimen/_90sdp"
             android:gravity="center"
             android:id="@+id/circlef3"
-            android:textSize="@dimen/_20sdp"
+            android:textSize="@dimen/_25sdp"
             android:textColor="@color/transparent_black_hex_15"/>
 
     </LinearLayout>
@@ -159,7 +186,7 @@
             android:layout_height="wrap_content"
             android:text="Sky"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_34sdp"
             android:gravity="center"
             android:textSize="@dimen/_15sdp"
 
@@ -169,7 +196,7 @@
             android:layout_height="wrap_content"
             android:text="Strawberry"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginLeft="@dimen/_58sdp"
             android:gravity="center"
             android:textSize="@dimen/_15sdp"
 
@@ -179,7 +206,7 @@
             android:layout_height="wrap_content"
             android:text="Night"
             android:layout_gravity="center"
-            android:layout_marginLeft="@dimen/_75sdp"
+            android:layout_marginLeft="@dimen/_40sdp"
             android:gravity="center"
 
             android:textSize="@dimen/_15sdp"
@@ -191,7 +218,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/_4sdp">
-
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
 
         <RadioButton
             android:layout_width="wrap_content"
@@ -199,7 +229,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/blueBg"
-            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_28sdp"
             />
 
         <RadioButton
@@ -208,7 +238,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/colorAccent"
-            android:layout_marginLeft="@dimen/_90sdp"
+            android:layout_marginLeft="@dimen/_70sdp"
             />
 <RadioButton
     android:layout_width="wrap_content"
@@ -216,7 +246,8 @@
     android:textColor="@color/transparent_black_hex_15"
     android:layout_gravity="center"
     android:gravity="center"
-    android:layout_marginLeft="@dimen/_100sdp"
+    android:layout_marginLeft="@dimen/_74sdp"
     />
+</RadioGroup>
     </LinearLayout>
 </LinearLayout>
