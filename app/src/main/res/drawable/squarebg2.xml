@@ -8,6 +8,6 @@
 
     <solid android:color="@color/colorgamebg" />
     <size
-        android:width="@dimen/_34sdp"
-        android:height="@dimen/_34sdp"/>
+        android:width="@dimen/_32sdp"
+        android:height="@dimen/_32sdp"/>
 </shape>

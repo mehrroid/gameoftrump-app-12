@@ -38,10 +38,11 @@
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/_10sdp"
             android:layout_gravity="right"
-            android:theme="@style/MySwitch"
+            android:theme="@style/MySwitchs"
             android:gravity="right"
             android:layout_marginRight="@dimen/_16sdp"
             android:id="@+id/switch1"
+
             android:layout_alignParentRight="true"
             android:paddingBottom="@dimen/_5sdp"
             android:checked="true"/>
@@ -110,10 +111,10 @@
         <android.support.v7.widget.SwitchCompat
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             android:layout_gravity="right"
             android:layout_marginRight="@dimen/_16sdp"
-            android:theme="@style/MySwitch"
+            android:theme="@style/MySwitchs"
             android:layout_alignParentRight="true"
 
             android:paddingBottom="@dimen/_5sdp"
@@ -219,24 +220,26 @@
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/_4sdp">
 <RadioGroup
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/_28sdp"
     android:layout_height="wrap_content">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center"
+
+android:layout_marginLeft="@dimen/_10sdp"
+
             android:textColor="@color/blueBg"
-            android:layout_marginLeft="@dimen/_28sdp"
             />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center"
+            android:textSize="@dimen/_30sdp"
             android:textColor="@color/colorAccent"
             android:layout_marginLeft="@dimen/_70sdp"
             />
@@ -244,9 +247,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:textColor="@color/transparent_black_hex_15"
-    android:layout_gravity="center"
     android:gravity="center"
-    android:layout_marginLeft="@dimen/_74sdp"
+    android:textSize="@dimen/_30sdp"
+    android:layout_marginLeft="@dimen/_75sdp"
     />
 </RadioGroup>
     </LinearLayout>

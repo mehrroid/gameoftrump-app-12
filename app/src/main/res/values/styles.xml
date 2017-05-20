@@ -262,7 +262,7 @@
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
-    <style name="MySwitch" parent="Theme.AppCompat.Light">
+    <style name="MySwitchs" parent="Theme.AppCompat.Light">
         <!-- active thumb & track color (30% transparency) -->
         <item name="colorControlActivated">@color/blueBg</item>
 

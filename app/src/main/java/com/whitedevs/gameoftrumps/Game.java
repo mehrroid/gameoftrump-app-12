@@ -122,7 +122,63 @@ public class Game extends Activity implements View.OnClickListener{
 	TextView txtBackCard48;
 	TextView txtBackCard49;
 	TextView txtBackCard50;
-
+	TextView txtBackCard52;
+	TextView txtBackCard51;TextView txtBackCard53;
+	TextView txtBackCard54;
+	FrameLayout flCard1;
+	FrameLayout flCard2;
+	FrameLayout flCard3;
+	FrameLayout flCard4;
+	FrameLayout flCard5;
+	FrameLayout flCard6;
+	FrameLayout flCard7;
+	FrameLayout flCard8;
+	FrameLayout flCard9;
+	FrameLayout flCard10;
+	FrameLayout flCard11;
+	FrameLayout flCard12;
+	FrameLayout flCard13;
+	FrameLayout flCard14;
+	FrameLayout flCard15;
+	FrameLayout flCard16;
+	FrameLayout flCard17;
+	FrameLayout flCard18;
+	FrameLayout flCard19;
+	FrameLayout flCard20;
+	FrameLayout flCard21;
+	FrameLayout flCard22;
+	FrameLayout flCard23;
+	FrameLayout flCard24;
+	FrameLayout flCard25;
+	FrameLayout flCard26;
+	FrameLayout flCard27;
+	FrameLayout flCard28;
+	FrameLayout flCard29;
+	FrameLayout flCard30;
+	FrameLayout flCard31;
+	FrameLayout flCard32;
+	FrameLayout flCard33;
+	FrameLayout flCard34;
+	FrameLayout flCard35;
+	FrameLayout flCard36;
+	FrameLayout flCard37;
+	FrameLayout flCard38;
+	FrameLayout flCard39;
+	FrameLayout flCard40;
+	FrameLayout flCard41;
+	FrameLayout flCard42;
+	FrameLayout flCard43;
+	FrameLayout flCard44;
+	FrameLayout flCard45;
+	FrameLayout flCard46;
+	FrameLayout flCard47;
+	FrameLayout flCard48;
+	FrameLayout flCard49;
+	FrameLayout flCard50;
+	FrameLayout flCard51;
+	FrameLayout flCard52;
+	FrameLayout flCard53;
+	FrameLayout flCard54;
 	//H>T added End
 
 	protected void onCreate(Bundle savedInstanceState) {
@@ -207,6 +263,193 @@ public class Game extends Activity implements View.OnClickListener{
 		txtBackCard46= (TextView) findViewById(R.id.txtBackCard46);
 		txtBackCard47= (TextView) findViewById(R.id.txtBackCard47);
 		txtBackCard48= (TextView) findViewById(R.id.txtBackCard48);
+		txtBackCard49= (TextView) findViewById(R.id.txtBackCard49);
+		txtBackCard50= (TextView) findViewById(R.id.txtBackCard50);
+		txtBackCard51= (TextView) findViewById(R.id.txtBackCard51);
+		txtBackCard52= (TextView) findViewById(R.id.txtBackCard52);
+		txtBackCard53= (TextView) findViewById(R.id.txtBackCard53);
+		txtBackCard54= (TextView) findViewById(R.id.txtBackCard54);
+//invisible txts
+		txtBackCard1.setVisibility(View.GONE);
+		txtBackCard2.setVisibility(View.GONE);
+		txtBackCard3.setVisibility(View.GONE);
+		txtBackCard4.setVisibility(View.GONE);
+		txtBackCard5.setVisibility(View.GONE);
+		txtBackCard6.setVisibility(View.GONE);
+		txtBackCard7.setVisibility(View.GONE);
+		txtBackCard8.setVisibility(View.GONE);
+		txtBackCard9.setVisibility(View.GONE);
+		txtBackCard10.setVisibility(View.GONE);
+		txtBackCard11.setVisibility(View.GONE);
+		txtBackCard12.setVisibility(View.GONE);
+		txtBackCard13.setVisibility(View.GONE);
+		txtBackCard14.setVisibility(View.GONE);
+		txtBackCard15.setVisibility(View.GONE);
+		txtBackCard16.setVisibility(View.GONE);
+		txtBackCard17.setVisibility(View.GONE);
+		txtBackCard18.setVisibility(View.GONE);
+		txtBackCard19.setVisibility(View.GONE);
+		txtBackCard20.setVisibility(View.GONE);
+		txtBackCard21.setVisibility(View.GONE);
+		txtBackCard22.setVisibility(View.GONE);
+		txtBackCard23.setVisibility(View.GONE);
+		txtBackCard24.setVisibility(View.GONE);
+		txtBackCard25.setVisibility(View.GONE);
+		txtBackCard26.setVisibility(View.GONE);
+		txtBackCard27.setVisibility(View.GONE);
+		txtBackCard28.setVisibility(View.GONE);
+		txtBackCard29.setVisibility(View.GONE);
+		txtBackCard30.setVisibility(View.GONE);
+		txtBackCard31.setVisibility(View.GONE);
+		txtBackCard32.setVisibility(View.GONE);
+		txtBackCard33.setVisibility(View.GONE);
+		txtBackCard34.setVisibility(View.GONE);
+		txtBackCard35.setVisibility(View.GONE);
+		txtBackCard36.setVisibility(View.GONE);
+		txtBackCard37.setVisibility(View.GONE);
+		txtBackCard38.setVisibility(View.GONE);
+		txtBackCard39.setVisibility(View.GONE);
+		txtBackCard40.setVisibility(View.GONE);
+		txtBackCard41.setVisibility(View.GONE);
+		txtBackCard42.setVisibility(View.GONE);
+		txtBackCard43.setVisibility(View.GONE);
+		txtBackCard44.setVisibility(View.GONE);
+		txtBackCard45.setVisibility(View.GONE);
+		txtBackCard46.setVisibility(View.GONE);
+		txtBackCard47.setVisibility(View.GONE);
+		txtBackCard48.setVisibility(View.GONE);
+		txtBackCard49.setVisibility(View.GONE);
+		txtBackCard50.setVisibility(View.GONE);
+		txtBackCard51.setVisibility(View.GONE);
+		txtBackCard52.setVisibility(View.GONE);
+		txtBackCard53.setVisibility(View.GONE);
+		txtBackCard54.setVisibility(View.GONE);
+		//
+
+		flCard1= (FrameLayout) findViewById(R.id.flCard1);
+		flCard2= (FrameLayout) findViewById(R.id.flCard2);
+		flCard3= (FrameLayout) findViewById(R.id.flCard3);
+		flCard4= (FrameLayout) findViewById(R.id.flCard4);
+		flCard5= (FrameLayout) findViewById(R.id.flCard5);
+		flCard6= (FrameLayout) findViewById(R.id.flCard6);
+		flCard7= (FrameLayout) findViewById(R.id.flCard7);
+		flCard8= (FrameLayout) findViewById(R.id.flCard8);
+		flCard9= (FrameLayout) findViewById(R.id.flCard9);
+		flCard10= (FrameLayout) findViewById(R.id.flCard10);
+		flCard11= (FrameLayout) findViewById(R.id.flCard11);
+		flCard12= (FrameLayout) findViewById(R.id.flCard12);
+		flCard13= (FrameLayout) findViewById(R.id.flCard13);
+		flCard14= (FrameLayout) findViewById(R.id.flCard14);
+		flCard15= (FrameLayout) findViewById(R.id.flCard15);
+		flCard16= (FrameLayout) findViewById(R.id.flCard16);
+		flCard17= (FrameLayout) findViewById(R.id.flCard17);
+		flCard18= (FrameLayout) findViewById(R.id.flCard18);
+		flCard19= (FrameLayout) findViewById(R.id.flCard19);
+		flCard20= (FrameLayout) findViewById(R.id.flCard20);
+		flCard21= (FrameLayout) findViewById(R.id.flCard21);
+		flCard22= (FrameLayout) findViewById(R.id.flCard22);
+		flCard23= (FrameLayout) findViewById(R.id.flCard23);
+		flCard24= (FrameLayout) findViewById(R.id.flCard24);
+		flCard25= (FrameLayout) findViewById(R.id.flCard25);
+		flCard26= (FrameLayout) findViewById(R.id.flCard26);
+		flCard27= (FrameLayout) findViewById(R.id.flCard27);
+		flCard28= (FrameLayout) findViewById(R.id.flCard28);
+		flCard29= (FrameLayout) findViewById(R.id.flCard29);
+		flCard30= (FrameLayout) findViewById(R.id.flCard30);
+		flCard31= (FrameLayout) findViewById(R.id.flCard31);
+		flCard32= (FrameLayout) findViewById(R.id.flCard32);
+		flCard33= (FrameLayout) findViewById(R.id.flCard33);
+		flCard34= (FrameLayout) findViewById(R.id.flCard34);
+		flCard35= (FrameLayout) findViewById(R.id.flCard35);
+		flCard36= (FrameLayout) findViewById(R.id.flCard36);
+		flCard37= (FrameLayout) findViewById(R.id.flCard37);
+		flCard38= (FrameLayout) findViewById(R.id.flCard38);
+		flCard39= (FrameLayout) findViewById(R.id.flCard39);
+		flCard40= (FrameLayout) findViewById(R.id.flCard40);
+		flCard41= (FrameLayout) findViewById(R.id.flCard41);
+		flCard42= (FrameLayout) findViewById(R.id.flCard42);
+		flCard43= (FrameLayout) findViewById(R.id.flCard43);
+		flCard44= (FrameLayout) findViewById(R.id.flCard44);
+		flCard45= (FrameLayout) findViewById(R.id.flCard45);
+		flCard46= (FrameLayout) findViewById(R.id.flCard46);
+		flCard47= (FrameLayout) findViewById(R.id.flCard47);
+		flCard48= (FrameLayout) findViewById(R.id.flCard48);
+		flCard49= (FrameLayout) findViewById(R.id.flCard49);
+		flCard50= (FrameLayout) findViewById(R.id.flCard50);
+		flCard51= (FrameLayout) findViewById(R.id.flCard51);
+		flCard52= (FrameLayout) findViewById(R.id.flCard52);
+		flCard53= (FrameLayout) findViewById(R.id.flCard53);
+		flCard54= (FrameLayout) findViewById(R.id.flCard54);
+
+//invis flcards
+		flCard1.setVisibility(View.GONE);
+		flCard2.setVisibility(View.GONE);
+		flCard3.setVisibility(View.GONE);
+		flCard4.setVisibility(View.GONE);
+		flCard5.setVisibility(View.GONE);
+		flCard6.setVisibility(View.GONE);
+		flCard7.setVisibility(View.GONE);
+		flCard8.setVisibility(View.GONE);
+		flCard9.setVisibility(View.GONE);
+		flCard10.setVisibility(View.GONE);
+		flCard11.setVisibility(View.GONE);
+		flCard12.setVisibility(View.GONE);
+		flCard13.setVisibility(View.GONE);
+		flCard14.setVisibility(View.GONE);
+		flCard15.setVisibility(View.GONE);
+		flCard16.setVisibility(View.GONE);
+		flCard17.setVisibility(View.GONE);
+		flCard18.setVisibility(View.GONE);
+		flCard19.setVisibility(View.GONE);
+		flCard20.setVisibility(View.GONE);
+		flCard21.setVisibility(View.GONE);
+		flCard22.setVisibility(View.GONE);
+		flCard23.setVisibility(View.GONE);
+		flCard24.setVisibility(View.GONE);
+		flCard25.setVisibility(View.GONE);
+		flCard26.setVisibility(View.GONE);
+		flCard27.setVisibility(View.GONE);
+		flCard28.setVisibility(View.GONE);
+		flCard29.setVisibility(View.GONE);
+		flCard30.setVisibility(View.GONE);
+		flCard31.setVisibility(View.GONE);
+		flCard32.setVisibility(View.GONE);
+		flCard33.setVisibility(View.GONE);
+		flCard34.setVisibility(View.GONE);
+		flCard35.setVisibility(View.GONE);
+		flCard36.setVisibility(View.GONE);
+		flCard37.setVisibility(View.GONE);
+		flCard38.setVisibility(View.GONE);
+		flCard39.setVisibility(View.GONE);
+		flCard40.setVisibility(View.GONE);
+		flCard41.setVisibility(View.GONE);
+		flCard42.setVisibility(View.GONE);
+		flCard43.setVisibility(View.GONE);
+		flCard44.setVisibility(View.GONE);
+		flCard45.setVisibility(View.GONE);
+		flCard46.setVisibility(View.GONE);
+		flCard47.setVisibility(View.GONE);
+		flCard48.setVisibility(View.GONE);
+		flCard49.setVisibility(View.GONE);
+		flCard50.setVisibility(View.GONE);
+		flCard51.setVisibility(View.GONE);
+		flCard52.setVisibility(View.GONE);
+		flCard53.setVisibility(View.GONE);
+		flCard54.setVisibility(View.GONE);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //
 
 		txtBackCard1.setOnClickListener(this);
