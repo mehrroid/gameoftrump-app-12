@@ -43,7 +43,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard1"
-
                         android:background="@drawable/squarebg"
                         >
 
@@ -56,8 +55,19 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
                             android:gravity="center_horizontal"
-
                             android:textColor="@color/transparent_white_hex_15"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard1"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
                             />
 
                     </FrameLayout>
@@ -80,6 +90,18 @@
                             android:id="@+id/txtBackCard2"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard2"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
+                            />
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -95,16 +117,24 @@
                             android:layout_height="wrap_content"
                             android:text="Back"
                             android:id="@+id/txtBackCard3"
-
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
-
                             />
-
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard3"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
+                            />
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
@@ -120,12 +150,23 @@
                             android:text="Back"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:id="@+id/txtBackCard4"
                             android:textColor="@color/transparent_white_hex_15"
 
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard4"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
                             />
 
                     </FrameLayout>
@@ -140,16 +181,25 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:text="Back"
                             android:id="@+id/txtBackCard5"
                             android:textColor="@color/transparent_white_hex_15"
-
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard5"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
                             />
 
                     </FrameLayout>
@@ -164,17 +214,25 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:text="Back"
                             android:padding="@dimen/_5sdp"
                             android:id="@+id/txtBackCard6"
                             android:textColor="@color/transparent_white_hex_15"
-
                             android:layout_marginTop="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
-
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Back"
+                            android:id="@+id/txtFrontCard6"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/transparent_white_hex_15"
+                            android:visibility="gone"
                             />
 
                     </FrameLayout>
@@ -184,6 +242,7 @@
             <!--row2-->
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -196,7 +255,7 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:orientation="horizontal"
-android:paddingLeft="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
                 android:paddingRight="@dimen/_10sdp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
@@ -218,14 +277,11 @@ android:paddingLeft="@dimen/_10sdp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:text="Back"
                             android:id="@+id/txtBackCard7"
-
                             android:textColor="@color/transparent_white_hex_15"
-
                             />
 
                     </FrameLayout>

@@ -35,12 +35,14 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
 import static com.whitedevs.gameoftrumps.R.id.adView;
+
 
 public class Game extends Activity implements View.OnClickListener{
 
@@ -72,121 +74,24 @@ public class Game extends Activity implements View.OnClickListener{
 	private int endRow;
 	private int uniqeIcon;
 	private MediaPlayer player;
-	TextView txtBackCard1;
-	TextView txtBackCard2;
-	TextView txtBackCard3;
-	TextView txtBackCard4;
-	TextView txtBackCard5;
-	TextView txtBackCard6;
-	TextView txtBackCard7;
-	TextView txtBackCard8;
-	TextView txtBackCard9;
-	TextView txtBackCard10;
-	TextView txtBackCard11;
-	TextView txtBackCard12;
-	TextView txtBackCard13;
-	TextView txtBackCard14;
-	TextView txtBackCard15;
-	TextView txtBackCard16;
-	TextView txtBackCard17;
-	TextView txtBackCard18;
-	TextView txtBackCard19;
-	TextView txtBackCard20;
-	TextView txtBackCard21;
-	TextView txtBackCard22;
-	TextView txtBackCard23;
-	TextView txtBackCard24;
-	TextView txtBackCard25;
-	TextView txtBackCard26;
-	TextView txtBackCard27;
-	TextView txtBackCard28;
-	TextView txtBackCard29;
-	TextView txtBackCard30;
-	TextView txtBackCard31;
-	TextView txtBackCard32;
-	TextView txtBackCard33;
-	TextView txtBackCard34;
-	TextView txtBackCard35;
-	TextView txtBackCard36;
-	TextView txtBackCard37;
-	TextView txtBackCard38;
-	TextView txtBackCard39;
-	TextView txtBackCard40;
-	TextView txtBackCard41;
-	TextView txtBackCard42;
-	TextView txtBackCard43;
-	TextView txtBackCard44;
-	TextView txtBackCard45;
-	TextView txtBackCard46;
-	TextView txtBackCard47;
-	TextView txtBackCard48;
-	TextView txtBackCard49;
-	TextView txtBackCard50;
-	TextView txtBackCard52;
-	TextView txtBackCard51;TextView txtBackCard53;
-	TextView txtBackCard54;
-	FrameLayout flCard1;
-	FrameLayout flCard2;
-	FrameLayout flCard3;
-	FrameLayout flCard4;
-	FrameLayout flCard5;
-	FrameLayout flCard6;
-	FrameLayout flCard7;
-	FrameLayout flCard8;
-	FrameLayout flCard9;
-	FrameLayout flCard10;
-	FrameLayout flCard11;
-	FrameLayout flCard12;
-	FrameLayout flCard13;
-	FrameLayout flCard14;
-	FrameLayout flCard15;
-	FrameLayout flCard16;
-	FrameLayout flCard17;
-	FrameLayout flCard18;
-	FrameLayout flCard19;
-	FrameLayout flCard20;
-	FrameLayout flCard21;
-	FrameLayout flCard22;
-	FrameLayout flCard23;
-	FrameLayout flCard24;
-	FrameLayout flCard25;
-	FrameLayout flCard26;
-	FrameLayout flCard27;
-	FrameLayout flCard28;
-	FrameLayout flCard29;
-	FrameLayout flCard30;
-	FrameLayout flCard31;
-	FrameLayout flCard32;
-	FrameLayout flCard33;
-	FrameLayout flCard34;
-	FrameLayout flCard35;
-	FrameLayout flCard36;
-	FrameLayout flCard37;
-	FrameLayout flCard38;
-	FrameLayout flCard39;
-	FrameLayout flCard40;
-	FrameLayout flCard41;
-	FrameLayout flCard42;
-	FrameLayout flCard43;
-	FrameLayout flCard44;
-	FrameLayout flCard45;
-	FrameLayout flCard46;
-	FrameLayout flCard47;
-	FrameLayout flCard48;
-	FrameLayout flCard49;
-	FrameLayout flCard50;
-	FrameLayout flCard51;
-	FrameLayout flCard52;
-	FrameLayout flCard53;
-	FrameLayout flCard54;
+	TextView txtBackCard , txtFrontCard;
+	FrameLayout flCard;
+	private TextViewListener textViewListener;
+	private boolean[] mIsBackVisible = new boolean[54];
+	private AnimatorSet mSetRightOut;
+	private AnimatorSet mSetLeftIn;
+	private Typeface font2;
+
+
 	//H>T added End
 
 	protected void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.game_layout);
-
-		Typeface font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+		Arrays.fill(mIsBackVisible, false);
+		textViewListener =new TextViewListener();
+		font2 = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
 		//mehrnaz Top items
 		TextView txtg = (TextView) findViewById(R.id.game);
 		txtg.setTypeface(font2);
@@ -215,291 +120,12 @@ public class Game extends Activity implements View.OnClickListener{
 		TextView txtviewarrow = (TextView) findViewById(R.id.arrow);
 		txtviewarrow.setTypeface(font2);
 		//mehrnaz end popUp items
-		txtBackCard1= (TextView) findViewById(R.id.txtBackCard1);
-		txtBackCard2= (TextView) findViewById(R.id.txtBackCard2);
-		txtBackCard3= (TextView) findViewById(R.id.txtBackCard3);
-		txtBackCard4= (TextView) findViewById(R.id.txtBackCard4);
-		txtBackCard5= (TextView) findViewById(R.id.txtBackCard5);
-		txtBackCard6= (TextView) findViewById(R.id.txtBackCard6);
-		txtBackCard7= (TextView) findViewById(R.id.txtBackCard7);
-		txtBackCard8= (TextView) findViewById(R.id.txtBackCard8);
-		txtBackCard9= (TextView) findViewById(R.id.txtBackCard9);
-		txtBackCard10= (TextView) findViewById(R.id.txtBackCard10);
-		txtBackCard11= (TextView) findViewById(R.id.txtBackCard11);
-		txtBackCard12= (TextView) findViewById(R.id.txtBackCard12);
-		txtBackCard13= (TextView) findViewById(R.id.txtBackCard13);
-		txtBackCard14= (TextView) findViewById(R.id.txtBackCard14);
-		txtBackCard15= (TextView) findViewById(R.id.txtBackCard15);
-		txtBackCard16= (TextView) findViewById(R.id.txtBackCard16);
-		txtBackCard17= (TextView) findViewById(R.id.txtBackCard17);
-		txtBackCard18= (TextView) findViewById(R.id.txtBackCard18);
-		txtBackCard19= (TextView) findViewById(R.id.txtBackCard19);
-		txtBackCard20= (TextView) findViewById(R.id.txtBackCard20);
-		txtBackCard21= (TextView) findViewById(R.id.txtBackCard21);
-		txtBackCard22= (TextView) findViewById(R.id.txtBackCard22);
-		txtBackCard23= (TextView) findViewById(R.id.txtBackCard23);
-		txtBackCard24= (TextView) findViewById(R.id.txtBackCard24);
-		txtBackCard25= (TextView) findViewById(R.id.txtBackCard25);
-		txtBackCard26= (TextView) findViewById(R.id.txtBackCard26);
-		txtBackCard27= (TextView) findViewById(R.id.txtBackCard27);
-		txtBackCard28= (TextView) findViewById(R.id.txtBackCard28);
-		txtBackCard29= (TextView) findViewById(R.id.txtBackCard29);
-		txtBackCard30= (TextView) findViewById(R.id.txtBackCard30);
-		txtBackCard31= (TextView) findViewById(R.id.txtBackCard31);
-		txtBackCard32= (TextView) findViewById(R.id.txtBackCard32);
-		txtBackCard33= (TextView) findViewById(R.id.txtBackCard33);
-		txtBackCard34= (TextView) findViewById(R.id.txtBackCard34);
-		txtBackCard35= (TextView) findViewById(R.id.txtBackCard35);
-		txtBackCard36= (TextView) findViewById(R.id.txtBackCard36);
-		txtBackCard37= (TextView) findViewById(R.id.txtBackCard37);
-		txtBackCard38= (TextView) findViewById(R.id.txtBackCard38);
-		txtBackCard39= (TextView) findViewById(R.id.txtBackCard39);
-		txtBackCard40= (TextView) findViewById(R.id.txtBackCard40);
-		txtBackCard41= (TextView) findViewById(R.id.txtBackCard41);
-		txtBackCard42= (TextView) findViewById(R.id.txtBackCard42);
-		txtBackCard43= (TextView) findViewById(R.id.txtBackCard43);
-		txtBackCard44= (TextView) findViewById(R.id.txtBackCard44);
-		txtBackCard45= (TextView) findViewById(R.id.txtBackCard45);
-		txtBackCard46= (TextView) findViewById(R.id.txtBackCard46);
-		txtBackCard47= (TextView) findViewById(R.id.txtBackCard47);
-		txtBackCard48= (TextView) findViewById(R.id.txtBackCard48);
-		txtBackCard49= (TextView) findViewById(R.id.txtBackCard49);
-		txtBackCard50= (TextView) findViewById(R.id.txtBackCard50);
-		txtBackCard51= (TextView) findViewById(R.id.txtBackCard51);
-		txtBackCard52= (TextView) findViewById(R.id.txtBackCard52);
-		txtBackCard53= (TextView) findViewById(R.id.txtBackCard53);
-		txtBackCard54= (TextView) findViewById(R.id.txtBackCard54);
-//invisible txts
-		txtBackCard1.setVisibility(View.GONE);
-		txtBackCard2.setVisibility(View.GONE);
-		txtBackCard3.setVisibility(View.GONE);
-		txtBackCard4.setVisibility(View.GONE);
-		txtBackCard5.setVisibility(View.GONE);
-		txtBackCard6.setVisibility(View.GONE);
-		txtBackCard7.setVisibility(View.GONE);
-		txtBackCard8.setVisibility(View.GONE);
-		txtBackCard9.setVisibility(View.GONE);
-		txtBackCard10.setVisibility(View.GONE);
-		txtBackCard11.setVisibility(View.GONE);
-		txtBackCard12.setVisibility(View.GONE);
-		txtBackCard13.setVisibility(View.GONE);
-		txtBackCard14.setVisibility(View.GONE);
-		txtBackCard15.setVisibility(View.GONE);
-		txtBackCard16.setVisibility(View.GONE);
-		txtBackCard17.setVisibility(View.GONE);
-		txtBackCard18.setVisibility(View.GONE);
-		txtBackCard19.setVisibility(View.GONE);
-		txtBackCard20.setVisibility(View.GONE);
-		txtBackCard21.setVisibility(View.GONE);
-		txtBackCard22.setVisibility(View.GONE);
-		txtBackCard23.setVisibility(View.GONE);
-		txtBackCard24.setVisibility(View.GONE);
-		txtBackCard25.setVisibility(View.GONE);
-		txtBackCard26.setVisibility(View.GONE);
-		txtBackCard27.setVisibility(View.GONE);
-		txtBackCard28.setVisibility(View.GONE);
-		txtBackCard29.setVisibility(View.GONE);
-		txtBackCard30.setVisibility(View.GONE);
-		txtBackCard31.setVisibility(View.GONE);
-		txtBackCard32.setVisibility(View.GONE);
-		txtBackCard33.setVisibility(View.GONE);
-		txtBackCard34.setVisibility(View.GONE);
-		txtBackCard35.setVisibility(View.GONE);
-		txtBackCard36.setVisibility(View.GONE);
-		txtBackCard37.setVisibility(View.GONE);
-		txtBackCard38.setVisibility(View.GONE);
-		txtBackCard39.setVisibility(View.GONE);
-		txtBackCard40.setVisibility(View.GONE);
-		txtBackCard41.setVisibility(View.GONE);
-		txtBackCard42.setVisibility(View.GONE);
-		txtBackCard43.setVisibility(View.GONE);
-		txtBackCard44.setVisibility(View.GONE);
-		txtBackCard45.setVisibility(View.GONE);
-		txtBackCard46.setVisibility(View.GONE);
-		txtBackCard47.setVisibility(View.GONE);
-		txtBackCard48.setVisibility(View.GONE);
-		txtBackCard49.setVisibility(View.GONE);
-		txtBackCard50.setVisibility(View.GONE);
-		txtBackCard51.setVisibility(View.GONE);
-		txtBackCard52.setVisibility(View.GONE);
-		txtBackCard53.setVisibility(View.GONE);
-		txtBackCard54.setVisibility(View.GONE);
-		//
-
-		flCard1= (FrameLayout) findViewById(R.id.flCard1);
-		flCard2= (FrameLayout) findViewById(R.id.flCard2);
-		flCard3= (FrameLayout) findViewById(R.id.flCard3);
-		flCard4= (FrameLayout) findViewById(R.id.flCard4);
-		flCard5= (FrameLayout) findViewById(R.id.flCard5);
-		flCard6= (FrameLayout) findViewById(R.id.flCard6);
-		flCard7= (FrameLayout) findViewById(R.id.flCard7);
-		flCard8= (FrameLayout) findViewById(R.id.flCard8);
-		flCard9= (FrameLayout) findViewById(R.id.flCard9);
-		flCard10= (FrameLayout) findViewById(R.id.flCard10);
-		flCard11= (FrameLayout) findViewById(R.id.flCard11);
-		flCard12= (FrameLayout) findViewById(R.id.flCard12);
-		flCard13= (FrameLayout) findViewById(R.id.flCard13);
-		flCard14= (FrameLayout) findViewById(R.id.flCard14);
-		flCard15= (FrameLayout) findViewById(R.id.flCard15);
-		flCard16= (FrameLayout) findViewById(R.id.flCard16);
-		flCard17= (FrameLayout) findViewById(R.id.flCard17);
-		flCard18= (FrameLayout) findViewById(R.id.flCard18);
-		flCard19= (FrameLayout) findViewById(R.id.flCard19);
-		flCard20= (FrameLayout) findViewById(R.id.flCard20);
-		flCard21= (FrameLayout) findViewById(R.id.flCard21);
-		flCard22= (FrameLayout) findViewById(R.id.flCard22);
-		flCard23= (FrameLayout) findViewById(R.id.flCard23);
-		flCard24= (FrameLayout) findViewById(R.id.flCard24);
-		flCard25= (FrameLayout) findViewById(R.id.flCard25);
-		flCard26= (FrameLayout) findViewById(R.id.flCard26);
-		flCard27= (FrameLayout) findViewById(R.id.flCard27);
-		flCard28= (FrameLayout) findViewById(R.id.flCard28);
-		flCard29= (FrameLayout) findViewById(R.id.flCard29);
-		flCard30= (FrameLayout) findViewById(R.id.flCard30);
-		flCard31= (FrameLayout) findViewById(R.id.flCard31);
-		flCard32= (FrameLayout) findViewById(R.id.flCard32);
-		flCard33= (FrameLayout) findViewById(R.id.flCard33);
-		flCard34= (FrameLayout) findViewById(R.id.flCard34);
-		flCard35= (FrameLayout) findViewById(R.id.flCard35);
-		flCard36= (FrameLayout) findViewById(R.id.flCard36);
-		flCard37= (FrameLayout) findViewById(R.id.flCard37);
-		flCard38= (FrameLayout) findViewById(R.id.flCard38);
-		flCard39= (FrameLayout) findViewById(R.id.flCard39);
-		flCard40= (FrameLayout) findViewById(R.id.flCard40);
-		flCard41= (FrameLayout) findViewById(R.id.flCard41);
-		flCard42= (FrameLayout) findViewById(R.id.flCard42);
-		flCard43= (FrameLayout) findViewById(R.id.flCard43);
-		flCard44= (FrameLayout) findViewById(R.id.flCard44);
-		flCard45= (FrameLayout) findViewById(R.id.flCard45);
-		flCard46= (FrameLayout) findViewById(R.id.flCard46);
-		flCard47= (FrameLayout) findViewById(R.id.flCard47);
-		flCard48= (FrameLayout) findViewById(R.id.flCard48);
-		flCard49= (FrameLayout) findViewById(R.id.flCard49);
-		flCard50= (FrameLayout) findViewById(R.id.flCard50);
-		flCard51= (FrameLayout) findViewById(R.id.flCard51);
-		flCard52= (FrameLayout) findViewById(R.id.flCard52);
-		flCard53= (FrameLayout) findViewById(R.id.flCard53);
-		flCard54= (FrameLayout) findViewById(R.id.flCard54);
-
-//invis flcards
-		flCard1.setVisibility(View.GONE);
-		flCard2.setVisibility(View.GONE);
-		flCard3.setVisibility(View.GONE);
-		flCard4.setVisibility(View.GONE);
-		flCard5.setVisibility(View.GONE);
-		flCard6.setVisibility(View.GONE);
-		flCard7.setVisibility(View.GONE);
-		flCard8.setVisibility(View.GONE);
-		flCard9.setVisibility(View.GONE);
-		flCard10.setVisibility(View.GONE);
-		flCard11.setVisibility(View.GONE);
-		flCard12.setVisibility(View.GONE);
-		flCard13.setVisibility(View.GONE);
-		flCard14.setVisibility(View.GONE);
-		flCard15.setVisibility(View.GONE);
-		flCard16.setVisibility(View.GONE);
-		flCard17.setVisibility(View.GONE);
-		flCard18.setVisibility(View.GONE);
-		flCard19.setVisibility(View.GONE);
-		flCard20.setVisibility(View.GONE);
-		flCard21.setVisibility(View.GONE);
-		flCard22.setVisibility(View.GONE);
-		flCard23.setVisibility(View.GONE);
-		flCard24.setVisibility(View.GONE);
-		flCard25.setVisibility(View.GONE);
-		flCard26.setVisibility(View.GONE);
-		flCard27.setVisibility(View.GONE);
-		flCard28.setVisibility(View.GONE);
-		flCard29.setVisibility(View.GONE);
-		flCard30.setVisibility(View.GONE);
-		flCard31.setVisibility(View.GONE);
-		flCard32.setVisibility(View.GONE);
-		flCard33.setVisibility(View.GONE);
-		flCard34.setVisibility(View.GONE);
-		flCard35.setVisibility(View.GONE);
-		flCard36.setVisibility(View.GONE);
-		flCard37.setVisibility(View.GONE);
-		flCard38.setVisibility(View.GONE);
-		flCard39.setVisibility(View.GONE);
-		flCard40.setVisibility(View.GONE);
-		flCard41.setVisibility(View.GONE);
-		flCard42.setVisibility(View.GONE);
-		flCard43.setVisibility(View.GONE);
-		flCard44.setVisibility(View.GONE);
-		flCard45.setVisibility(View.GONE);
-		flCard46.setVisibility(View.GONE);
-		flCard47.setVisibility(View.GONE);
-		flCard48.setVisibility(View.GONE);
-		flCard49.setVisibility(View.GONE);
-		flCard50.setVisibility(View.GONE);
-		flCard51.setVisibility(View.GONE);
-		flCard52.setVisibility(View.GONE);
-		flCard53.setVisibility(View.GONE);
-		flCard54.setVisibility(View.GONE);
+		levelNo = getIntent().getIntExtra("levelNo", 0);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-//
-
-		txtBackCard1.setOnClickListener(this);
-		txtBackCard2.setOnClickListener(this);
-		txtBackCard3.setOnClickListener(this);
-		txtBackCard4.setOnClickListener(this);
-		txtBackCard5.setOnClickListener(this);
-		txtBackCard6.setOnClickListener(this);
-		txtBackCard7.setOnClickListener(this);
-		txtBackCard8.setOnClickListener(this);
-		txtBackCard9.setOnClickListener(this);
-		txtBackCard10.setOnClickListener(this);
-		txtBackCard11.setOnClickListener(this);
-		txtBackCard12.setOnClickListener(this);
-		txtBackCard13.setOnClickListener(this);
-		txtBackCard14.setOnClickListener(this);
-		txtBackCard15.setOnClickListener(this);
-		txtBackCard16.setOnClickListener(this);
-		txtBackCard17.setOnClickListener(this);
-		txtBackCard18.setOnClickListener(this);
-		txtBackCard19.setOnClickListener(this);
-		txtBackCard20.setOnClickListener(this);
-		txtBackCard21.setOnClickListener(this);
-		txtBackCard22.setOnClickListener(this);
-		txtBackCard23.setOnClickListener(this);
-		txtBackCard24.setOnClickListener(this);
-		txtBackCard25.setOnClickListener(this);
-		txtBackCard26.setOnClickListener(this);
-		txtBackCard27.setOnClickListener(this);
-		txtBackCard28.setOnClickListener(this);
-		txtBackCard29.setOnClickListener(this);
-		txtBackCard30.setOnClickListener(this);
-		txtBackCard31.setOnClickListener(this);
-		txtBackCard32.setOnClickListener(this);
-		txtBackCard33.setOnClickListener(this);
-		txtBackCard34.setOnClickListener(this);
-		txtBackCard35.setOnClickListener(this);
-		txtBackCard36.setOnClickListener(this);
-		txtBackCard37.setOnClickListener(this);
-		txtBackCard38.setOnClickListener(this);
-		txtBackCard39.setOnClickListener(this);
-		txtBackCard40.setOnClickListener(this);
-		txtBackCard41.setOnClickListener(this);
-		txtBackCard42.setOnClickListener(this);
-		txtBackCard43.setOnClickListener(this);
-		txtBackCard44.setOnClickListener(this);
-		txtBackCard45.setOnClickListener(this);
-		txtBackCard46.setOnClickListener(this);
-		txtBackCard47.setOnClickListener(this);
-		txtBackCard48.setOnClickListener(this);
+		createTextViews(levelNo);
+		loadAnimations();
+		changeCameraDistance();
 
 
 
@@ -1157,5 +783,105 @@ public class Game extends Activity implements View.OnClickListener{
 	public void onClick(View view) {
 
 	}
+
+	private void changeCameraDistance() {
+		int distance = 8000;
+		float scale = getResources().getDisplayMetrics().density * distance;
+		txtFrontCard.setCameraDistance(scale);
+		txtBackCard.setCameraDistance(scale);
+	}
+
+	private void loadAnimations() {
+		mSetRightOut = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.out_animation);
+		mSetLeftIn = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.in_animation);
+	}
+
+	private void createTextViews(int levelNo){
+
+
+		//حسن
+		// شکل ها شروع
+		// شکل ها را برای پشت کارت بصورت راندوم از 0 تا لول-1 بر می گرداند
+		ClassRandom rndm = new ClassRandom();
+		Log.i("game rtn", "levelNo=" + levelNo);
+		rtrn = rndm.Fisher4(levelNo);
+		Log.i("game rtn", "rtrn=" + rtrn);
+		// شکل ها پایان
+		//حسن پایان
+
+		//حسن ش
+		// فریم لیوت و پشت ورق را ویزیبل می کند و فریم لیوت هر کارت را کلیک ابل می کند
+		for (int i=1; i<=levelNo ; i++)
+		{
+			String txtOfTxtBackCard = "txtBackCard"+Integer.toString(i);
+			String txtOfTxtFrontCard = "txtFrontCard"+Integer.toString(i);
+			String txtoOFlCard ="flCard"+Integer.toString(i);
+
+			txtBackCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtBackCard, "id", getPackageName()));
+			txtBackCard.setVisibility(View.VISIBLE);
+			txtBackCard.setTypeface(font2);
+			txtBackCard.setOnClickListener(textViewListener);
+			icon=R.string.icon_glass;
+			txtBackCard.setText(icon);
+
+			txtFrontCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtFrontCard, "id", getPackageName()));
+			txtFrontCard.setVisibility(View.VISIBLE);
+			txtFrontCard.setTypeface(font2);
+			txtFrontCard.setOnClickListener(textViewListener);
+			icon=R.string.icon_car;
+			txtFrontCard.setText(icon);
+
+		}
+		// فریم و پشت ورق پایان
+		//حسن پ
+	}
+
+	class TextViewListener implements View.OnClickListener {
+		@Override
+		public void onClick(View v) {
+
+			String IdAsString = v.getResources().getResourceName(v.getId());
+			IdAsString=removeWords(IdAsString, "com.whitedevs.gameoftrumps:id/");
+			Log.i("cards-onClick",IdAsString);
+			int idoftxtView;
+			if (IdAsString.contains("txtFrontCard"))
+			{
+				txtFrontCard= (TextView) findViewById(getResources().getIdentifier(IdAsString, "id", getPackageName()));
+				IdAsString=removeWords(IdAsString, "txtFrontCard");
+				Log.i("cards-onClick",IdAsString);
+				txtBackCard=(TextView) findViewById(getResources().getIdentifier("txtBackCard"+IdAsString, "id", getPackageName()));
+				Log.i("cards-onClick",IdAsString);
+				idoftxtView=Integer.parseInt(IdAsString);
+			}
+			else
+			{
+				txtBackCard=(TextView) findViewById(getResources().getIdentifier(IdAsString, "id", getPackageName()));
+				IdAsString=removeWords(IdAsString, "txtBackCard");
+				Log.i("cards-onClick",IdAsString);
+				txtFrontCard= (TextView) findViewById(getResources().getIdentifier("txtFrontCard"+IdAsString, "id", getPackageName()));
+				Log.i("cards-onClick",IdAsString);
+				idoftxtView=Integer.parseInt(IdAsString);
+			}
+			if (!mIsBackVisible[idoftxtView]) {
+				mSetRightOut.setTarget(txtFrontCard);
+				mSetLeftIn.setTarget(txtBackCard);
+				mSetRightOut.start();
+				mSetLeftIn.start();
+				mIsBackVisible[idoftxtView] = true;
+
+			} else {
+				mSetRightOut.setTarget(txtBackCard);
+				mSetLeftIn.setTarget(txtFrontCard);
+				mSetRightOut.start();
+				mSetLeftIn.start();
+				mIsBackVisible[idoftxtView] = false;
+			}
+		}
+		private  String removeWords(String word ,String remove) {
+			return word.replace(remove,"");
+		}
+	}
+
+
 
 }
