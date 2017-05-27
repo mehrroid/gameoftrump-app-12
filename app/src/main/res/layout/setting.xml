@@ -29,24 +29,24 @@
             android:layout_gravity="right"
             android:layout_toRightOf="@id/txtVolume"
             />
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="right">
-        <android.support.v7.widget.SwitchCompat
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/_10sdp"
-            android:layout_gravity="right"
-            android:theme="@style/MySwitchs"
-            android:gravity="right"
-            android:layout_marginRight="@dimen/_16sdp"
-            android:id="@+id/switch1"
+            android:layout_gravity="right">
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_10sdp"
+                android:layout_gravity="right"
+                android:theme="@style/MySwitchs"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:id="@+id/switch1"
 
-            android:layout_alignParentRight="true"
-            android:paddingBottom="@dimen/_5sdp"
-            android:checked="true"/>
-</RelativeLayout>
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/_5sdp"
+                android:checked="true"/>
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -55,14 +55,14 @@
         android:layout_below="@id/linSetting"
         android:layout_marginTop="@dimen/_minus20sdp"
         android:layout_height="wrap_content">
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="@dimen/_16sdp"
-        android:layout_marginRight="@dimen/_16sdp"
-        android:paddingLeft="@dimen/_16sdp"
-        android:paddingRight="@dimen/_16sdp"
-        android:background="#c0c0c0"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:background="#c0c0c0"/>
     </LinearLayout>
 
 
@@ -84,7 +84,7 @@
             android:layout_marginTop="@dimen/_50sdp"
             android:paddingTop="@dimen/_10sdp"
             android:textSize="@dimen/_25sdp"
-           android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
             android:text="@string/icon_mobile"/>
         <TextView
             android:layout_width="wrap_content"
@@ -108,19 +108,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right">
-        <android.support.v7.widget.SwitchCompat
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8sdp"
-            android:layout_gravity="right"
-            android:layout_marginRight="@dimen/_16sdp"
-            android:theme="@style/MySwitchs"
-            android:layout_alignParentRight="true"
+            <android.support.v7.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:theme="@style/MySwitchs"
+                android:layout_alignParentRight="true"
 
-            android:paddingBottom="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
 
-            android:checked="false"/>
-</RelativeLayout>
+                android:checked="false"/>
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -129,15 +129,15 @@
         android:layout_below="@id/linVibration"
         android:layout_marginTop="@dimen/_minus25sdp"
         android:layout_height="wrap_content">
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="@dimen/_16sdp"
-        android:layout_marginRight="@dimen/_16sdp"
-        android:paddingLeft="@dimen/_16sdp"
-        android:paddingRight="@dimen/_16sdp"
-        android:background="#c0c0c0"/>
-        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:background="#c0c0c0"/>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -160,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/icon_tint"
-      android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginLeft="@dimen/_80sdp"
             android:gravity="center"
             android:textSize="@dimen/_25sdp"
             android:id="@+id/circlef2"
@@ -214,43 +214,43 @@
             />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/_4sdp">
-<RadioGroup
-    android:layout_width="match_parent"
-    android:orientation="horizontal"
-    android:layout_marginLeft="@dimen/_28sdp"
-    android:layout_height="wrap_content">
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginTop="@dimen/_4sdp">-->
+    <!--<RadioGroup-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginLeft="@dimen/_28sdp"-->
+    <!--android:layout_height="wrap_content">-->
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
 
-android:layout_marginLeft="@dimen/_10sdp"
+    <!--android:layout_marginLeft="@dimen/_10sdp"-->
 
-            android:textColor="@color/blueBg"
-            />
+    <!--android:textColor="@color/blueBg"-->
+    <!--/>-->
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="@dimen/_30sdp"
-            android:textColor="@color/colorAccent"
-            android:layout_marginLeft="@dimen/_70sdp"
-            />
-<RadioButton
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textColor="@color/transparent_black_hex_15"
-    android:gravity="center"
-    android:textSize="@dimen/_30sdp"
-    android:layout_marginLeft="@dimen/_75sdp"
-    />
-</RadioGroup>
-    </LinearLayout>
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:textSize="@dimen/_30sdp"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:layout_marginLeft="@dimen/_70sdp"-->
+    <!--/>-->
+    <!--<RadioButton-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@color/transparent_black_hex_15"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="@dimen/_30sdp"-->
+    <!--android:layout_marginLeft="@dimen/_75sdp"-->
+    <!--/>-->
+    <!--</RadioGroup>-->
+    <!--</LinearLayout>-->
 </LinearLayout>

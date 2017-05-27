@@ -31,10 +31,10 @@ public class Splash_Screen extends AppCompatActivity {
          progressBar = (ProgressBar)findViewById(R.id.progressBar);
         progressBar.setVisibility(View.VISIBLE);
 
-        progressBar.setProgress(20);
+        progressBar.setProgress(40);
 
 // set buffered progress
-        progressBar.setSecondaryProgress(50);
+//        progressBar.setSecondaryProgress(50);
 //        txtLoading.setTypeface(font);
         caller();
 
