@@ -26,6 +26,17 @@
     <color name="blueBg">#2196f3</color>
 
 
+
+    <!-- black set color -->
+    <color name="setBlackBg">#212121</color>
+    <color name="setBlackfont">#ebebeb</color>
+
+
+    <!-- pink set color -->
+    <color name="setPinkkBg">#ec407a</color>
+    <color name="setPinkfont">#ffffff</color>
+    //
+
     <color name="colorCloud">#82939a</color>
     <color name="transparent_black_hex_1">#11000000</color>
     <color name="transparent_black_hex_2">#22000000</color>
