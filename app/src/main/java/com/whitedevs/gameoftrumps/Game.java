@@ -805,7 +805,7 @@ public class Game extends Activity implements View.OnClickListener{
 		ClassRandom rndm = new ClassRandom();
 		Log.i("game rtn", "levelNo=" + levelNo);
 		rtrn = rndm.Fisher4(levelNo);
-		Log.i("game rtn", "rtrn=" + rtrn);
+
 		// شکل ها پایان
 		//حسن پایان
 
@@ -815,7 +815,15 @@ public class Game extends Activity implements View.OnClickListener{
 		{
 			String txtOfTxtBackCard = "txtBackCard"+Integer.toString(i);
 			String txtOfTxtFrontCard = "txtFrontCard"+Integer.toString(i);
-			String txtoOFlCard ="flCard"+Integer.toString(i);
+			String flCardBack ="flCardBack"+Integer.toString(i);
+			String flCardFront = "flCardFront"+Integer.toString(i);
+			Log.i("game rtn", "i=" + i);
+
+			flCard = (FrameLayout) findViewById(getResources().getIdentifier(flCardBack, "id", getPackageName()));
+			flCard.setVisibility(View.VISIBLE);
+
+			flCard = (FrameLayout) findViewById(getResources().getIdentifier(flCardFront, "id", getPackageName()));
+			flCard.setVisibility(View.VISIBLE);
 
 			txtBackCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtBackCard, "id", getPackageName()));
 			txtBackCard.setVisibility(View.VISIBLE);
@@ -844,11 +852,14 @@ public class Game extends Activity implements View.OnClickListener{
 			IdAsString=removeWords(IdAsString, "com.whitedevs.gameoftrumps:id/");
 			Log.i("cards-onClick",IdAsString);
 			int idoftxtView;
+			FrameLayout flfront , flback ;
 			if (IdAsString.contains("txtFrontCard"))
 			{
+				flfront = (FrameLayout) findViewById(getResources().getIdentifier("flCardFront"+IdAsString, "id", getPackageName()));
 				txtFrontCard= (TextView) findViewById(getResources().getIdentifier(IdAsString, "id", getPackageName()));
 				IdAsString=removeWords(IdAsString, "txtFrontCard");
 				Log.i("cards-onClick",IdAsString);
+				flback = (FrameLayout) findViewById(getResources().getIdentifier("flCardBack"+IdAsString, "id", getPackageName()));
 				txtBackCard=(TextView) findViewById(getResources().getIdentifier("txtBackCard"+IdAsString, "id", getPackageName()));
 				Log.i("cards-onClick",IdAsString);
 				idoftxtView=Integer.parseInt(IdAsString);
@@ -858,6 +869,8 @@ public class Game extends Activity implements View.OnClickListener{
 				txtBackCard=(TextView) findViewById(getResources().getIdentifier(IdAsString, "id", getPackageName()));
 				IdAsString=removeWords(IdAsString, "txtBackCard");
 				Log.i("cards-onClick",IdAsString);
+				flback = (FrameLayout) findViewById(getResources().getIdentifier("flCardBack"+IdAsString, "id", getPackageName()));
+				flfront = (FrameLayout) findViewById(getResources().getIdentifier("flCardFront"+IdAsString, "id", getPackageName()));
 				txtFrontCard= (TextView) findViewById(getResources().getIdentifier("txtFrontCard"+IdAsString, "id", getPackageName()));
 				Log.i("cards-onClick",IdAsString);
 				idoftxtView=Integer.parseInt(IdAsString);

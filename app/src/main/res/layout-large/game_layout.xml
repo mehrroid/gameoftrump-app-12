@@ -1693,7 +1693,7 @@ android:visibility="invisible"                        >
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
-                        android:id="@+id/flCardFron29"
+                        android:id="@+id/flCardFront29"
                         android:visibility="invisible"
                         >
                         <TextView
@@ -3050,7 +3050,7 @@ android:visibility="invisible"                        >
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:visibility="invisible"
-                            android:id="@+id/flCardFron53">
+                            android:id="@+id/flCardFront53">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
