@@ -49,6 +49,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack1"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -71,6 +72,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront1"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -99,6 +101,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack2"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -119,6 +122,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront2"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -147,6 +151,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack3"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -170,6 +175,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront3"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -198,6 +204,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack4"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -220,6 +227,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront4"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -249,6 +257,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack5"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -272,6 +281,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront5"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -301,6 +311,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack6"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -324,6 +335,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront6"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -379,6 +391,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack7"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -401,6 +414,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront7"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -430,6 +444,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack8"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -453,6 +469,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront8"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -482,6 +500,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack9"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -504,6 +524,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront9"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -532,6 +554,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack10"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -557,6 +581,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront10"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -585,6 +611,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack11"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -607,6 +635,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront11"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -636,6 +666,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack12"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -655,6 +687,8 @@ android:textSize="@dimen/_14sdp"
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:visibility="invisible"
+
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront12"
                         >
@@ -715,6 +749,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack13"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -736,6 +772,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront13"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -765,6 +803,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack14"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -788,6 +828,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront14"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -817,6 +859,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack15"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -839,6 +883,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront15"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -869,6 +915,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack16"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -890,6 +938,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront16"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -919,6 +969,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack17"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -940,6 +992,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront17"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -971,6 +1025,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack18"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -992,6 +1048,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront18"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1046,6 +1104,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack19"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1068,6 +1128,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront19"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1096,6 +1158,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack20"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1118,6 +1182,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront20"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1146,6 +1212,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack21"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1168,6 +1236,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront21"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1197,6 +1267,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack22"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1219,6 +1291,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront22"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1248,6 +1322,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack23"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1271,6 +1347,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront23"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1299,6 +1377,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack24"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1321,6 +1401,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront24"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1377,6 +1459,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack25"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1397,6 +1481,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront25"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1425,6 +1511,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack26"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1446,6 +1534,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront26"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1474,6 +1564,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack27"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1495,6 +1587,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront27"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1523,6 +1617,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack28"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1544,6 +1640,8 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront28"
+                        android:visibility="invisible"
+
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1573,7 +1671,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack29"
-                        >
+android:visibility="invisible"                        >
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1596,6 +1694,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFron29"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1625,6 +1724,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack30"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1647,6 +1747,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront30"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1700,6 +1801,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack31"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -1722,6 +1824,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront31"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1750,6 +1853,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack32"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -1773,6 +1877,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront32"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1801,6 +1906,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack33"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1822,6 +1928,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront33"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1851,6 +1958,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack34"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -1873,6 +1981,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront34"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1901,6 +2010,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack35"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -1922,6 +2032,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront35"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -1950,6 +2061,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack36"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -1972,6 +2084,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront36"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2027,6 +2140,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack37"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2050,6 +2164,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront37"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2078,6 +2193,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack38"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2102,6 +2218,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront38"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2131,6 +2248,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack39"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2154,6 +2272,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront39"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2183,6 +2302,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack40"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2204,6 +2324,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:visibility="invisible"
                         android:id="@+id/flCardFront40"
                         >
                         <TextView
@@ -2234,6 +2355,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack41"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2256,6 +2378,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront41"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2284,6 +2407,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack42"
+                        android:visibility="invisible"
                         >
 
 
@@ -2308,6 +2432,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront42"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2362,6 +2487,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack43"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2383,6 +2509,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront43"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2411,6 +2538,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack44"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2429,6 +2557,7 @@ android:textSize="@dimen/_14sdp"
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:visibility="invisible"
                         android:id="@+id/flCardFront44"
                         >
 
@@ -2459,6 +2588,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack45"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2481,6 +2611,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront45"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2509,6 +2640,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack46"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2530,6 +2662,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront46"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2558,6 +2691,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack47"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2608,6 +2742,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack48"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2632,6 +2767,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront48"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2685,6 +2821,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack49"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2707,6 +2844,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront49"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2735,6 +2873,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack50"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2755,6 +2894,7 @@ android:textSize="@dimen/_14sdp"
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:visibility="invisible"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront50"
                         >
@@ -2785,6 +2925,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack51"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2807,6 +2948,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront51"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2835,6 +2977,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack52"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2857,6 +3000,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront52"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"
@@ -2880,8 +3024,12 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard53"
-                        android:background="@drawable/squarebg2"
                         >
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/flCardBack53"
+                            android:visibility="invisible">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -2897,6 +3045,12 @@ android:textSize="@dimen/_14sdp"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible"
+                            android:id="@+id/flCardFron53">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2911,7 +3065,7 @@ android:textSize="@dimen/_14sdp"
 
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
@@ -2924,6 +3078,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardBack54"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -2947,6 +3102,7 @@ android:textSize="@dimen/_14sdp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
                         android:id="@+id/flCardFront54"
+                        android:visibility="invisible"
                         >
                         <TextView
                             android:layout_width="wrap_content"

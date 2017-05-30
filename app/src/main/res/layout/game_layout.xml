@@ -43,14 +43,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard1"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        >
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/squarebg"
+    android:id="@+id/flCardBack1"
+    android:visibility="invisible"
+    >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:text="Back"
+
                             android:id="@+id/txtBackCard1"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
@@ -58,10 +65,19 @@
 android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+</FrameLayout>
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/flCardFront1"
+                            android:visibility="invisible"
+                            android:background="@drawable/squarebg"
+                            >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Front"
+
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
                             android:gravity="center_horizontal"
@@ -70,15 +86,22 @@ android:visibility="invisible"
                             android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard2"
-                        android:background="@drawable/squarebg"
                         >
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/squarebg"
+    android:id="@+id/flCardBack2"
+    android:visibility="invisible"
 
+    >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -91,6 +114,16 @@ android:visibility="invisible"
                             android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+
+</FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront2"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -103,14 +136,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard2"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+
                         android:id="@+id/flCard3"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack3"
+android:visibility="invisible"
                         >
 
                         <TextView
@@ -127,6 +168,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront3"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -140,23 +190,29 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard4"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack4"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Back"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
-                            android:visibility="invisible"
 
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
@@ -164,6 +220,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront4"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -176,16 +241,23 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard4"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
-                    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard5"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack5"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -201,6 +273,15 @@ android:visibility="invisible"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront5"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -213,17 +294,23 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard5"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:id="@+id/flCard6"
-                        android:visibility="invisible"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        android:id="@+id/flCard6"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack6"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -239,6 +326,14 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront6"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -251,7 +346,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard6"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                 </LinearLayout>
@@ -286,22 +381,37 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard7"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack7"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
+
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:text="Back"
                             android:visibility="invisible"
                             android:id="@+id/txtBackCard7"
+
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront7"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -314,7 +424,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard7"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -322,7 +432,13 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard8"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack8"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -338,6 +454,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront8"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -350,16 +474,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard8"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard9"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack9"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -374,6 +503,14 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront9"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -387,16 +524,21 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard10"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack10"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -413,6 +555,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront10"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -425,16 +576,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard10"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard11"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack11"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -449,6 +605,14 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront11"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -461,7 +625,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard11"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -469,9 +633,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard12"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack12"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -486,6 +655,14 @@ android:visibility="invisible"
 
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront12"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -498,7 +675,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard12"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -533,7 +710,13 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard13"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack13"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -549,6 +732,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFron13"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -562,14 +753,20 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard14"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack14"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -586,6 +783,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront14"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -599,16 +804,21 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard15"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack15"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -623,6 +833,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront15"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -635,7 +853,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard15"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -643,9 +861,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard16"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack16"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -659,6 +882,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront16"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -671,16 +902,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard16"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard17"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack17"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -695,6 +932,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront17"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -707,7 +952,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard17"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
 
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -715,7 +960,13 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard18"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack18"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -723,7 +974,7 @@ android:visibility="invisible"
                             android:layout_height="wrap_content"
                             android:text="Back"
                             android:id="@+id/txtBackCard18"
-                            android:visibility="invisible"
+android:visibility="invisible"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
                             android:gravity="center_horizontal"
@@ -732,6 +983,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront18"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -744,7 +1003,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard18"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                 </LinearLayout>
@@ -778,7 +1037,13 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard19"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack19"
+                        android:visibility="invisible"
                         >
 
                         <TextView
@@ -796,6 +1061,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront19"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -808,16 +1081,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard19"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard20"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack20"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -832,6 +1110,14 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront20"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -844,16 +1130,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard20"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard21"
-                        android:background="@drawable/squarebg"
                         >
-
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack21"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -868,6 +1159,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront21"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -880,6 +1180,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard21"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -887,7 +1188,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard22"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack22"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -903,6 +1211,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront22"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -915,6 +1232,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard22"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -922,9 +1240,16 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard23"
-                        android:background="@drawable/squarebg"
-                        >
 
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack23"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -940,6 +1265,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront23"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -952,7 +1286,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard23"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -960,7 +1294,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard24"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack24"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -978,6 +1319,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront24"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -991,7 +1341,7 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -1026,7 +1376,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard25"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack25"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1042,6 +1399,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront25"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1054,16 +1420,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard25"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard26"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack26"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1077,6 +1449,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront26"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1090,16 +1471,22 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard27"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack27"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1113,6 +1500,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront27"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1126,16 +1522,22 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard28"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack28"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1149,6 +1551,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront28"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1162,14 +1573,21 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard29"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack29"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1186,6 +1604,16 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront29"
+                        android:visibility="invisible"
+
+                        >
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1199,16 +1627,22 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard30"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack30"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1222,6 +1656,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront30"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1235,7 +1678,7 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
                             />
 
-
+</FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -1266,7 +1709,15 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard31"
+
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack31"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1282,6 +1733,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront31"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1294,6 +1754,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard31"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1301,9 +1762,15 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard32"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack32"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1314,9 +1781,18 @@ android:visibility="invisible"
                             android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:id="@+id/txtBackCard32"
+
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront32"
+                        android:visibility="invisible"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1329,15 +1805,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard32"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard33"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack33"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1350,6 +1833,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront33"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1362,15 +1854,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard33"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard34"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack34"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1379,11 +1878,20 @@ android:visibility="invisible"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
                             android:gravity="center_horizontal"
-                            android:layout_marginLeft="@dimen/_5sdp"
-                            android:id="@+id/txtBackCard34"
+                            android:layout_marginLeft="@dimen/_5sdp"                            android:id="@+id/txtBackCard34"
+
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront34"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1396,15 +1904,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard34"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard35"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack35"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1418,6 +1933,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront35"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1430,15 +1954,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard35"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard36"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack36"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1452,6 +1983,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront36"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1464,7 +2004,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard36"
                             android:textColor="@color/transparent_white_hex_15"
                             />
-
+</FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -1497,8 +2037,15 @@ android:visibility="invisible"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:visibility="invisible"
+                        android:id="@+id/flCard37"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack37"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1514,6 +2061,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront37"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1526,15 +2082,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard37"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:visibility="invisible"
-                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCard38"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack38"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1548,6 +2111,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront38"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1560,13 +2132,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard38"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard39"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack39"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1582,6 +2162,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront39"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1594,13 +2183,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard39"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard40"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack40"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1614,6 +2211,15 @@ android:visibility="invisible"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront40"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1626,6 +2232,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard40"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1633,7 +2240,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard41"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack41"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1650,6 +2264,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront41"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1662,15 +2285,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard41"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard42"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack42"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1686,6 +2316,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront42"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1698,6 +2337,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard42"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -1730,8 +2370,16 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard43"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack43"
+                        android:visibility="invisible"
+
+                        >
+
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1746,6 +2394,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront43"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1758,13 +2415,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard43"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard44"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack44"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1779,6 +2444,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront44"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1791,13 +2465,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard44"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard45"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack45"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1812,6 +2494,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront45"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1824,6 +2515,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard45"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1831,7 +2523,14 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard46"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack46"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1846,6 +2545,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront46"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1858,13 +2566,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard46"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard47"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack47"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -1880,6 +2596,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront47"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1892,6 +2617,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard47"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1899,9 +2625,15 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard48"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack48"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1916,6 +2648,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront48"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1928,6 +2669,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard48"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -1959,21 +2701,38 @@ android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard49"
-                        android:background="@drawable/squarebg"
                         >
 
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:visibility="invisible"
+
+                        android:id="@+id/flCardBack49"
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Back"
                             android:id="@+id/txtBackCard49"
-                            android:visibility="invisible"
+android:visibility="invisible"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:padding="@dimen/_5sdp"
                             android:gravity="center_horizontal"
-                            android:layout_marginLeft="@dimen/_5sdp"                            android:textColor="@color/transparent_white_hex_15"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront49"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1986,13 +2745,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard49"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard50"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack50"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -2007,6 +2774,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront50"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2019,15 +2795,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard50"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard51"
-                        android:background="@drawable/squarebg"
                         >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack51"
+                        android:visibility="invisible"
 
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2042,6 +2825,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront51"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2054,13 +2846,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard51"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard52"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack52"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -2075,6 +2875,15 @@ android:visibility="invisible"
                             android:layout_marginLeft="@dimen/_5sdp"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront52"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2087,13 +2896,22 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard52"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+
                         android:id="@+id/flCard53"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack53"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -2110,6 +2928,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront53"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2122,13 +2949,21 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard53"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
                     </FrameLayout>
                     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:id="@+id/flCard54"
+                        >
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/squarebg"
+                        android:id="@+id/flCardBack54"
+                        android:visibility="invisible"
+
                         >
 
                         <TextView
@@ -2145,6 +2980,15 @@ android:visibility="invisible"
                             android:textColor="@color/transparent_white_hex_15"
 
                             />
+                        </FrameLayout>
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/squarebg"
+                        android:id="@+id/flCardFront54"
+                        android:visibility="invisible"
+
+                        >
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -2157,6 +3001,7 @@ android:visibility="invisible"
                             android:id="@+id/txtFrontCard54"
                             android:textColor="@color/transparent_white_hex_15"
                             />
+                        </FrameLayout>
 
                     </FrameLayout>
                 </LinearLayout>
