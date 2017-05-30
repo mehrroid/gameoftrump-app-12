@@ -24,6 +24,7 @@ public class Setting extends AppCompatActivity {
         TextView txtviewblack;
         Typeface font;
 
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.setting);
         font = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");

@@ -825,12 +825,7 @@ public class Game extends Activity implements View.OnClickListener{
 			flCard = (FrameLayout) findViewById(getResources().getIdentifier(flCardFront, "id", getPackageName()));
 			flCard.setVisibility(View.VISIBLE);
 
-			txtBackCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtBackCard, "id", getPackageName()));
-			txtBackCard.setVisibility(View.VISIBLE);
-			txtBackCard.setTypeface(font2);
-			txtBackCard.setOnClickListener(textViewListener);
-			icon=R.string.icon_glass;
-			txtBackCard.setText(icon);
+
 
 			txtFrontCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtFrontCard, "id", getPackageName()));
 			txtFrontCard.setVisibility(View.VISIBLE);
@@ -838,6 +833,14 @@ public class Game extends Activity implements View.OnClickListener{
 			txtFrontCard.setOnClickListener(textViewListener);
 			icon=R.string.icon_car;
 			txtFrontCard.setText(icon);
+
+
+			txtBackCard= (TextView) findViewById(getResources().getIdentifier(txtOfTxtBackCard, "id", getPackageName()));
+			txtBackCard.setVisibility(View.VISIBLE);
+			txtBackCard.setTypeface(font2);
+			txtBackCard.setOnClickListener(textViewListener);
+			icon=R.string.icon_glass;
+			txtBackCard.setText(icon);
 
 		}
 		// فریم و پشت ورق پایان
@@ -874,6 +877,7 @@ public class Game extends Activity implements View.OnClickListener{
 				txtFrontCard= (TextView) findViewById(getResources().getIdentifier("txtFrontCard"+IdAsString, "id", getPackageName()));
 				Log.i("cards-onClick",IdAsString);
 				idoftxtView=Integer.parseInt(IdAsString);
+
 			}
 			if (!mIsBackVisible[idoftxtView]) {
 				mSetRightOut.setTarget(txtFrontCard);
